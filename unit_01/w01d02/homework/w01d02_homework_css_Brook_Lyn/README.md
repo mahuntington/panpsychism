@@ -7,11 +7,11 @@ Title: CSS Homework - Brook & Lyn<br>
 Type: Homework<br>
 Duration: "1:00 - 3:00" <br>
 Creator:
-    Adapted from: WDI NYC Funke Cohort & WDI NYC Archer Cohort
+    Adapted from: WDI NYC Funke Cohort & WDI NYC Archer Cohort<br>
     Adapted by: Kristyn Bryan <br>
     Course: WDIr Panthalassa<br>
-Competencies: CSS<br>
-Prerequisites: Basic CSS
+Competencies: HTML, CSS, inline-block<br>
+Prerequisites: Basic HTML & CSS
 
 ---
 
@@ -28,7 +28,7 @@ The website of fashion brand Brook & Lyn has a simple layout. The visual element
 
 #### Directions
 
-1. Write the html and css necessary to recreate the layout seen below.
+1. Use the attached code and images to write the html and css necessary to recreate the layout seen below.
 
 #### Layout
 
