@@ -39,6 +39,7 @@ The commit message should read: <br>
 <hr>
 
 2. Play around with the CSS of the images to move them into place to look like the mockup.
+
 <hr>
 ** Commit your work.** <br>
 The commit message should read: <br>
@@ -46,12 +47,12 @@ The commit message should read: <br>
 <hr>
 
 3. Change the font, font size, and color to match the style in the mockup.
+
 <hr>
 ** Commit your work.** <br>
 The commit message should read: <br>
 "Adjusted font, font size, and color"
 <hr>
-
 
 #### Layout
 
