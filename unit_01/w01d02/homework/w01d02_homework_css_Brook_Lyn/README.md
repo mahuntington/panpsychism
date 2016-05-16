@@ -28,7 +28,15 @@ The website of fashion brand Brook & Lyn has a simple layout. The visual element
 
 #### Directions
 
-1. Use the attached code and images to write the html and css necessary to recreate the layout seen below.
+Use the attached code and images to write the html and css necessary to recreate the layout seen below.
+
+1. Add the HTML image links into your CSS to display all of the images in the layout (they won't be in order yet, just get them to show up on your page).
+COMMIT 1
+"Added image links to html"
+
+2. Play around with the CSS of the images to move them into place to look like the mockup.
+COMMIT 2
+"Moved images to match mockup"
 
 #### Layout
 
