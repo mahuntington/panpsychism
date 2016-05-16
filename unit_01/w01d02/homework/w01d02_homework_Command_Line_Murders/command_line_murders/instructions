@@ -38,7 +38,7 @@ To get started on how to use the command line, open cheatsheet.md or cheatsheet.
 
 Don't use a text editor to view any files except these instructions, the cheatsheet, and hints.
 
-Once you've found your suspect, make your arrest by creating a file with the 'suspects_name' in the mystery folder. Create a new subdirectory called 'jail' in the 'mystery' folder and move the suspect file into the 'jail' directory.
+Once you've found your suspect, make your arrest by creating a file with the 'suspects_name' in the mystery folder. Create a new subdirectory called 'jail' in the 'mystery' folder and move the suspect file into the 'jail' directory. 
 
 Slack your answer to Alex and Remina for feedback.
 
