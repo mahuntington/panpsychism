@@ -38,6 +38,10 @@ COMMIT 1
 COMMIT 2
 "Moved images to match mockup"
 
+3. Change the font, font size, and color to match the style in the mockup.
+COMMIT 3
+"Adjusted font, font size, and color"
+
 #### Layout
 
 ![image](mockup.png)
