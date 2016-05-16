@@ -29,14 +29,12 @@ There's been a murder in Terminal City, and TCPD needs your help.
 
 To figure out whodunit, you need access to a command line.
 
-Open a Terminal, go to the location of the files, and start by reading the file 'instructions'.
-
-*Hint*: `cd WDI_NYC_30_ARCHER/unit_1/w01d01/ASSIGNMENT_FILES/command_line_murders`
+Open a Terminal, go to the location of the Command Line Termial files, and start by reading the file 'instructions'.
 
 One way you can do this is with the command:
 
 	cat instructions
 
-To get started on how to use the command line, open cheatsheet.md or cheatsheet.pdf (from the command line, you can type 'subl cheatsheet.md').
+To get started on how to use the command line, open `cheatsheet.md`.
 
 Don't use a text editor to view any files except these instructions, the cheatsheet, and hints.
