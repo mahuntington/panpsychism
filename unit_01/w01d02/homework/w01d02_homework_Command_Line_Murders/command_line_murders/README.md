@@ -1,3 +1,21 @@
+![ga](http://mobbook.generalassemb.ly/ga_cog.png)
+
+# WDI-PANTHALASSA
+
+---
+Title: Command Line Murders<br>
+Type: Homework<br>
+Duration: "0:30 - 1:00" <br>
+Creator:
+    Original Cohort: Archer <br>
+    Adapted by: Kristyn Bryan <br>
+    Course: WDIr Panthalassa<br>
+Competencies: Command line <br>
+Prerequisites: Command line
+
+---
+
+
 The Command Line Murders
 ========================
 
