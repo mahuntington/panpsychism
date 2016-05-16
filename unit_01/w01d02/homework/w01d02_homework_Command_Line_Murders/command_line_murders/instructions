@@ -22,7 +22,9 @@ OOOOOOO'  `@@a               @@a@@   @@""           a@@   a     |@@@ OOOO3
 `OOOO'       `@    aa@@       aaa"""          @a        a@     a@@@',OOOO'
 
 
-There's been a murder in Terminal City, and TCPD needs your help.
+### There's been a murder in Terminal City, and TCPD needs your help.
+
+#### Instructions
 
 To figure out whodunit, go to the 'mystery' subdirectory and start working from there.
 
@@ -34,12 +36,13 @@ Fortunately the sergeant went through and marked the real clues with the word "C
 
 If you get stuck, open one of the hint files (from the CL, type 'cat hint1', 'cat hint2', etc.).
 
-To get started on how to use the command line, open cheatsheet.md or cheatsheet.pdf (from the command line, you can type 'nano cheatsheet.md').
+To get started on how to use the command line, open cheatsheet.md (from the command line, you can type 'vim cheatsheet.md').
 
 Don't use a text editor to view any files except these instructions, the cheatsheet, and hints.
 
-Once you've found your suspect, make your arrest by creating a file with the 'suspects_name' in the mystery folder. Create a new subdirectory called 'jail' in the 'mystery' folder and move the suspect file into the 'jail' directory. 
+Once you've found your suspect, make your arrest by creating a file with the 'suspects_name' in the mystery folder. 
+Create a new subdirectory called 'jail' in the 'mystery' folder and move the suspect file into the 'jail' directory. 
 
-Slack your answer to Alex and Remina for feedback.
+** Commit your files **
 
 Terminal City is safe again! We will share our answers in class the next day.
