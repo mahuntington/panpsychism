@@ -43,10 +43,10 @@ Don't use a text editor to view any files except these instructions, the cheatsh
 Once you've found your suspect, make your arrest by creating a file with the 'suspects_name' in the mystery folder. 
 Create a new subdirectory called 'jail' in the 'mystery' folder and move the suspect file into the 'jail' directory. 
 
-<hr>
-** Commit your work.** <br>
-The commit message should read: <br>
+/////////////////////////////////////////////////////////////////////
+** Commit your work.** 
+The commit message should read: 
 "Found the suspect and sent them to jail".
-<hr>
+/////////////////////////////////////////////////////////////////////
 
 Terminal City is safe again! We will share our answers in class the next day.
