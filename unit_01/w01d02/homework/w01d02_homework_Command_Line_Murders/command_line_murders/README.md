@@ -37,4 +37,4 @@ One way you can do this is with the command:
 
 To get started on how to use the command line, open `cheatsheet.md`.
 
-Don't use a text editor to view any files except these instructions, the cheatsheet, and hints.
+*Use your command line to view the information in the files*. Don't use a text editor to view any files except these instructions, the cheatsheet, and hints.
