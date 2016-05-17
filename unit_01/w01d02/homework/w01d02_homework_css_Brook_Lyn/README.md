@@ -28,9 +28,9 @@ The website of fashion brand Brook & Lyn has a simple layout. The visual element
 
 #### Directions
 
-Use the attached code and images to write the html and css necessary to recreate the layout seen below.
+- Use the attached code and images to write the html and css necessary to recreate the layout seen below.
 
-1. Add the HTML image links into your CSS to display all of the images in the layout (they won't be in order yet, just get them to show up on your page).
+- Add the HTML image links into your CSS to display all of the images in the layout (they won't be in order yet, just get them to show up on your page).
 
 
 **Commit 1** <br>
@@ -39,7 +39,7 @@ The commit message should read: <br>
 "Added image links to html"
 <hr>
 
-2. Play around with the CSS of the images to move them into place to look like the mockup.
+- Play around with the CSS of the images to move them into place to look like the mockup.
 
 **Commit 2** <br>
 <hr>
@@ -47,12 +47,21 @@ The commit message should read: <br>
 "Moved images to match mockup"
 <hr>
 
-3. Change the font, font size, and color to match the style in the mockup.
+- Change the font, font size, and color to match the style in the mockup.
 
 **Commit 3** <br>
 <hr>
 The commit message should read: <br>
 "Adjusted font, font size, and color"
+<hr>
+
+- Take a screenshot of your mockup
+- Save the file inside your Brook & Lyn folder
+
+**Commit 4** <br>
+<hr>
+The commit message should read: <br>
+"uploading a screenshot of my Brook & Lyn homework"
 <hr>
 
 #### Layout
