@@ -1,0 +1,33 @@
+CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is a tall male, at least 6'.
+CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.
+CLUE: Questioned the barista at the local coffee shop. He said a woman left right before they heard the shots. The name on her latte was Annabel, she had blond spiky hair and a New Zealand accent.
+
+CONCLUSIONS: 
+Barista is Annabel Church, who gave the best description of the
+car.
+
+Car --> Describes it as a blue Honda, with a license plate that starts with
+"L337" and ends with "9"
+
+
+
+PATH TO SOLUTION
+Grep crimescene file for CLUES
+Search People for Annabel
+Search Interviews for Annabel / last name matches.  Match Church w/ car
+description.
+Search cars for license plate match.
+  Eliminate non-hondas
+  Eliminate non-blue cars
+  Eliminate anyone not 6' or taller
+Make a comparison list of all four membership cards.
+Compare car owners to membership match list.
+  Confirm short list with people list
+  Left with Jeremy Bowers & Mike Bostock...Mike can be eliminated from
+  interviews and the fact that his car is 'Teal'.  I kept it on the list b/c
+  'Teal' is craziness.
+
+JEREMY BOWERS.
+
+
+
