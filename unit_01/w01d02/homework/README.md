@@ -6,7 +6,7 @@ You will have the following to complete:
 2) Command Line Murders<br>
 3) Get to know Slack<br>
 4) Brook & Lyn <br>
-This is HTML & CSS Practice. You may not be able to finish all of these steps, but you should get pretty far today from the lesson that Matt gave and the material that you covered in your Fundamentals.
+_This is HTML & CSS Practice. You may not be able to finish all of these steps, but you should get pretty far today from the lesson that Matt gave and the material that you covered in your Fundamentals._
 
 You will be adding your work and commiting it throughout each exercise. 
 
