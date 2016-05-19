@@ -1,12 +1,28 @@
-# Javascript Basics
+![ga](http://mobbook.generalassemb.ly/ga_cog.png)
+
+# WDI-PANTHALASSA
+
+---
+Title: Javascript Homework for w01d04 <br>
+Type: Homework<br>
+Duration: "2:00"<br>
+Creator:<br>
+    Original creators: WDI-BLT, WDI-Meeskeeks<br>
+    Adapted by: Kristyn Bryan<br>
+    Course: WDIr Panthalassa<br>
+Competencies: Javascript<br>
+Prerequisites: Basic Javascript<br>
+
+---
+# Homework - Javascript Basics
 
 ![js](http://www.mastergradeit.co.za/files/thumb/289/200)
 
 ## Setup
 
-Make a folder called `js_basics` inside your homework folder. Inside `js_basics` touch an index.html and an app.js and link them together. Write all of your javascript answers in `app.js`, and test them in the Chrome console.
+Make a file inside your `homework` folder for w01d04 called `app.js`. Write all of your javascript answers in `app.js`, and test them in the bash console using the command `node app.js` from inside the `homework` folder.
 
-Any non-javascript written answers can be made into a comment in your js file by putting a pound # at the beginning of the line. Alternatively, comment out written work by using `command + /` in sublime. You can select blocks of text and comment them out with this shortcut.
+Any non-javascript written answers can be made into a comment in your .js file by putting a pound # at the beginning of the line. Or, if you write a comment, you can select the blocks of text and comment them out with this shortcut `command` + `/`.
 
 
 ## Conceptual Questions
@@ -15,6 +31,12 @@ Any non-javascript written answers can be made into a comment in your js file by
 2. How do we change the value of a variable? 
 3. How do we assign an existing variable to a new variable?
 4. How do we use a variable within an expression? 
+
+**Commit 1** <br>
+<hr>
+The commit message should read: <br>
+"Answered JS basic conceptual questions"
+<hr>
 
 ## Exercises
 
@@ -29,17 +51,28 @@ Any non-javascript written answers can be made into a comment in your js file by
   - Write an expression that takes the string "Hello, my name is " and the variable `yourName` so that it returns a new string with them concatenated. 
   *(ex: "Hello, my name is Jean Valjean")*
   
+**Commit 2** <br>
+<hr>
+The commit message should read: <br>
+"Completed JS basic exercises"
+<hr>
 
 ...  
 
   
-# Javascript Primitives 
+# Javascript Data Types (Primitives) 
 
 ## Conceptual Questions
 
-1. Name 4 different built in primitives in Javascript.
+1. Name 4 different built in data types (primitives) in Javascript.
 2. What is the difference between an integer and a float?
 4. How do you create an empty array and store it in a variable?
+
+**Commit 3** <br>
+<hr>
+The commit message should read: <br>
+"Answered JS data type questions"
+<hr>
 
 ## Exercises
 
@@ -48,14 +81,20 @@ Any non-javascript written answers can be made into a comment in your js file by
   - Change the value of `"Hello"` to `"World"`.
   - Check the value of `a` to make sure it updated the array. 
   
-2. Given the following array `["Meeseeks", "Coldness", "21 Berry", "Venkman"]`
+2. Given the following array `["Panthalassa", "Zoom", "Cloud9", "Github"]`
     - What would you write to access the 3rd element of the array?
-    - Change the value of "Venkman" to "Slimer"
+    - Change the value of "Github" to "Octocat"
     - Add a new element, "Cloud City" to the array.
 
 3. Create a string that contains quotes and store it in a variable. 
 
 4. What is the result from the expression `"World" * 5`. Why?
+
+**Commit 4** <br>
+<hr>
+The commit message should read: <br>
+"Completed JS data type exercises"
+<hr>
 
 
 # JavaScript - Primitive Methods & Properties
@@ -65,6 +104,12 @@ Any non-javascript written answers can be made into a comment in your js file by
 
 1. List at least 5 properties built into a string.
 2. List at least 2 method examples built into an array.
+
+**Commit 5** <br>
+<hr>
+The commit message should read: <br>
+"Answered JS method & properties questions"
+<hr>
 
 ## Exercises
 
@@ -77,8 +122,13 @@ Any non-javascript written answers can be made into a comment in your js file by
     - using a different method, remove the string from the end of the array.
     - using the `unshift` method, add the string `"Bob Marley"` to the beginning of the array
     - using a different method, remove the string from the beginning of the array
-  
-  
+
+**Commit 6** <br>
+<hr>
+The commit message should read: <br>
+"Completed JS method & properties exercises"
+<hr>
+
   ...
     
 # Javascript - operators
@@ -107,6 +157,9 @@ Using the provided variable definitions, replace the blanks with a mathematical 
 
 ...
 
-
-
+**Commit 7** <br>
+<hr>
+The commit message should read: <br>
+"Completed JS operator exercises"
+<hr>
 
