@@ -40,7 +40,6 @@ nav ul {
 nav {
   width: 100%;
   height: 100px;
-  margin: ;
 }
 
 nav ul{
@@ -48,10 +47,7 @@ nav ul{
 }
 
 nav h1 ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+  /*Answer #3 here*/
 }
 
 
@@ -65,105 +61,19 @@ p{
 
 }
 
-#one{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-nav h1 ul li{
-  float: left;
-}
-
 nav h1 ul li:first-child{
   float: right;
 }
 
 nav ul li {
-  float: left;
-}
-
-#two{
-  float: left;
-  margin:;
-}
-
-#three{
-  display: block;
-  width: 120px;
-  height: 50px;
-  font-weight: bold;
-  background-color: transparent;
-  border: 2px solid grey;
-  margin: 25px 10px;
-  text-align: center;
-  padding: 10% 0;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-#navcontainer ul
-{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-ul#navlist
-{
-padding: 0;
-margin: 0;
-list-style-type: none;
-float: left;
-width: 100%;
-color: #fff;
-background-color: #036;
 
 }
-  nav{
+
+nav{
     position:relative;
     left: 0px;
     width: 200px;
-  }
 }
-/*
-display: block;
-width: 120px;
-height: 50px;
-font-weight: bold;
-color: #000;
-background-color: transparent;
-border: 2px solid grey;
-margin: 25px 10px;
-text-align: center;
-padding: 10% 0;
-text-decoration: none;
-text-transform: uppercase;
-*/
-ul#navlist li { display: inline; }
-
-ul#navlist li a
-{
-
-display: block;
-width: 120px;
-height: 50px
-font-weight: bold;
-color: #000;
-background-color: transparent
-border: 2px solid grey;
-margin: 25px 10px;
-text-align: center;
-padding: 10% 0;
-text-decoration: none;
-text-transform: uppercase;
-}
-
-ul#navlist li a:hover{
-background-color: #369;
-color: #fff;
-}
-
 
 header{
   width: 100%;
