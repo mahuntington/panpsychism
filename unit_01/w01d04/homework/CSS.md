@@ -7,11 +7,11 @@ Title: Javascript Homework for w01d04 <br>
 Type: Homework<br>
 Duration: "2:00"<br>
 Creator:<br>
-    Original creators: WDI-BLT, WDI-Meeskeeks<br>
+    Original creators: WDI-Archer<br>
     Adapted by: Kristyn Bryan<br>
     Course: WDIr Panthalassa<br>
-Competencies: Javascript<br>
-Prerequisites: Basic Javascript<br>
+Competencies: CSS Selectors<br>
+Prerequisites: CSS basics, CSS selectors<br>
 
 ---
 # Homework - CSS Selector Practice
