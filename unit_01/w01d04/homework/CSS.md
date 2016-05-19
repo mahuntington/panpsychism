@@ -3,7 +3,7 @@
 # WDI-PANTHALASSA
 
 ---
-Title: Javascript Homework for w01d04 <br>
+Title: CSS Selector Homework for w01d04 <br>
 Type: Homework<br>
 Duration: "2:00"<br>
 Creator:<br>
