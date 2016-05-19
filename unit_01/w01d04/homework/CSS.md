@@ -1,5 +1,20 @@
+![ga](http://mobbook.generalassemb.ly/ga_cog.png)
 
-#CSS Practice
+# WDI-PANTHALASSA
+
+---
+Title: Javascript Homework for w01d04 <br>
+Type: Homework<br>
+Duration: "2:00"<br>
+Creator:<br>
+    Original creators: WDI-BLT, WDI-Meeskeeks<br>
+    Adapted by: Kristyn Bryan<br>
+    Course: WDIr Panthalassa<br>
+Competencies: Javascript<br>
+Prerequisites: Basic Javascript<br>
+
+---
+# Homework - CSS Selector Practice
 
 ###Part 1- Before you begin the assignment
 Go to the following websites to:   
