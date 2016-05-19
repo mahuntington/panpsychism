@@ -5,7 +5,7 @@
 ---
 Title: Homework for w01d04 <br>
 Type: Homework<br>
-Duration: "3:00"<br>
+Duration: "3:00-4:00"<br>
 Creator:<br>
     Original creators: WDI-Archer, WDI-Meeskeeks<br>
     Adapted by: Kristyn Bryan<br>
