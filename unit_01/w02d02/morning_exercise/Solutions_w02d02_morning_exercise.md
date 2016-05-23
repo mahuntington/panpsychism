@@ -22,7 +22,6 @@ arr.forEach(function(n) {
 => Prints a bunch of 9s to the console
 
 ```
-```
 
 ##### EXERCISE:
 - Log each word in `words` in upper case using `.forEach.`
@@ -40,7 +39,7 @@ words = ["Ho", "Chi", "Minh", "City", "was", "once", "known", "as", "Prey", "Nok
 words.forEach(function (e){
   console.log(e.toUpperCase());
 });
-
+```
 
 # .map
 
