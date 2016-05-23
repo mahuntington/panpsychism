@@ -21,12 +21,12 @@ var searchArray = function(array,value) {
 - Given two strings, write a method to decide if one is a permutation of the other
 
 Note: If you were given this problem in an inteview, important things to ask your interviewer would be:
-Is this case sensitive (ex: is `God` different from `dog`)?
-Is whitespace significant? (for this question, the white space is not important)
+- Is this case sensitive (ex: is `God` different from `dog`)?
+- Is whitespace significant? (for this question, the white space is not important)
 
 ```javascript
-- isPermutation('cat top', 'tap pat`) => false
-- isPermutation('cat top', `tot cap`) => true
+isPermutation('cat top', 'tap pat`) => false
+isPermutation('cat top', `tot cap`) => true
 ```
 Here is some starter code:
 ```javascript
