@@ -151,7 +151,7 @@ var sheepShearers = [
 ///////////////////////////
 SOLUTION: sheepShearer
 
-
+```javascript
 var sheepShearers = [
     {
         name: "Tim",
@@ -180,7 +180,7 @@ var total = sheepShearers
             });
 
 console.log(total);
-
+```
 
 
 #### FINISHED EARLY?: 
