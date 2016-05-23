@@ -107,7 +107,16 @@ arr = [8, 8, 8, 8, 8, 8, 8, 8];
 
 - Return the product of the numbers in `arr`.
 
+SOLUTION .reduce
+```javascript
+arr = [8, 8, 8, 8, 8, 8, 8, 8];
 
+new_value = arr.reduce(function(product, n){
+  return product *= n
+});
+
+console.log(new_value);
+```
 
 ...
 
