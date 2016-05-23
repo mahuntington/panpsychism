@@ -1,5 +1,5 @@
 # W02D02 Morning Warmup
-![Cat Programmer](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwi5oKTs7fDMAhXHHT4KHVFEBlEQjRwIBw&url=http%3A%2F%2Fwww.troll.me%2Fmeme%2Fcomputer-expert-cat&bvm=bv.122676328,d.cWw&psig=AFQjCNFOpkl1dcFGsTlMbhFN7bRnfaZdcQ&ust=1464115591294236)
+![Cat Programmer](http://www.troll.me/images/computer-expert-cat/computer-expert-cat.jpg)
 
 ####Exercises 1: Find a value in a given array
  - Write a function `searchArray` that takes an array and value as parameters and searches the array for the given value. If the value is in the array, return `true`, otherwise return '-1'.
