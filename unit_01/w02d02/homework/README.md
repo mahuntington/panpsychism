@@ -18,10 +18,12 @@ Prerequisites: CSS, HTML <br>
 # Homework
 
 1) Finish working on the Lord of the Rings (LOTR) homework that you began yesterday (w02d01).
+** NOTE: ** This is due Wednesday, May 25th at 10:00 am EDT.
 
 2) CSS Mockup homework
+** NOTE: ** This is due Thursday, May 26th at 10:00 am EDT.
 
-Note: If you finish LOTR and finish coding one of the mockups, please code the second mockup as well.
+If you finish LOTR and finish coding one of the mockups, please code the second mockup as well.
 
-Submit this homework by 10:00 am EDT on Thursday, May 26. If you need a refresher on how to submit your homework, follow [these directions](https://github.com/ga-students/wdi-remote/wiki/Homework-Submission). 
+If you need a refresher on how to submit your homework, follow [these directions](https://github.com/ga-students/wdi-remote/wiki/Homework-Submission). 
 
