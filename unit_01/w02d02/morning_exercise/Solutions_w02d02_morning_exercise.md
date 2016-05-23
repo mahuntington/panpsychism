@@ -69,6 +69,17 @@ Expected result:
 ```
 ["J", "O", "E"]
 ```
+SOLUTION: .map
+```javascript
+more_words = ["Joe", "Overreats", "Eggs"];
+
+
+var new_arr = more_words.map(function (i){
+  return i.charAt(0);
+});
+
+console.log (new_arr);
+```
 
 ...
 
