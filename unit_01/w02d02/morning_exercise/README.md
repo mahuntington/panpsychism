@@ -78,6 +78,8 @@ Expected result:
 Add together all numbers in an array:
 
 ```
+arr = [8, 8, 8, 8, 8, 8, 8, 8];
+
 new_value = arr.reduce(function(sum, n){
 	return sum += n
 });
@@ -91,7 +93,7 @@ new_value = arr.reduce(function(sum, n){
 arr = [8, 8, 8, 8, 8, 8, 8, 8];
 ```
 
-- Return the product of the numbers in `arr`.
+- Return the *product* of the numbers in `arr`.
 
 
 
