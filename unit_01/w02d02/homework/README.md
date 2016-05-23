@@ -17,6 +17,7 @@ Prerequisites: CSS, HTML <br>
 # Homework
 
 1) Finish working on the Lord of the Rings (LOTR) homework that you began yesterday (w02d01).
+
 2) CSS Mockup homework
 
 Note: If you finish LOTR and finish coding one of the mockups, please code the second mockup as well.
