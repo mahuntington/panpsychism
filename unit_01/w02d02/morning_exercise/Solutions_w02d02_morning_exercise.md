@@ -22,15 +22,6 @@ arr.forEach(function(n) {
 => Prints a bunch of 9s to the console
 
 ```
-<hr>
-SOLUTION to .forEach
-
-```javascript
-words = ["Ho", "Chi", "Minh", "City", "was", "once", "known", "as", "Prey", "Nokor"];
-
-words.forEach(function (e){
-  console.log(e.toUpperCase());
-});
 ```
 
 ##### EXERCISE:
@@ -40,7 +31,15 @@ words.forEach(function (e){
 words = ["Ho", "Chi", "Minh", "City", "was", "once", "known", "as", "Prey", "Nokor"];
 ```
 
+<hr>
+SOLUTION to .forEach
 
+```javascript
+words = ["Ho", "Chi", "Minh", "City", "was", "once", "known", "as", "Prey", "Nokor"];
+
+words.forEach(function (e){
+  console.log(e.toUpperCase());
+});
 
 
 # .map
