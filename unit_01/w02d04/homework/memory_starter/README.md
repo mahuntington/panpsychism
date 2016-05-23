@@ -1,7 +1,9 @@
 # Memory!
 
-Today we are going to build the game Memory. Write all your code in app.js, but
-look at index.html to get your bearings.
+Tonight you are going to build the game called: [Memory](https://en.wikipedia.org/wiki/Concentration_(game)). We have provided you with a few starter files. You will look at the `index.html` to set up your physical board and cards, but write the code in your `app.js` file to get your game to work. 
+
+Take it one step at a time. Follow these instructions to help get you going.
+
 
 ### You will need
 
