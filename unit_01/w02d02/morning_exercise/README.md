@@ -129,7 +129,8 @@ var sheepShearers = [
 
 
 
-#### EXTRA TIME: Find a value in a given array
+#### FINISHED EARLY?: 
+Find a value in a given array
  - Write a function `searchArray` that takes an array and value as parameters and searches the array for the given value. If the value is in the array, return `true`, otherwise return '-1'.
 ```javascript
 var nums = [1,2,3,4,5]
