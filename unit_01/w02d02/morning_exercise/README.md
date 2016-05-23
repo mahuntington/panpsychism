@@ -15,17 +15,22 @@ var searchArray = function(array,value) {
 };
 ```
 
-#### Exercises 2: Determine whether a given string is a [palindrome](https://en.wikipedia.org/wiki/Palindrome)
 
-- Write a function `isPalindrome` that takes in a single parameter `str`, a string, and returns `true` if the string is a palindrome, and false otherwise. For example
+#### Exercises 2: [Permutation](https://en.wikipedia.org/wiki/Permutation)
+
+- Given two strings, write a method to decide if one is a permutation of the other
+
+Note: If you were given this problem in an inteview, important things to ask your interviewer would be:
+Is this case sensitive (ex: is `God` different from `dog`)?
+Is whitespace significant? (for this question, the white space is not important)
 
 ```javascript
-isPalindrome('hello') => false
-isPalindrome('hannah') => true
+- isPermutation('cat top', 'tap pat`) => false
+- isPermutation('cat top', `tot cap`) => true
 ```
 Here is some starter code:
 ```javascript
-var isPalindrome = function(str) {
+var isPermutation = function(str1, str2) {
 
 };
 ```
