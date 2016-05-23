@@ -1,9 +1,5 @@
 # W02D02 Morning Warmup
 
-![Cat Programmer](http://s2.quickmeme.com/img/99/9903c7c14add3fd0758b7b5b80c24d48101f296f13ce34736799a82c71f61bc2.jpg)
-
-
-
 # JAVASCRIPT ITERATORS
 
 #####`.forEach`, `.map`, and `.reduce`
@@ -26,7 +22,16 @@ arr.forEach(function(n) {
 => Prints a bunch of 9s to the console
 
 ```
+<hr>
+SOLUTION to .forEach
 
+```javascript
+words = ["Ho", "Chi", "Minh", "City", "was", "once", "known", "as", "Prey", "Nokor"];
+
+words.forEach(function (e){
+  console.log(e.toUpperCase());
+});
+```
 
 ##### EXERCISE:
 - Log each word in `words` in upper case using `.forEach.`
