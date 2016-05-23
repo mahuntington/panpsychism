@@ -1,9 +1,5 @@
 # W02D02 Morning Warmup
 
-![Cat Programmer](http://s2.quickmeme.com/img/99/9903c7c14add3fd0758b7b5b80c24d48101f296f13ce34736799a82c71f61bc2.jpg)
-
-
-
 # JAVASCRIPT ITERATORS
 
 #####`.forEach`, `.map`, and `.reduce`
@@ -27,7 +23,6 @@ arr.forEach(function(n) {
 
 ```
 
-
 ##### EXERCISE:
 - Log each word in `words` in upper case using `.forEach.`
 
@@ -35,8 +30,16 @@ arr.forEach(function(n) {
 words = ["Ho", "Chi", "Minh", "City", "was", "once", "known", "as", "Prey", "Nokor"];
 ```
 
+<hr>
+SOLUTION to .forEach
 
+```javascript
+words = ["Ho", "Chi", "Minh", "City", "was", "once", "known", "as", "Prey", "Nokor"];
 
+words.forEach(function (e){
+  console.log(e.toUpperCase());
+});
+```
 
 # .map
 
@@ -66,6 +69,17 @@ Expected result:
 ```
 ["J", "O", "E"]
 ```
+SOLUTION: .map
+```javascript
+more_words = ["Joe", "Overreats", "Eggs"];
+
+
+var new_arr = more_words.map(function (i){
+  return i.charAt(0);
+});
+
+console.log (new_arr);
+```
 
 ...
 
@@ -93,7 +107,16 @@ arr = [8, 8, 8, 8, 8, 8, 8, 8];
 
 - Return the product of the numbers in `arr`.
 
+SOLUTION .reduce
+```javascript
+arr = [8, 8, 8, 8, 8, 8, 8, 8];
 
+new_value = arr.reduce(function(product, n){
+  return product *= n
+});
+
+console.log(new_value);
+```
 
 ...
 
@@ -128,7 +151,7 @@ var sheepShearers = [
 ///////////////////////////
 SOLUTION: sheepShearer
 
-
+```javascript
 var sheepShearers = [
     {
         name: "Tim",
@@ -157,7 +180,7 @@ var total = sheepShearers
             });
 
 console.log(total);
-
+```
 
 
 #### FINISHED EARLY?: 
