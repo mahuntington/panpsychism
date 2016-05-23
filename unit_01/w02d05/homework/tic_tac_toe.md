@@ -84,7 +84,7 @@ The commit message should read: <br>
   winner if one player ends up winning with three in a row
 - When the user clicks the 'reset' button, they can play a fresh game
 
-    <hr>
+<hr>
 ** Commit your work.** <br>
 The commit message should read: <br> 
 "Commit 4. Game is complete".
@@ -94,7 +94,7 @@ The commit message should read: <br>
 ** BONUS **
 - Write an AI that will play against you and make random moves.
 
-    <hr>
+<hr>
 ** Commit your work.** <br>
 The commit message should read: <br> 
 "Commit 5. Game is playable against AI".
