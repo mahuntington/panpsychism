@@ -18,10 +18,10 @@ Prerequisites: CSS, HTML <br>
 # Homework
 
 1) Finish working on the Lord of the Rings (LOTR) homework that you began yesterday (w02d01).<br>
-***NOTE:*** This is due tomorrow, Wednesday, May 25th at 10:00 am EDT.
+***Due Date:*** Tomorrow, Wednesday, May 25th at 10:00 am EDT.
 
 2) CSS Mockup homework<br>
-***NOTE:*** This is due Thursday, May 26th at 10:00 am EDT.
+***Due Date:*** Thursday, May 26th at 10:00 am EDT.
 
 _If you finish LOTR and finish coding one of the mockups_, please do one of the following:
 
