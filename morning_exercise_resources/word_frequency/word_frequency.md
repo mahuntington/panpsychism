@@ -4,7 +4,7 @@
 
 Write a function or functions that takes in a sentence (string), and returns which word appears in the sentence with the highest frequency, along with the frequency of the word.
 
-Make it just for sentences without commas, apostrophes, and periods. Adjust for capital letters.
+Make it just for sentences without commas, apostrophes, and periods. Capital letters and lowercase letters should be treated as equals.
 
 If there is a tie between the two most frequent words, the first appearing one is returned.
 

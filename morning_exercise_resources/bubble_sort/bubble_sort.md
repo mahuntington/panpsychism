@@ -1,3 +1,18 @@
+![ga](http://mobbook.generalassemb.ly/ga_cog.png)
+
+# WDI-PANTHALASSA
+
+---
+Title: Bubble Sort <br>
+Type: Exercise <br>
+Creator:
+    Thom Page <br>
+    Course: WDIr-Panthalassa<br>
+Competencies: While loops, for loops, conditionals, functions, nested loops<br>
+
+---
+
+
 # BUBBLE SORT
 #### .. and nested loops
 

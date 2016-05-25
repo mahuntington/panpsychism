@@ -189,6 +189,17 @@ var isAVowel2 = function(char) {
 console.log(isAVowel2("a"));
 // => true
 
+var isAVowel3 = function(input) {
+	var vowels = "aeiou";
+	if (vowels.includes(input)) {
+		console.log(input + ' is a vowel');
+	} else {
+		console.log('NOT A VOWEL');
+	}
+}
+
+console.log(isAVowel3("b"));
+
 
 // =======================================
 // Write a function `sumArray` that sums the numbers in an array of numbers. 
