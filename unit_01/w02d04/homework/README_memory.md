@@ -50,7 +50,7 @@ The commit message should read: <br>
 	- this function should set the text of the current clicked tile to the value stored in the data attribute
 	- it should add a class of found to the tile
 	- it should add a class of clicked to the tile
-	- if the number of clicked tiles is 2, then it should check for a match (hint: You might want to make an array to hold your `clicked` items. Check the length of the array of clicked items... if it's 2, you're good to go!).
+	- if the number of clicked tiles is 2, then it should check for a match (hint: You might want to make an array to hold your clicked tiles. Check the length of the array of clicked items... if it's 2, you're good to go!).
 
 **Commit 4** <br>
 <hr>
