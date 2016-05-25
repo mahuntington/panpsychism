@@ -31,12 +31,14 @@ The commit message should read: <br>
 <hr>
 
 - `makeAndDisplayTiles()`
-	- this function should empty the container that will hold the gameboard tiles
-	- it should create 10 new game tiles
-	  - give them the class 'column'
+	- it should create 10 new game tiles (you will want to use a loop to create these tiles)
+		- give them the class 'column'
 		- give them a 'data-value' attribute from each element of your tiles array. Ex: The output for an 'A' tile will look like ` <div class="column" data-value="A"></div> `
+		- it should add click events to each of the gameboard tiles
+			- Each click event should call the makePlay function passing it the tile that was clicked. Strong hint: the tile that was clicked is `this` tile . . . Can you pass `this` as a parameter to the makePlay function? Test it out.
 		- add the game tiles to the board
-		- it should clear the text in the `info` div
+	- it should clear the text in the `info` div
+	- this function should empty the container that will hold the gameboard tiles
 	- Lastly, it should then call a function that will add click events to each tile
 
 **Commit 3** <br>
@@ -45,26 +47,16 @@ The commit message should read: <br>
 "Commit 3: Created makeAndDisplayTiles() function"
 <hr>
 
-- `addEventsToTiles()`
-	- it should add click events to each of the gameboard tiles
-	- Each click event should call the makePlay function passing it the tile that was clicked. Strong hint: the tile that was clicked is `this` tile . . . Can you pass `this` as a parameter to the makePlay function? Test it out.
-
-**Commit 4** <br>
-<hr>
-The commit message should read: <br>
-"Commit 4: Created addEventsToTiles() function"
-<hr>
-
 - `makePlay(tile)`
 	- this function should set the text of the current clicked tile to the value stored in the data attribute
 	- it should add a class of found to the tile
 	- it should add a class of clicked to the tile
 	- if the number of clicked tiles is 2, then it should check for a match
 
-**Commit 5** <br>
+**Commit 4** <br>
 <hr>
 The commit message should read: <br>
-"Commit 5: Created makePlay(tile)"
+"Commit 4: Created makePlay(tile)"
 <hr>
 
 - `checkForMatch()`
@@ -79,10 +71,10 @@ The commit message should read: <br>
 		- BONUS: use setTimeout to keep your cards showing for a hot
 		  moment.
 
-**Commit 6** <br>
+**Commit 5** <br>
 <hr>
 The commit message should read: <br>
-"Commit 6: Created checkForMatch() function"
+"Commit 5: Created checkForMatch() function"
 <hr>
 
 *After you have the preceding functions working:*
@@ -92,18 +84,18 @@ The commit message should read: <br>
 		- remove the found class
 		- add a won class
 
-**Commit 7** <br>
+**Commit 6** <br>
 <hr>
 The commit message should read: <br>
-"Commit 7: Created checkForWin() function"
+"Commit 6: Created checkForWin() function"
 <hr>
 
 ## START
 
 - add a click event to the start button, so that when it is clicked a new game is triggered.
 
-**Commit 8** <br>
+**Commit 7** <br>
 <hr>
 The commit message should read: <br>
-"Commit 8: Added a click event to the start button to start a new game"
+"Commit 7: Added a click event to the start button to start a new game"
 <hr>
