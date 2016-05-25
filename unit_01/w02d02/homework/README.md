@@ -3,53 +3,30 @@
 # WDI-PANTHALASSA
 
 ---
-Title: CSS Mockup Homework w02d02 <br>
+Title: Homework w02d02 <br>
 Type: Homework<br>
-Duration: "2:00"<br>
+Duration: "4:00"<br>
 Creator:<br>
-    Original creators: WDI-Archer, WDI-Funke<br>
+    Original creators: WDI-Archer, WDI-Funke, WDI-Meeseeks<br>
     Adapted by: Kristyn Bryan<br>
     Course: WDIr Panthalassa<br>
-Competencies: CSS, HTML<br>
+Competencies: CSS, HTML, DOM manipulation<br>
 Prerequisites: CSS, HTML <br>
 
 ---
 
-# Homework - Master Your Mockup
+# Homework
 
-![mockup picture with cat](http://www.oddities123.com/wp-content/uploads/2013/06/funny-twins-8.jpg)
+1) Finish working on the Lord of the Rings (LOTR) homework that you began yesterday (w02d01).<br>
+***Due Date:*** Tomorrow, Wednesday, May 25th at 10:00 am EDT.
 
-For tonight's homework you have the option of doing one of two website mockups. We have provided the image files needed to create a mockup for each website, but you will need to create the `index.hml` file and the `style.css`.
+2) CSS Mockup homework<br>
+***Due Date:*** Thursday, May 26th at 10:00 am EDT.
 
-Decide whether you want to re-create `VSSL` or `Supply`.
+_If you finish LOTR and finish coding one of the mockups_, please do one of the following:
 
-Do the following commits:
+- More DOM practice: [click here]( https://github.com/ga-students/wdi-remote/blob/master/unit_01/w02d01/student_labs/ga_dom.md)
+- More CSS practice: code the second mockup as well.
 
-**Commit 1** <br>
-<hr>
-Once you have setup the basic structure in your HTML file, save it, add it, and commit it. The commit message should read: <br>
-"Set up basic HTML file"
-<hr>
+If you need a refresher on how to submit your homework, follow [these directions](https://github.com/ga-students/wdi-remote/wiki/Homework-Submission). 
 
-**Commit 2** <br>
-<hr>
-Once you have created and saved your CSS file, add it and commit it. The commit message should read: <br>
-"Created a CSS file"
-<hr>
-
-**Commit 3** <br>
-<hr>
-Once you have linked your CSS file to your HTML file (make sure to test it - change the background color of the page to ensure that it's properly linked), add it and commit it. Need a reminder on how to do this? Check out this link on how to [link an external style sheet] (http://www.w3schools.com/css/css_howto.asp).
-The commit message should read: <br>
-"The CSS file is successfully linked to the HTML file"
-<hr>
-
-**Commit 4** <br>
-<hr>
-Once you have the pictures displaying on your page (they don't have to be in the right place on the page, they just need to be on your page), take a screenshot, title it `mockup_with_pictures_pre_styling`. Save this to your homework folder. The commit message should read: <br>
-"The images were loaded to the HTML, but not styled yet"
-<hr>
-
-**Commit 5** <br>
-<hr>
-Once you have successfully created the mockup (or once you're too tired to continue and need to go to bed), take a screenshot of your work and title it `mockup_with_styling`. Save this to your homework folder. Come up with your own appropriate commit message. <br>

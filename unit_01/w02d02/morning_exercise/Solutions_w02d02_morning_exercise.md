@@ -1,9 +1,5 @@
 # W02D02 Morning Warmup
 
-![Cat Programmer](http://s2.quickmeme.com/img/99/9903c7c14add3fd0758b7b5b80c24d48101f296f13ce34736799a82c71f61bc2.jpg)
-
-
-
 # JAVASCRIPT ITERATORS
 
 #####`.forEach`, `.map`, and `.reduce`
@@ -27,7 +23,6 @@ arr.forEach(function(n) {
 
 ```
 
-
 ##### EXERCISE:
 - Log each word in `words` in upper case using `.forEach.`
 
@@ -35,8 +30,16 @@ arr.forEach(function(n) {
 words = ["Ho", "Chi", "Minh", "City", "was", "once", "known", "as", "Prey", "Nokor"];
 ```
 
+<hr>
+SOLUTION to .forEach
 
+```javascript
+words = ["Ho", "Chi", "Minh", "City", "was", "once", "known", "as", "Prey", "Nokor"];
 
+words.forEach(function (e){
+  console.log(e.toUpperCase());
+});
+```
 
 # .map
 
@@ -66,6 +69,17 @@ Expected result:
 ```
 ["J", "O", "E"]
 ```
+SOLUTION: .map
+```javascript
+more_words = ["Joe", "Overreats", "Eggs"];
+
+
+var new_arr = more_words.map(function (i){
+  return i.charAt(0);
+});
+
+console.log (new_arr);
+```
 
 ...
 
@@ -78,8 +92,6 @@ Expected result:
 Add together all numbers in an array:
 
 ```
-arr = [8, 8, 8, 8, 8, 8, 8, 8];
-
 new_value = arr.reduce(function(sum, n){
 	return sum += n
 });
@@ -93,9 +105,18 @@ new_value = arr.reduce(function(sum, n){
 arr = [8, 8, 8, 8, 8, 8, 8, 8];
 ```
 
-- Return the *product* of the numbers in `arr`.
+- Return the product of the numbers in `arr`.
 
+SOLUTION .reduce
+```javascript
+arr = [8, 8, 8, 8, 8, 8, 8, 8];
 
+new_value = arr.reduce(function(product, n){
+  return product *= n
+});
+
+console.log(new_value);
+```
 
 ...
 
@@ -127,8 +148,39 @@ var sheepShearers = [
 => 3238
 ```
 
+///////////////////////////
+SOLUTION: sheepShearer
+
+```javascript
+var sheepShearers = [
+    {
+        name: "Tim",
+        age: 20,
+        sheepCount: 18
+    },
+    {
+        name: "C3PO",
+        age: 200,
+        sheepCount: 320
+    },
+    {
+        name: "Cousin It",
+        age: Infinity,
+        sheepCount: 2900
+    }
+];
 
 
+var total = sheepShearers
+            .map(function(item) {
+            	return item.sheepCount;
+            })
+            .reduce(function(sum, num) {
+            	return sum += num;
+            });
+
+console.log(total);
+```
 
 
 #### FINISHED EARLY?: 
@@ -145,3 +197,19 @@ var searchArray = function(array,value) {
 
 };
 ```
+
+///////////////////////////////////////////
+SOLUTION 1
+```
+var searchArray = function(array,value) {
+	console.log("you're inside the function");
+
+	for (i=0; i < array.length;  i++) {
+		if (value === array[i]){
+			return true;
+		};
+	};
+		return '-1';
+};
+
+searchArray([1,2,3,4], 5);
