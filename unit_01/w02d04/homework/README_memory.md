@@ -39,7 +39,6 @@ The commit message should read: <br>
 		- add the game tiles to the board
 	- it should clear the text in the `info` div
 	- this function should empty the container that will hold the gameboard tiles
-	- Lastly, it should then call a function that will add click events to each tile
 
 **Commit 3** <br>
 <hr>
