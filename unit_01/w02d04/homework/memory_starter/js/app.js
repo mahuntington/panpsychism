@@ -19,6 +19,7 @@ function shuffle(o) {
 };
 
 function start(){
+	console.log('start button clicked!');
 	// shuffle your tiles
 
 	// invoke the makeAndDisplayTiles function
