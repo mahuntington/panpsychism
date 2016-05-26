@@ -1,11 +1,18 @@
 # Memory!
 
-Tonight you are going to build the game called: [Memory](https://en.wikipedia.org/wiki/Concentration_(game)). We have provided you with a few starter files. You will look at the `index.html` to set up your physical board and cards, but write the code in your `app.js` file to get your game to work.
+Tonight you are going to build the game called: [Memory](https://en.wikipedia.org/wiki/Concentration_(game)). We have provided you with a few starter files. You will load the `index.html` in your browser, and write the code in your `app.js` file to make your cards and get your game to work.
 
 Take it one step at a time. Follow these instructions to help get you going.
 
 
-### You will need
+### Starter code
+
+We have provided some functions and prompts for you in the `app.js`. Note that we have set up the start button with a click event: when the start button is pressed, the `start()` function is invoked, setting off the chain events for the rest of the game. Test that the click event works by pressing the start button and confirming the console.log in your Chrome console.
+
+We have also provided a `shuffle()` function. You do not need to change the shuffle function, you can simply use it later to shuffle your tiles array.
+
+
+### For the game, you will need
 
 #### Data
 
@@ -22,7 +29,7 @@ The commit message should read: <br>
 
 - `start()`
 	- shuffle the tiles array
-	- then call makeAndDisplayTiles to build and display the gameboard
+	- then call `makeAndDisplayTiles` to build and display the gameboard
 
 **Commit 2** <br>
 <hr>
@@ -31,14 +38,15 @@ The commit message should read: <br>
 <hr>
 
 - `makeAndDisplayTiles()`
+	- it should clear whatever text was in the `info` div from the last game that was played
+	- this function should empty the container that will hold the gameboard tiles (clearing it from the previous game that was played)
 	- it should create 10 new game tiles (you will want to use a loop to create these tiles)
 		- give them the class 'column'
 		- give them a 'data-value' attribute from each element of your tiles array. Ex: The output for an 'A' tile will look like ` <div class="column" data-value="A"></div> `
+		- add the game tiles to the board
 		- it should add click events to each of the gameboard tiles
 			- Each click event should call the makePlay function passing it the tile that was clicked. Strong hint: the tile that was clicked is `this` tile . . . Can you pass `this` as a parameter to the makePlay function? Test it out.
-		- add the game tiles to the board
-	- it should clear the text in the `info` div
-	- this function should empty the container that will hold the gameboard tiles
+
 
 **Commit 3** <br>
 <hr>
@@ -48,8 +56,7 @@ The commit message should read: <br>
 
 - `makePlay(tile)`
 	- this function should set the text of the current clicked tile to the value stored in the data attribute
-	- it should add a class of found to the tile
-	- it should add a class of clicked to the tile
+	- it should add a class of 'clicked' to the tile (we will use this to check the number of clicked tiles later)
 	- if the number of clicked tiles is 2, then it should check for a match (hint: You might want to make an array to hold your clicked tiles. Check the length of the array of clicked items... if it's 2, you're good to go!).
 
 **Commit 4** <br>
@@ -59,16 +66,16 @@ The commit message should read: <br>
 <hr>
 
 - `checkForMatch()`
+	- write the code for this function _inside_ the `setTimeout`! The setTimeout is there to delay the disappearance of the cards.
 	- this should retrieve the data-value of the two clicked tiles
 	- if they are a match
 		- the 'clicked' class should be removed from the tiles
-		- the click event should be turned off for those tiles
+		- the 'found' class should be added to the tiles
 		- should check for a win
 	- if no match is found
 		- the text of the clicked cards should be set back to empty
-		- the found and clicked classes should both be removed
-		- BONUS: use setTimeout to keep your cards showing for a hot
-		  moment.
+		- the clicked class should be removed
+
 
 **Commit 5** <br>
 <hr>
@@ -77,6 +84,7 @@ The commit message should read: <br>
 <hr>
 
 *After you have the preceding functions working:*
+
 - `checkForWin()`
 	- if the number of found tiles is 10
 		- add a winning message to the info div
@@ -89,12 +97,3 @@ The commit message should read: <br>
 "Commit 6: Created checkForWin() function"
 <hr>
 
-## START
-
-- add a click event to the start button, so that when it is clicked a new game is triggered.
-
-**Commit 7** <br>
-<hr>
-The commit message should read: <br>
-"Commit 7: Added a click event to the start button to start a new game"
-<hr>
