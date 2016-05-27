@@ -76,7 +76,7 @@ The commit message should read: <br>
 "Commit 3: Initial HTML elements are created for the calculator"
 <hr>
 
-## Fourth Step: Write your initial CSS to make a rough copy of what you want it to look like. 
+## Fourth Step: Write your initial CSS to make a rough copy of what you want your calculator page to look like. 
 
 1. For now, don't spend too much time on your CSS this. You will come back to it, but just get everything positioned roughly where you want (ex: make the elements that will be your buttons on the calculator large enough so that you can see a number displayed). 
 2. Make sure all of the interactive parts of the website are visible. This way, as you're building out the functions in your javascript file, you'll be able to test your code. 
@@ -99,6 +99,12 @@ User stories are a great way to break down exactly what needs to be done.
 4. Use the functions previously defined to preform operations on our data. Start using the functions defined above in the event handlers. What functions need to be called when they click a button? when they click an operation?
 5. Test, fix, retest, fix, retest,... 
 6. Look back on code written and think about better ways to implement it. Maybe somethings not working at all, how can we restructure the code we have so that it does?
+
+**Commit 4** <br>
+<hr>
+The commit message should read: <br>
+"Commit 4: Initial CSS has been created for the calculator"
+<hr>
 
 ### Things to think about when thinking of the solution
 
