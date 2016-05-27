@@ -1,4 +1,21 @@
+![ga](http://mobbook.generalassemb.ly/ga_cog.png)
 
+# WDI-PANTHALASSA
+
+---
+Title: Homework w03d02 <br>
+Type: Homework<br>
+Duration: "4:00"<br>
+Creator:<br>
+    Original creators: WDI-Archer, WDI-Funke<br>
+    Adapted by: Kristyn Bryan<br>
+    Course: WDIr Panthalassa<br>
+Competencies: Javascript, CSS, HTML<br>
+Prerequisites: Javascript, CSS, HTML <br>
+
+---
+
+# Homework
 
 # Lets build a browser calculator!
 ![loop](http://www.mememaker.net/static/images/memes/3861758.jpg)
