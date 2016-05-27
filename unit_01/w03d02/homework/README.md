@@ -33,6 +33,8 @@ User stories are a great way to break down what the different features of the we
 3. A user should be able to subtract numbers.
 4. A user should be able to divide numbers.
 5. A user should be able to multiply numbers together.
+
+_Stretch goals_
 6. A user should be able to change the color of the background of their page.
 7. A user should be able to select the font for their page.
 8. A user should be able to clear all operations and start from 0. 
