@@ -1,4 +1,6 @@
-// least efficient - WHY? Could you see a situation where this could be inefficient?
+// SOLUTION 1
+// least efficient 
+//WHY? Could you see a situation where this could be inefficient?
 // in this one, you're creating two loops. The first loop holds on to one index number (position 0) and the second loop compares it to every other number in the loop (index 0, 1, 2, etc.)
 var difference = function(arr){
   var biggest = 0
@@ -14,6 +16,9 @@ var difference = function(arr){
 
 console.log(difference([1, 4, 6, 2, 9]))
 
+///////////////////////////////////////////////////////////////////////
+
+// SOLUTION 2
 
 // more efficient
 var diff = function(arr){
