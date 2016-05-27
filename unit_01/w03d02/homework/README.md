@@ -95,28 +95,42 @@ Now lets start writing out javascript.
 User stories are a great way to break down exactly what needs to be done.
 1. Start by figuring out what informtion you need to store. You can always revise this later as you realize you need more. 
 2. Next, start determinig how you will handle user input. Start actually writing the event handlers. What needs to change when a user clicks a button?
-3. Next, decide what functions need to be defined. When the user clicked a button, what needed to be done?
+3. Next, decide what functions need to be defined (hint: `add`, `subtract`, `multiply` are a few). When the user clicks a button, what needs to be done?
 4. Use the functions previously defined to preform operations on our data. Start using the functions defined above in the event handlers. What functions need to be called when they click a button? when they click an operation?
 5. Test, fix, retest, fix, retest,... 
 6. Look back on code written and think about better ways to implement it. Maybe somethings not working at all, how can we restructure the code we have so that it does?
 
-**Commit 4** <br>
-<hr>
-The commit message should read: <br>
-"Commit 4: Initial CSS has been created for the calculator"
-<hr>
-
-### Things to think about when thinking of the solution
+### Things to think about.
 
 1. In this problem, state is very important. Try to think about how your going to store the state of the calculator. What kind of information do you need to track?
 2. When the user clicks a button, how are you going to get which number or operation they clicked? When they click a certain button, what code are you going to have to run?
-3. Think about the various operations that your going to need to perform. What kind of functions are you going to need? If you followed these steps, you should have a good idea of what you need here when you thought about what needs to happen when a user clicks a button. 
 
+**Commit 5** <br>
+<hr>
+The commit message should read: <br>
+"Commit 5: Javascript for the calculator has been created"
+<hr>
 
-## Sixth Step: clean up and add to it
+## Sixth Step: Improve your CSS and add user customization.
 
-Once you have the basics of the calculator working and looking decent, start to refactor your code to take out uneeded parts or to implement something in a better way. 
+1. Once you have the basics of the calculator working, look back at your code. You want to make it [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).  Start to refactor (another vocabulary word) your code to take out uneeded parts or implement something in a better way. 
+2. What other operations can you add to the calculator? If you have time, implement them. If you don't have time, but have some ideas, add comments to your code about what you'd like to add. How might you implement them? Is your code friendly to adding in new operations if another developer came in to add something to your code?
+3.Does your calculator look a bit dull? Use some CSS to spice it up a bit!
 
-What other operations can you add to the calculator? How woud you implement them? Is your code friendly to adding in new operations?
+**Commit 7** <br>
+<hr>
+The commit message should read: <br>
+"Commit 6: User customization is added and the css has been improved on the calculator"
+<hr>
 
-Does your calculator look a bit dull or ugly? Maybe some cooler CSS would spice it up a bit!
+## Seventh Step: clean up and enhance to it
+
+1. Once you have the basics of the calculator working, look back at your code. You want to make it [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).  Start to refactor (another vocabulary word) your code to take out uneeded parts or implement something in a better way. 
+2. What other operations can you add to the calculator? If you have time, implement them. If you don't have time, but have some ideas, add comments to your code about what you'd like to add. How might you implement them? Is your code friendly to adding in new operations if another developer came in to add something to your code?
+3.Does your calculator look a bit dull? Use some CSS to spice it up a bit!
+
+**Commit 7** <br>
+<hr>
+The commit message should read: <br>
+"Commit 7: Calculator code was cleaned up and I added an enhancement"
+<hr>
