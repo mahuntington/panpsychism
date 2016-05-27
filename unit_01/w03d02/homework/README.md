@@ -117,7 +117,7 @@ The commit message should read: <br>
 1. Import at least one font from Google fonts.
 2. Connect the dropdown form elements in your html and css so that a user can change the font for their page.
 3. Connect the radio button form elements in your html with your css so that users can change the color of the background of their page.
-4. Use at least one icon or sprite on your page (example: something from [font awesome](http://fontawesome.io/icons/)
+4. Use at least one icon or sprite on your page (example: something from [font awesome](http://fontawesome.io/icons/))
 
 **Commit 6** <br>
 <hr>
