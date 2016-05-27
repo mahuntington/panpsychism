@@ -20,28 +20,29 @@ Prerequisites: Javascript, CSS, HTML <br>
 # Lets build a browser calculator!
 ![loop](http://www.mememaker.net/static/images/memes/3861758.jpg)
 
-Today, we will be building a simple interactive website: a Calculator!
+Over the next two nights, you will be building a simple interactive website: a Calculator!
 
 ## User Stories
 
-User stories are a great way to break down what the different features of the website are, and how to structure it. They are generally written out in this form:
+Hey! It's a new vocabulary word!
+
+User stories are a great way to break down what the different features of the website are, and how to structure it. They are generally written out in this form "A user should be able to...". Here are the user stories for our homework:
 
 1. A user should be able to select numbers so that they can do things with them.
 2. A user should be able to add numbers together.
 3. A user should be able to subtract numbers.
 4. A user should be able to divide numbers.
 5. A user should be able to multiply numbers together.
-
-Bonus:
-
-6. A user should be able to clear all operations and start from 0. 
+6. A user should be able to change the color of the background of their page.
+7. A user should be able to select the font for their page.
+8. A user should be able to clear all operations and start from 0. 
 
 ## First step: creating the file structure
 
-1. Touch 3 files into your folder; a javascript file, a css file, and a html file. 
+1. Create (touch) 3 files into your homework folder; a javascript file, a css file, and an html file. 
 2. In your html file, write the base html needed. 
-3. Using a link tag, link the CSS file to the html file.
-4. Using a script tag, link the JS file to your html file (where does this script tag go?).
+3. Using a link tag, link your CSS file to the html file.
+4. Using a script tag, link the JS file to your html file (where does this script tag go? If you don't know, do some Googling).
 
 ## Second Step: Design and write the html needed for the calculator.
 
