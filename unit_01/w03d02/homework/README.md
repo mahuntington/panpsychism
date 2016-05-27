@@ -67,6 +67,8 @@ The commit message should read: <br>
 
 ## Third Step: Write the html needed for the calculator. 
 1. Now that you have your wireframe drawn, use it to write the html elements needed for your calculator.
+2. Make a dropdown form that will include the names of two different fonts.
+3. Make a radio button form that will allow the users to choose from different background colors (at least two options).
 
 **Commit 3** <br>
 <hr>
@@ -74,13 +76,13 @@ The commit message should read: <br>
 "Commit 3: Initial HTML elements are created for the calculator"
 <hr>
 
-## Third Step: Write CSS to make a rough copy of what you want it to look like. 
+## Fourth Step: Write your initial CSS to make a rough copy of what you want it to look like. 
 
-1. For now, don't spend too much time on this. Get everything positioned roughly where you want. 
-2. Make sure all of the interactive parts of the website are able to be seen and clicked upon when you start testing your javascript.
-3. Make sure wherever your going to show the output is able to be seen. A good way to do this is to actually hardcode something in so that you know you can see it.
+1. For now, don't spend too much time on your CSS this. You will come back to it, but just get everything positioned roughly where you want (ex: make the elements that will be your buttons on the calculator large enough so that you can see a number displayed). 
+2. Make sure all of the interactive parts of the website are visible. This way, as you're building out the functions in your javascript file, you'll be able to test your code. 
+3. Make sure that, wherever you are going to show the output, (the screen) is large enough to display the numbers that will be your output. A good way to do this is to actually hardcode something into your html file (like the numbers "123456" inside the element) so that you know you can see it.
 
-## Fourth Step: And so JS begins.
+## Fifth Step: And so JS begins.
 
 Now lets start writing out javascript. 
 
@@ -99,7 +101,7 @@ User stories are a great way to break down exactly what needs to be done.
 3. Think about the various operations that your going to need to perform. What kind of functions are you going to need? If you followed these steps, you should have a good idea of what you need here when you thought about what needs to happen when a user clicks a button. 
 
 
-## Fifth Step: clean up and add to it
+## Sixth Step: clean up and add to it
 
 Once you have the basics of the calculator working and looking decent, start to refactor your code to take out uneeded parts or to implement something in a better way. 
 
