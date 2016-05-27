@@ -2,6 +2,7 @@
 // least efficient 
 //WHY? Could you see a situation where this could be inefficient?
 // in this one, you're creating two loops. The first loop holds on to one index number (position 0) and the second loop compares it to every other number in the loop (index 0, 1, 2, etc.)
+
 var difference = function(arr){
   var biggest = 0
   for (var i = 0; i < arr.length; i++) {
@@ -19,8 +20,11 @@ console.log(difference([1, 4, 6, 2, 9]))
 ///////////////////////////////////////////////////////////////////////
 
 // SOLUTION 2
-
 // more efficient
+// use the .sort() method
+// http://www.w3schools.com/jsref/jsref_sort.asp
+// we can see what it's doing if we console log it, but it's organizing our array so that the smallest number is at index zero and the largest number is in the last position of the arary.
+
 var diff = function(arr){
   arr.sort(function(a, b){
     return a - b
@@ -29,7 +33,9 @@ var diff = function(arr){
 }
 console.log(diff([9,8,1,2,3,4,5]));
 
+///////////////////////////////////////////////////////////////////////
 
+// SOLUTION 3
 // most efficient
 var diff = function(arr){
   var small = arr[0];
