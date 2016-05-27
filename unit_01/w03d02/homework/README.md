@@ -50,12 +50,29 @@ The commit message should read: <br>
 "Commit 1: Created .html file, .css file, .js file AND successfully linked them"
 <hr>
 
-## Second Step: Design and write the html needed for the calculator.
+## Second Step: Design your calculator.
 
-1. My suggestion: Draw out how you want your calculator to look and start thinking about how to structure your html.
+1. Don't code just yet! Draw out how you want your calculator to look and start thinking about how to structure your html. This is your chance to create a [wireframe](http://www.creativebloq.com/web-design/jargon-wireframes-mockups-prototypes-51514898)!
 2. Think about where the input and output needs to be. 
 3. Think about what is going to need to be clicked and how your going to do this later.
-4. Think about different positioning techniques youll need to make it look the way you want it to.
+4. Think about where you'll place the area for a user to make custom changes.
+5. Think about different positioning techniques you'll need to make it look the way you want it to.
+6. Take a picture of the wireframe that you've drawn. Save it to your homework folder. If you've gotten fancy and used an online tool, save it and upload that. 
+
+**Commit 2** <br>
+<hr>
+The commit message should read: <br>
+"Commit 2: Created wireframe for my calculator"
+<hr>
+
+## Third Step: Write the html needed for the calculator. 
+1. Now that you have your wireframe drawn, use it to write the html elements needed for your calculator.
+
+**Commit 3** <br>
+<hr>
+The commit message should read: <br>
+"Commit 3: Initial HTML elements are created for the calculator"
+<hr>
 
 ## Third Step: Write CSS to make a rough copy of what you want it to look like. 
 
