@@ -22,7 +22,7 @@ Competencies: JS DOM manipulation, loops, conditionals, functions, game logic<br
 So far, we have been writing functions, working with
 loops, and writing conditionals, and we also learned about how HTML elements are styled and behave in the DOM, including how to make elements responsive.
 
-For your weekdend homework, you'll be building a tic tac toe game in HTML, CSS, and writing the logic for the game in JavaScript.
+For your weekend homework, you'll be building a tic tac toe game in HTML, CSS, and writing the logic for the game in JavaScript.
 
 It is up to you to figure out how each piece should work. Pseudo-code the problems, talk it out with a rubber duck, research the problems, and above all ... talk to your classmates! 
 
@@ -47,7 +47,7 @@ And remember, at the end of this process your code should be your own.
  `link` tags to link to your JavaScript and CSS, respectively.
 
  - Before you even start working with JavaScript, construct the
- gameboard. The gameboard page should include the 3x3 grid and at minimum, a reset button. Using `id` and `class` on clickable
+ gameboard. The gameboard page should include the 3x3 grid. Using `id` and `class` on clickable
  elements will help you wire this up in JavaScript afterwards.
  
  - Using what you know about responsive design, make sure the gameboard will resize with the browser window. The board can skew if you like.
@@ -101,13 +101,22 @@ The commit message should read: <br>
 <hr>
 
 - After the necessary moves have been played, stop the game and display the winner if one player ends up winning with three in a row
-- When the user clicks the 'reset' button, they can play a fresh game
+
 
 <hr>
 ** Commit your work.** <br>
 The commit message should read: <br> 
-"Commit 5. Game is complete".
+"Commit 5. Game is winnable by X or O and indicates whether X or O won".
 <hr>
+
+- When the user clicks a 'reset' button, they can play a fresh game
+
+<hr>
+** Commit your work.** <br>
+The commit message should read: <br> 
+"Commit 6. Player can reset the game".
+<hr>
+
 
   
 ** BONUS **
@@ -116,7 +125,7 @@ The commit message should read: <br>
 <hr>
 ** Commit your work.** <br>
 The commit message should read: <br> 
-"Commit 6000. Game is playable against AI".
+"Commit 7000. Game is playable against AI".
 <hr>
 
 
