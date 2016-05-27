@@ -30,8 +30,14 @@ Think about your program design, when and if you should use functions, loops, co
 
 And remember, at the end of this process your code should be your own.
 
+## Collaboration
+
+You must talk things out and share ideas with your classmates or you will not make much progress. This weekend, stay wired in to Slack, set up a Zoom room, invite your classmates. You should not, and cannot do this assignment in a vacuum. Stay connected!
+
+
 ## Requirements
 
+- Collaborate with your classmates on Zoom and Slack
 - The gameboard should be responsive, both horizontally and vertically
 - A user should be able to click on different squares to make a move
 - Each click will alternate between marking an `X` and `O` in turn
