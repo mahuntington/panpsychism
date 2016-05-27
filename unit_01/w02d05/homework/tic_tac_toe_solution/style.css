@@ -1,0 +1,27 @@
+#board {
+	min-width: 300px;
+	max-width: 800px;
+	min-height: 300px;
+	max-height: 800px;
+	background-color: pink;
+	border-radius: 5%;
+}
+
+.square {
+	position: relative;
+	display: inline-block;
+	left: 1.5%; 
+	top: 2px;
+	height: 32%; width: 32%;
+	border-radius: 10%;
+	overflow: hidden;
+	background-color: white;
+}
+
+img {
+	height: 100%; width: 100%;
+}
+
+h1 {
+
+}
