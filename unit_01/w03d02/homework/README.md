@@ -82,6 +82,12 @@ The commit message should read: <br>
 2. Make sure all of the interactive parts of the website are visible. This way, as you're building out the functions in your javascript file, you'll be able to test your code. 
 3. Make sure that, wherever you are going to show the output, (the screen) is large enough to display the numbers that will be your output. A good way to do this is to actually hardcode something into your html file (like the numbers "123456" inside the element) so that you know you can see it.
 
+**Commit 4** <br>
+<hr>
+The commit message should read: <br>
+"Commit 4: Initial CSS has been created for the calculator"
+<hr>
+
 ## Fifth Step: And so JS begins.
 
 Now lets start writing out javascript. 
