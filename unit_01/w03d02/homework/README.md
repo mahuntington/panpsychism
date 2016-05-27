@@ -113,11 +113,12 @@ The commit message should read: <br>
 
 ## Sixth Step: Improve your CSS and add user customization.
 
-1. Once you have the basics of the calculator working, look back at your code. You want to make it [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).  Start to refactor (another vocabulary word) your code to take out uneeded parts or implement something in a better way. 
-2. What other operations can you add to the calculator? If you have time, implement them. If you don't have time, but have some ideas, add comments to your code about what you'd like to add. How might you implement them? Is your code friendly to adding in new operations if another developer came in to add something to your code?
-3.Does your calculator look a bit dull? Use some CSS to spice it up a bit!
+1. Import at least one font from Google fonts.
+2. Connect the dropdown form elements in your html and css so that a user can change the font for their page.
+3. Connect the radio button form elements in your html with your css so that users can change the color of the background of their page.
+4. Use at least one icon or sprite on your page (example: something from [font awesome](http://fontawesome.io/icons/)
 
-**Commit 7** <br>
+**Commit 6** <br>
 <hr>
 The commit message should read: <br>
 "Commit 6: User customization is added and the css has been improved on the calculator"
@@ -127,6 +128,7 @@ The commit message should read: <br>
 
 1. Once you have the basics of the calculator working, look back at your code. You want to make it [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).  Start to refactor (another vocabulary word) your code to take out uneeded parts or implement something in a better way. 
 2. What other operations can you add to the calculator? If you have time, implement them. If you don't have time, but have some ideas, add comments to your code about what you'd like to add. How might you implement them? Is your code friendly to adding in new operations if another developer came in to add something to your code?
+4. Can you think of anything else that might improve a user's experience with your calculator? Can you add any additional customization to your page?
 3.Does your calculator look a bit dull? Use some CSS to spice it up a bit!
 
 **Commit 7** <br>
