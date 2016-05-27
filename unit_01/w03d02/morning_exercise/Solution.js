@@ -37,10 +37,11 @@ console.log(diff([9,8,1,2,3,4,5]));
 
 // SOLUTION 3
 // most efficient
+// we're going through the array ONLY ONCE. We are assigning `big` and `small` to equal whatever is in index 0. If we encounter something that is bigger than it, we'll reassign big to that value. If we find something smaller, we'll reassign `small` to that value.
 var diff = function(arr){
   var small = arr[0];
   var big = arr[0];
-  for (var i = 0, len = arr.length, j = 0; i < len; i++) {
+  for (var i = 0; i < arr.length; i++) {
     if(arr[i] > big ){
       big = arr[i];
     } else if (arr[i] < small){
