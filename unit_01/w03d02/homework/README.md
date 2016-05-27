@@ -42,7 +42,13 @@ User stories are a great way to break down what the different features of the we
 1. Create (touch) 3 files into your homework folder; a javascript file, a css file, and an html file. 
 2. In your html file, write the base html needed. 
 3. Using a link tag, link your CSS file to the html file.
-4. Using a script tag, link the JS file to your html file (where does this script tag go? If you don't know, do some Googling).
+4. Using a script tag, link the JS file to your html file (where does this script tag go? If you don't know, do some Googling). NOTE: You should add the following line to your .js file `console.log("My .js file is attached to my .html file")`. Open your .html file in your browser. Use your Chrome Dev Tools and look at the console. Do you see "My .js file is attached to my .html file"? If you do, success! You're linked. If you don't see it, then something is amiss. 
+
+**Commit 1** <br>
+<hr>
+The commit message should read: <br>
+"Commit 1: Created .html file, .css file, .js file AND successfully linked them"
+<hr>
 
 ## Second Step: Design and write the html needed for the calculator.
 
