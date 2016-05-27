@@ -93,6 +93,7 @@ The commit message should read: <br>
 Now lets start writing out javascript. 
 
 User stories are a great way to break down exactly what needs to be done.
+
 1.  Start by figuring out what informtion you need to store. You can always revise this later as you realize you need more. 
 2.  Next, start determinig how you will handle user input. Start actually writing the event handlers. What needs to change when a user clicks a button?
 3.  Next, decide what functions need to be defined (hint: `add`, `subtract`, `multiply` are a few). When the user clicks a button, what needs to be done?
