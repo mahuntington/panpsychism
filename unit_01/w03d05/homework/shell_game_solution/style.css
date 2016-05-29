@@ -1,0 +1,70 @@
+body {
+	font-family: monospace;
+}
+
+#container {
+	width: 1200px;
+	height: 440px;
+	border: 1px solid black;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 15px;
+	background-color: ivory;
+}
+
+#top {
+	margin-top: 20px;
+}
+
+#start-shuffle {
+/*	display: inline-block;*/
+	width: 100px; height: 40px;
+	margin: 0 auto;
+/*	margin-left: 5px;
+	margin-bottom: 5px;*/
+	text-align: center;
+	cursor: pointer;
+	line-height: 40px;
+	vertical-align: center;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+#message {
+/*	display: inline-block;*/
+	line-height: 40px;
+}
+
+#board {
+	min-width: 1200px;
+}
+
+.brain {
+	display: inline-block;
+	height: auto; width: auto;
+	margin-left: 5px;
+	margin-top: 20px;	
+}
+
+#wins {
+	margin-top: 100px;
+}
+
+img {
+	animation-duration: 0.5s;
+	animation-iteration-count: 10;
+}
+
+@keyframes brainsize {
+	0% { transform: scale(1); }
+	50% { transform: scale(0.6) translateY(200px); }
+	100% { transform: scale(1); }
+}
+
+
+
+
+
+
+
+
