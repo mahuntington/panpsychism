@@ -3,6 +3,9 @@
 ## CSS Frameworks
 
 ![CSS No Framework](http://i.imgur.com/mJlDA4r.png) 
+<hr>
+#### Just add one line of code
+<hr>
 ![CSS Framework](http://i.imgur.com/CLqJcUm.png)
 
 We're going to be looking at some popular CSS frameworks. A CSS framework can save you time for styling applications. A framework is really just a stylesheet that has been designed by someone else that you are implimenting into your code. You can make changes to the styles using your own stylesheet. You can use them to snazz up your projects, but we also want you to be familiar with them because, a lot of times when you jump into a company that has a pre-existing codebase, you will encounter the use of a CSS framework. 
