@@ -17,7 +17,7 @@ Prerequisites: Javascript, CSS, HTML <br>
 
 # Homework
 
-# Lets build a browser calculator!
+# Lets build a calculator!
 ![loop](http://www.mememaker.net/static/images/memes/3861758.jpg)
 
 Over the next two nights, you will be building a simple interactive website: a Calculator!
