@@ -3,8 +3,14 @@
 	max-width: 800px;
 	min-height: 300px;
 	max-height: 800px;
-	background-color: pink;
+/*	background-color: pink;*/
 	border-radius: 5%;
+}
+
+.size {
+	border: 1px solid grey;
+	background-color: azure;
+	cursor: pointer;
 }
 
 .square {
@@ -12,16 +18,20 @@
 	display: inline-block;
 	left: 1.5%; 
 	top: 2px;
-	height: 32%; width: 32%;
+/*	height: 32%; width: 32%;*/
 	border-radius: 10%;
 	overflow: hidden;
 	background-color: white;
+	cursor: pointer;
+	border: 1px solid black;
 }
 
 img {
 	height: 100%; width: 100%;
 }
 
-h1 {
-
+#reset {
+	cursor: pointer;
 }
+
+
