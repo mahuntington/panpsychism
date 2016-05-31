@@ -6,14 +6,14 @@ We're going to be looking at some popular CSS frameworks. A CSS framework can sa
 
 Some frameworks that we will be looking at today:
 
-[Skeleton](http://getskeleton.com/)
-_Lightweight framework that has a nice, simple grid system_
+[Skeleton](http://getskeleton.com/)<br>
+  _Lightweight framework that has a nice, simple grid system_
 
-[Bootstrap](http://getbootstrap.com/)
-_Probably the most popular framework out there right now. Originally created by some guys who were working at Twitter_
+[Bootstrap](http://getbootstrap.com/)<br>
+  _Probably the most popular framework out there right now. Originally created by some guys who were working at Twitter_
 
-[Materialize](http://materializecss.com/)
+[Materialize](http://materializecss.com/)<br>
 _This framework is difficult to manipulate, but I like it for the parralax and the cards_
 
-[Pure CSS](http://purecss.io/)
+[Pure CSS](http://purecss.io/)<br>
 _Similar to skeleton, this is a light framework with a grid system and responsive design_
