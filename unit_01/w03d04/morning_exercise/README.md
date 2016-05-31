@@ -2,7 +2,7 @@
 
 ## CSS Frameworks
 
-We're going to be looking at some popular CSS frameworks. A CSS framework can save you time for styling applications. A framework is really just a stylesheet that has been designed by someone else that you are implimenting into your code. You can make changes to the styles using your own stylesheet. You can use them to snazz up your projects, but we also want you to be familiar with them because, a lot of times when you jump in to a company and look at their code, you will encounter the use of a CSS framework. 
+We're going to be looking at some popular CSS frameworks. A CSS framework can save you time for styling applications. A framework is really just a stylesheet that has been designed by someone else that you are implimenting into your code. You can make changes to the styles using your own stylesheet. You can use them to snazz up your projects, but we also want you to be familiar with them because, a lot of times when you jump into a company that has a pre-existing codebase, you will encounter the use of a CSS framework. 
 
 Some frameworks that we will be looking at today:
 
