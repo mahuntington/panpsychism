@@ -7,7 +7,7 @@
 Build a To-Do list app with two columns: one for things to do, and another for things that have been done. Use jQuery to give your app functionality.
 
 ### Starter code
-To get straight to the jQuery portion of the homework, feel free to use the starter code and fill in the javascript. You can make the page look nice afterwards. If you don't want to use the starter code and want to practise page layout, or just layout your own to do app from scratch, that's cool too, but it will take more time. Budget accordingly!
+You have the choice to use this OR to start from scratch. If you want to focus straight on jQuery practice portion, feel free to use the starter code. If you don't want to use the starter code and want to practice making an application from scratch, that's okay too, but it will take more time. Budget accordingly!
 
 ### User Stories
 
