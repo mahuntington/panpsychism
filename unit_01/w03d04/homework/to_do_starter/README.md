@@ -37,6 +37,8 @@ The commit message should read: <br>
 
 ### Window Onload
 
+Think about what the user will be doing when they are interacting with your to-do list. The user makes an action (adds text, presses delete, etc.), you run some code in order to process this action, the results of the action are rendered to the page, and then you wait until another action takes place.
+
 Include any code that affects the DOM inside a window onload. jQuery has a shorthand for window onload:
 
 ```
@@ -48,8 +50,6 @@ $(function() {
 ```
 
 Try it out.
-
-Remember the general flow of what is happening. The user makes an action, you run some code in order to process this action, the results of the action are rendered to the page, and then you wait until another action takes place.
 
 **Commit 2** <br>
 <hr>
