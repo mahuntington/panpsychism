@@ -25,9 +25,17 @@ You have the choice to use this OR to start from scratch. If you want to focus s
 Hint: jQuery has a useful function that gets whatever the user typed into the input box called `.val()`. 
 
 
-### General Flow
+### Add the jQuery Library
 
-First, add the jQuery library to your project. Go to https://code.jquery.com/ and copy the url of a minified jQuery. Use this url in a script tag. Alternatively, go to https://cdnjs.com/ and search for jQuery.
+First, add the jQuery library to your project. Go to https://code.jquery.com/ and copy the url of a minified jQuery. Use this url in a script tag in your .html file. Alternatively, go to https://cdnjs.com/ and search for jQuery.
+
+**Commit 1** <br>
+<hr>
+The commit message should read: <br>
+"To Do - Commit 1: Added the jQuery library to my .html"
+<hr>
+
+### Window Onload
 
 Include any code that affects the DOM inside a window onload. jQuery has a shorthand for window onload:
 
@@ -43,9 +51,29 @@ Try it out.
 
 Remember the general flow of what is happening. The user makes an action, you run some code in order to process this action, the results of the action are rendered to the page, and then you wait until another action takes place.
 
-### Make it look pretty
-Use the CSS knowledge that you've gained over the past few weeks. In addition, think about icons or elements that you can use.
+**Commit 2** <br>
+<hr>
+The commit message should read: <br>
+"To Do - Commit 2: Added window onload function to my code."
+<hr>
 
+### Make it look pretty
+Use the CSS knowledge that you've gained over the past few weeks. Feel free to use a CSS framework. In addition, think about icons or elements that you can use.
+
+**Commit 3** <br>
+<hr>
+The commit message should read: <br>
+"To Do - Commit 3: Added CSS to the To-Do list"
+<hr>
+
+### Stretch Goal
+The browser has something called [local storage](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Storage). This allows us to cache data in the browser. Using local storage, make this application remember the to-dos that have already been entered in, even if the page is closed.
+
+**Commit 4** <br>
+<hr>
+The commit message should read: <br>
+"To Do - Commit 4: Added local storage"
+<hr>
 
 ### jQuery cheat sheet examples
 
@@ -84,10 +112,3 @@ Use the CSS knowledge that you've gained over the past few weeks. In addition, t
 - check if element has a class: `jQueryElement.hassClass('.someClass')`
 
 - set a css property on an element: `jQueryElement.css('property', 'value')`
-
-
-
-
-
-### Super Super Bonus
-The browser has something called [local storage](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Storage). This allows us to cache data in the browser. Using local storage, make this application remember the to-dos that have already been entered in, even if the page is closed.
