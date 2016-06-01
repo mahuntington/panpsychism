@@ -11,7 +11,7 @@ You have the choice to use this OR to start from scratch. If you want to focus s
 
 ### User Stories
 
-#####In the starter code:
+#####In the starter code (if you start from scratch, you'll need to write this on your own):
 1. the user should see two columns and an input field.
 2. the user should be able to type a to-do item into an input box.
 3. the user should be able to click an `add` button next to this input. 
