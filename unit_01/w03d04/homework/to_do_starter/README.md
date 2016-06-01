@@ -17,7 +17,7 @@ To get straight to the jQuery portion of the homework, feel free to use the star
 3. the user should be able to click an `add` button next to this input. 
 
 ##### Stuff for you to do:
-1. When the user clicks the `add` button, the input box value should be added to his/her to-do list.
+1. When the user clicks the `add` button, the input box value should be added to his/her to-do list (hint: we did something similar with adding items to differnt lists in LOTR).
 3. The user should be able to see all of the todos that they have created.
 5. The user should be able to click 'done' on a todo and have it move to the completed column.
 4. The user should be able to delete a to-do item from the completed list.
