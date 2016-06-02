@@ -66,26 +66,34 @@ Try it out.
 **Commit 3** <br>
 <hr>
 The commit message should read: <br>
-"To Do - Commit 3: Added window onload function to my code."
+"To Do - Commit 3: Added jQuery's version of window onload function to my code."
 <hr>
 
+### Make it function
+Add the functionality that you will need to get your to-do list functioning in the way that you need to meet the needs in the user stories above.
+
+**Commit 4** <br>
+<hr>
+The commit message should read: <br>
+"To Do - Commit 4: Added the functions to meet the needs in the user stories"
+<hr>
 
 ### Make it look pretty
 Use the CSS knowledge that you've gained over the past few weeks. Feel free to use a CSS framework. In addition, think about icons or elements that you can use.
 
-**Commit 3** <br>
+**Commit 5** <br>
 <hr>
 The commit message should read: <br>
-"To Do - Commit 3: Added CSS to the To-Do list"
+"To Do - Commit 5: Added CSS to the To-Do list"
 <hr>
 
 ### Stretch Goal
 The browser has something called [local storage](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Storage). This allows us to cache data in the browser. Using local storage, make this application remember the to-dos that have already been entered in, even if the page is closed.
 
-**Commit 4** <br>
+**Commit 6** <br>
 <hr>
 The commit message should read: <br>
-"To Do - Commit 4: Added local storage"
+"To Do - Commit 6: Added local storage"
 <hr>
 
 ### jQuery cheat sheet examples
