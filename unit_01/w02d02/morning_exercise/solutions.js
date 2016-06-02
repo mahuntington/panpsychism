@@ -1,7 +1,7 @@
 // words = ["Ho", "Chi", "Minh", "City", "was", "once", "known", "as", "Prey", "Nokor"];
 //
-// words.forEach(function (e){
-//   console.log(e.toUpperCase());
+// words.forEach(function (each_word){
+//   console.log(each_word.toUpperCase());
 // });
 
 
@@ -28,25 +28,26 @@
 // console.log(new_value);
 
 /////////////////////
-
-var sheepShearers = [
-    {
-        name: "Tim",
-        age: 20,
-        sheepCount: 18
-    },
-    {
-        name: "C3PO",
-        age: 200,
-        sheepCount: 320
-    },
-    {
-        name: "Cousin It",
-        age: Infinity,
-        sheepCount: 2900
-    }
-];
-
-var total = sheepShearers.map(function(e){return e.sheepCount})).reduce(function(sum, num) {resturn sum += num;});
-
-console.log (total);
+//
+// var sheepShearers = [
+//     {
+//         name: "Tim",
+//         age: 20,
+//         sheepCount: 18
+//     },
+//     {
+//         name: "C3PO",
+//         age: 200,
+//         sheepCount: 320
+//     },
+//     {
+//         name: "Cousin It",
+//         age: Infinity,
+//         sheepCount: 2900
+//     }
+// ];
+//
+// var total = sheepShearers.map(function(e){return e.sheepCount});
+// .reduce(function(sum, num) {return sum += num;});
+//
+// console.log (total);
