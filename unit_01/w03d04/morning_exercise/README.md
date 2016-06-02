@@ -25,3 +25,18 @@ _This framework is difficult to manipulate, but I like it for the parralax and t
 
 [Pure CSS](http://purecss.io/)<br>
 _Similar to skeleton, this is a light framework with a grid system and responsive design._
+
+### What you should do:
+
+1. Pull down the files for the morning exercise to your local computer.
+2. Navigate inside the `CSS_Frameworks` folder.
+3. Open the files using the command `subl .`
+4. Open the `index.html` file in your browser by typing `open index.html` in your terminal.
+
+### Independent work:
+1. Choose one of the frameworks listed here that we did not use (or another CSS framework that you've heard about) and modify this html file. 
+2. See how nice you can make the page with only a few minutes of work. Focus on using the grid system that is built in to the framework. 
+3. Make a change to a color on the page.
+4. What's one thing that you like about this framework?
+5. What's one thing that may be a problem with using this framework?
+6. Take a screenshot of your website and paste it in Slack. NOTE: if you don't have a Chrome Extension that allows you to take a picture of the entire page in one shot, install it now (I recommended "Full Page Screen Capture" as an option)!
