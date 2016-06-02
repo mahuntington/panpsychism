@@ -66,7 +66,7 @@ Try it out.
 **Commit 3** <br>
 <hr>
 The commit message should read: <br>
-"To Do - Commit 3: Added window onload function to my code."
+"To Do - Commit 3: Added jQuery's version of window onload function to my code."
 <hr>
 
 
