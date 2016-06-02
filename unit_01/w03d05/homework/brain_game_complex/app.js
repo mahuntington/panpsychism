@@ -6,7 +6,6 @@ $(function() {
 	var $startShuffle = $('#start-shuffle');
 	var $message = $('#message');
 
-	var brainNum = 5;
 	var gamesPlayed = 0;
 	var wins = 0;
 
@@ -21,7 +20,7 @@ $(function() {
 		$message.text('Click Start to give a brain an idea');
 		$board.html("");
 
-		for (var i=0; i < brainNum; i ++) {
+		for (var i=0; i < 5; i ++) {
 			var $brain = $('<div>').attr('id', i);
 			$brain.addClass('brain');
 			$brain.html('<img src="brain.png"/>');
@@ -32,9 +31,7 @@ $(function() {
 	// run the reset function on window onload
 	reset();
 
-	$startShuffle.click(function() {
-		console.log('start clicked');
-		randomBrain = Math.floor(Math.random() * brainNum);
+	$startShuffle.click(function() {	
 		if (state === "start") {
 			giveIdea();
 		} else if (state === "shuffle") {
@@ -46,7 +43,7 @@ $(function() {
 	});
 
 	var giveIdea = function() {
-		console.log('give idea function');
+		randomBrain = Math.floor(Math.random() * 5);
 		$('#' + randomBrain).html('<img src="brainlight.png"/>');
 		$startShuffle.text('SHUFFLE');
 		$startShuffle.css('background-color', 'coral');
@@ -54,24 +51,16 @@ $(function() {
 		state = "shuffle";
 	}
 	
-	// run recursively according to the counter
+	// run recursively according to the counter, to repeat animations
 	var counter = 0;
 	var shuffleBrains = function() {
-		console.log('shuffle brains function running recursively');
 
-		var positions = [];
-		for (var i=0; i < brainNum; i++) {
-			positions.push(i);
-		}
+		var positions = [0, 1, 2, 3, 4];
+        var horizontals = [0, 205, 410, 615, 820];		
 
-        var horizontals = [0, 205, 410, 615, 820, 1025, 1230, 1435];
-		
-		var $allBrains = $('.brain');
-
-		$allBrains.each(function(index, value) {
+		$('.brain').each(function(index, value) {
 			var newIndex = positions.splice(Math.floor(Math.random() * positions.length), 1);
 			$('#' + index).css({transform: 'translate(' + ((newIndex * 205) - horizontals[index]) + 'px)'});
-			$('#' + index).css({transition: 'all 0.4s ease-in'});
 			$('#' + index + ' img').css({ animationName: 'brainsize' });
 		});
 
@@ -97,6 +86,7 @@ $(function() {
 		} else {
 			$('#message').text('Not the brain . . . ');
 		}
+		$('.brain').off('click', checkBrain);
 		state = "reset";
 		$startShuffle.css('display', 'inline-block');
 		$startShuffle.text('RESET');
@@ -107,3 +97,5 @@ $(function() {
 	}
 
 }); // end window.onload
+
+
