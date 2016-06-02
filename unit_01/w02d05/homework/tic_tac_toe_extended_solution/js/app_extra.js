@@ -71,17 +71,16 @@ var makeBoard = function() {
 }
 
 var play = function() {
-	if (!this.className.includes("x") && !this.className.includes("o")) {			
+	if (!this.className.includes("clicked") {			
 		if (turn) {
 			this.innerHTML = '<img src="images/x.png"/>';
-			this.className += ' x';
 			Xpositions.push(this.id);
 		} else {
 			this.innerHTML = '<img src="images/o.png"/>';
-			this.className += ' o';
 			Opositions.push(this.id);
 		}
 		turn = !turn;
+		this.className += " clicked";
 		checkWin();
 	}
 }
@@ -116,82 +115,3 @@ var checkPositions = function(playerPositions) {
 
 // EOF
 
-
-
-
-
-
-
-	// if (size == 9) {
-	// 	windex = [
-	//               [0, 1, 2], [3, 4, 5], [6, 7, 8],
-	//               [0, 3, 6], [1, 4, 7], [2, 5, 8],
-	//               [0, 4, 8], [2, 4, 6]
-	//              ];
-	// } else if (size == 16) {
-	// 	windex = [
-	// 			  [0, 1, 2, 3], [4, 5, 6, 7], [8, 9, 10, 11], [12, 23, 14, 15],
-	// 			  [0, 4, 8, 12], [1, 5, 9, 13], [2, 6, 10, 14], [3, 7, 11, 15],
-	// 			  [0, 5, 10, 15], [3, 6, 9, 12] 	
-	// 			 ];
-	// } else if (size == 25) {
-	// 	windex = [
-	// 			  [0, 1, 2, 3, 4], [5, 6, 7, 8, 9], [10, 11, 12, 13, 14], [15, 16, 17, 18, 19], [20, 21, 22, 23, 24],
-	// 			  [0, 5, 10, 15, 20], [1, 6, 11, 16, 21], [2, 7, 12, 17, 22], [3, 8, 13, 18, 23], [4, 9, 14, 19, 24],
-	// 			  [0, 6, 12, 18, 24], [4, 8, 12, 16, 20] 	
-	// 			 ];
-	// }
-
-
-		// sets up arrays of winning row numbers
-	// for (var i=0; i < Math.sqrt(size); i++) {
-	// 	var row = [];
-	// 	for (var j=(i * Math.sqrt(size)); j < (Math.sqrt(size) + (i * Math.sqrt(size))); j++) {
-	// 		row.push(j);
-	// 	}
-	// 	winrar.push(row);
-	// }
-
-	// console.log('rows: ', winrar);
-
-	// var winwoop = [];
-	// for (var i=0; i < Math.sqrt(size); i++) {
-		// var col = [];
-		// for (var j = i; j < (i + parseInt(size)); j += Math.sqrt(size)) {
-		// 	col.push(j);
-		// }
-	// 	winwoop.push(col);
-	// }
-
-	// console.log('columns: ', winwoop);
-
-// [0, 4, 8], [2, 4, 6]
-	// var windrip = [];
-
-	// var diag1 = [];
-	// var diag2 = [];
-
-	// for (var j=0; j < parseInt(size); j += (Math.sqrt(size) + 1)) {
-	// 	diag1.push(j);
-	// }
-	// for (var k=(Math.sqrt(size) - 1); k <= (size - Math.sqrt(size)); k += (Math.sqrt(size) - 1)) {
-	// 	diag2.push(k);
-	// }
-
-	// console.log('diag1: ', diag1);
-	// console.log('diag2: ', diag2);
-
-
-
-
-	// 0, 3, 6
-	// 1, 4, 7
-	// 2, 5, 8
-
-
-
-	// sets up arrays of winning column numbers
-
-	// sets up arrays of winning diagonal numbers
-
-	// console.log(diag2);

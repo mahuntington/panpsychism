@@ -19,16 +19,15 @@ var windex = [
              ];
 
 var play = function() {
-	if (!this.className.includes("x") && !this.className.includes("o")) {			
+	if (!this.className.includes("clicked")) {			
 		if (turn) {
 			this.innerHTML = '<img src="images/x.png"/>';
-			this.className += ' x';
 			Xpositions.push(this.id);
 		} else {
 			this.innerHTML = '<img src="images/o.png"/>';
-			this.className += ' o';
 			Opositions.push(this.id);
 		}
+		this.className += " clicked";
 		turn = !turn;
 		checkWin();
 	}

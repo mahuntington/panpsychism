@@ -1,22 +1,18 @@
 var fac = function(num, prod) {
-
 	if (num === 0) { return prod }
-
-	prod *= num;
-	
+	prod *= num;	
 	return fac(num - 1, prod);
-
 }
 
 
 
 // Sharon's solution
-var fac = function(num) {
+var fac1 = function(num) {
 
     if (num === 1) {
       return 1;
     }
     
-    return num * fac(num-1);
+    return num * fac1(num-1);
 
 }; // end of function
