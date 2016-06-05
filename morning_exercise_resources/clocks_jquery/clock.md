@@ -1,15 +1,24 @@
-Morning Exercise 12-05
+![ga](http://mobbook.generalassemb.ly/ga_cog.png)
+
+# WDI-PANTHALASSA
+
+---
+Title: Clock jQuery<br>
+Type: Morning Exercise<br>
+Duration: 1hr<br>
+Course: WDIr-Panthalassa<br>
+Competencies: jQuery, CSS Transforms<br>
+
+---
+
+## Clock with jQuery and CSS Transforms
+
 
 #### Learning Objectives
 - Practice using jQuery to manipulate the DOM
-- Practice using JavaScript Timers
-- Practice using internal JavaScript Objects
-
-# Make a working virtual clock
-
-Today you are going to build a clock!
-
-Start by planning! Draw a clock, break down the problem.
+- setInterval and math
+- CSS Transforms
+- JavaScript Timers
 
 ### Step 1
 Define 3 variables and grab the associated element from the DOM using jQuery:

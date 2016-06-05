@@ -12,7 +12,8 @@ $(function() {
 	var $message = $('#message');
 
 	// variables declared globally for use in all functions
-	var randomBrain; var state;
+	var randomBrain; 
+	var state;
 
 	// resets the board, the start button, and the message prompt
 	var reset = function() {
