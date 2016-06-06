@@ -128,9 +128,9 @@ Whole class instruction on how to deploy your project to the world wide web.
 1. Seek out help online
 2. Seek out help with your classmates
 3. Seek out help with Derek (TA)
-4. Submit a Github issue to receive help from an instructor
+4. Submit a Github issue **on the wdi-remote** class Github account to receive help from an instructor
 
-## Formatting your GitHub Issue to ask for help
+## Formatting your GitHub Issue for wdi-remote to ask for help
 
 *PUSH OFTEN! Your code on GitHub should be up to date. Submiting an issue and linking us to old, out-of-date code will hinder the process.*
 
