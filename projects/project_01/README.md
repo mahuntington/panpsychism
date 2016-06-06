@@ -25,9 +25,11 @@ Your app must:
 
 ## Potential Project Ideas
 ​
-##### Connect Four (seperate markdown file with directions)
+##### Connect Four 
+(seperate markdown file with directions)
 
-##### Blackjack (seperate markdown file with directions)
+##### Blackjack 
+(seperate markdown file with directions)
 Make a one player game where people down on their luck can lose all their money by guessing which card the computer will deal next!
 ​
 ##### Self-scoring Trivia
