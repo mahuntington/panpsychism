@@ -86,6 +86,14 @@ Most importantly a **technical demonstration** of your app which:
     **2** | _Meets expectations, good job!_
     **3** | _Exceeds expectations, you wonderful creature, you!_
     
+        Score | Expectations | You should have | and | and | and 
+    ----- | ------------ | ---------------- | --- | ---
+    **5** | Project Workflow | Do you have a Github respository for your project (not inside your wdi-remote repo)? | Did you complete the user stories | wireframes | README.md with specified information | source control with Github (commits)
+    **2** | Technical Requirements | Did you deliver a project that met all the technical requirements? | Given what the class has covered so far, did you build something that was reasonably complex? 
+    **2** | Creativity | Did you add a personal spin or creative element into your project submission? | Did you deliver something of value to the end user (not just a login button and an index page)?
+    **2** | Code Quality | Did you follow code style guidance and best practices covered in class, such as spacing, modularity, and semantic naming? | Did you comment your code as your instructors have in class?
+    **2** | Deployment | Did you deploy your application to a public url using GitHub Pages? 
+    **2** | Technical demonstration | Is 5 minutes in length & shows off all the features of your app.
 ​
  This will serve as a helpful overall gauge of whether you met the project goals, but __the more important scores are the individual ones__ above, which can help you identify where to focus your efforts for the next project!
 
