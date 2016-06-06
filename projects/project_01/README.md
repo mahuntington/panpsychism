@@ -118,4 +118,8 @@ The error(s) returned, copy and pasted/typed out/screenshot, not paraphrased.
 4. **QUESTION**
   - After going through all this what is your questions specifically, more specifically than how can I make this work?
 
-
+## Useful Resources
+​
+* **[MDN Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)** _(a great reference for all things Vanilla Javascript)_
+* **[jQuery Docs](http://api.jquery.com)** _(if you're using jQuery)_
+* **[GitHub Pages](https://pages.github.com)** _(for hosting your game)_
