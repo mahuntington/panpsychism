@@ -87,7 +87,7 @@ Most importantly a **technical demonstration** of your app which:
     **2** | Code Quality | Did you follow code style guidance and best practices covered in class, such as spacing, modularity, and semantic naming? | Did you comment your code as your instructors have in class? |
     **2** | Deployment | Did you deploy your application to a public url using GitHub Pages? |
     **2** | Technical demonstration | Is 5 minutes in length & shows off all the features of your app. | Expalins technical details, technical challenges, and any improvements you might make. |
-    _Maximum possible points_ | **18** |
+    _Maximum possible points_ | **20** |
 ​
 
 
