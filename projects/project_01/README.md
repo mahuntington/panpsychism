@@ -53,7 +53,7 @@ By the time the project is over, we will expect the following from you:
 
 * A **working game, built by you**, hosted somewhere on the internet
 * A **link to your hosted working app** 
-* A **git repository hosted on Github**  and frequent commits dating back to the very beginning of the project
+* A **git repository hosted on Github**  NOT inside your wdi-remote repository. Frequent commits dating back to the very beginning of the project
 * **A ``readme.md`` file** with explanations of the technologies used, the approach taken, a link to your live site, installation instructions, unsolved problems, etc.
 
 Most importantly a **technical demonstration** of your app which:
