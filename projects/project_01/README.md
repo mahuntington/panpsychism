@@ -79,7 +79,7 @@ Most importantly a **technical demonstration** of your app which:
 * __Total__: Your instructors will give you a total score on your project between:
 ​
     
-    Score | Expectations | You should have to meet expectation | and... | and... | and... | and... |
+    Score | Expectations | Expectations | Expectations | Expectations | Expectations | Expectations |
     ----- | ------------ | ---------------- | --- | --- | --- | --- |
     **5** | Project Workflow | Do you have a Github respository for your project (not inside your wdi-remote repo)? | Did you complete the user stories | wireframes | README.md with specified information | source control with Github (commits)
     **2** | Technical Requirements | Did you deliver a project that met all the technical requirements? | Given what the class has covered so far, did you build something that was reasonably complex? 
@@ -87,8 +87,9 @@ Most importantly a **technical demonstration** of your app which:
     **2** | Code Quality | Did you follow code style guidance and best practices covered in class, such as spacing, modularity, and semantic naming? | Did you comment your code as your instructors have in class?
     **1** | Deployment | Did you deploy your application to a public url using GitHub Pages? 
     **2** | Technical demonstration | Is 5 minutes in length & shows off all the features of your app. | Expalins technical details, technical challenges, and any improvements you might make.
+    _Maximum possible points_ | **14**
 ​
- This will serve as a helpful overall gauge of whether you met the project goals, but __the more important scores are the individual ones__ above, which can help you identify where to focus your efforts for the next project!
+
 
 
 
