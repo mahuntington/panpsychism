@@ -25,7 +25,7 @@ _Your instructor will contact you to setup a meeting time_
 Whole class instruction on how to deploy your project to the world wide web.
 
 **Friday, June 10**<br>
-15 minute check in to see where you are before you go into the weekend. Help you decide what to finish and what should be a stretch goal.
+15 minute check in to see where you are before you go into the weekend. Help you to decide what to finish and what features should be stretch goals.
 
 ## Where to go for help during project week
 1. Seek out help online
