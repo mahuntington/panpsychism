@@ -40,21 +40,15 @@ Whole class instruction on how to deploy your project to the world wide web.
 ### CONTEXT
 
 1. **WHAT YOU ARE TRYING TO SOLVE:**
-
-Write a detailed explanation of the feature or user story you're working on.
+- Write a detailed explanation of the feature or user story you're working on.
 
 2. **DETAILED DESCRIPTION OF THE BUG/ERROR:**
-
-A detailed description of the problem, the bug, and/or the error.
-
-This means: the full steps to reproduce, a link to the file on github, and the line number of where the relavent code is.
+- A detailed description of the problem, the bug, and/or the error. This means: the full steps to reproduce, a link to the file on github, and the line number of where the relavent code is.
 The error(s) returned, copy and pasted/typed out/screenshot, not paraphrased.
-
-If there is other code in a different file that is also essential to the functioning of the code that currently works point us to that and explain the relationship.
+- If there is other code in a different file that is also essential to the functioning of the code that currently works point us to that and explain the relationship.
 
 3. **WHAT I'VE TRIED**
-List everything you've done to solve the bug on your own in detail. list all resources you've looked up and tried to implement and provide links. Providing code if you have it surrounded by the md syntax to display nicely is very helpful.
+- List everything you've done to solve the bug on your own in detail. list all resources you've looked up and tried to implement and provide links. Providing code if you have it surrounded by the md syntax to display nicely is very helpful.
 
 4. **QUESTION**
-
-After going through all this what is your questions specifically, more specifically than how can I make this work?
+- After going through all this what is your questions specifically, more specifically than how can I make this work?
