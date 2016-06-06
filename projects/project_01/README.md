@@ -26,11 +26,11 @@ Your app must:
 ## Potential Project Ideas
 ​
 ##### Connect Four 
-(seperate markdown file with directions)
+(seperate markdown file with directions)<br>
 [Connect Four](https://en.wikipedia.org/wiki/Connect_Four) is a two-player game which is probably a thing in your universe, but feel free to read up on it if you'd like to.
 
 ##### Blackjack 
-(seperate markdown file with directions)
+(seperate markdown file with directions)<br>
 Make a one player game where people down on their luck can lose all their money by guessing which card the computer will deal next!
 ​
 ##### Self-scoring Trivia
