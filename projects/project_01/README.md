@@ -66,7 +66,7 @@ Most importantly a **technical demonstration** of your app which:
 
 ## Project Feedback + Evaluation
 ​
-* __Project Workflow__: Did you complete the user stories, wireframes, and the README.md file as specified above? Did you use source control (Github commits) as expected for the phase of the program you’re in (detailed above)?
+* __Project Workflow__: Do you have a Github respository for your project (not inside your wdi-remote repo)? Did you complete the user stories, wireframes, and the README.md file as specified above? Did you use source control (Github commits) as expected for the phase of the program you’re in (detailed above)?
 ​
 * __Technical Requirements__: Did you deliver a project that met all the technical requirements? Given what the class has covered so far, did you build something that was reasonably complex?
 ​
