@@ -27,6 +27,7 @@ Your app must:
 ​
 ##### Connect Four 
 (seperate markdown file with directions)
+[Connect Four](https://en.wikipedia.org/wiki/Connect_Four) is a two-player game which is probably a thing in your universe, but feel free to read up on it if you'd like to.
 
 ##### Blackjack 
 (seperate markdown file with directions)
