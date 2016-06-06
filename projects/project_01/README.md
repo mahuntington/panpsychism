@@ -80,7 +80,7 @@ Most importantly a **technical demonstration** of your app which:
 ​
     
     Score | Category | Expectations | Expectations | Expectations | Expectations | Expectations |
-    ----- | ------------ | ---------------- | --- | --- | --- | --- |
+    :-----: | ------------ | ---------------- | --- | --- | --- | --- |
     **5** | Project Workflow | Do you have a Github respository for your project (not inside your wdi-remote repo)? | Did you complete the user stories | wireframes | README.md with specified information | source control with Github (commits) |
     **2** | Technical Requirements | Did you deliver a project that met all the technical requirements? | Given what the class has covered so far, did you build something that was reasonably complex? |
     **2** | Creativity | Did you add a personal spin or creative element into your project submission? | Did you deliver something of value to the end user (not just a login button and an index page)? |
