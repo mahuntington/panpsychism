@@ -82,7 +82,7 @@ Most importantly a **technical demonstration** of your app which:
     Score | Category | Expectations | Expectations | Expectations | Expectations | Expectations |
     :-----: | ------------ | ---------------- | --- | --- | --- | --- |
     **5** | Project Workflow | Do you have a Github respository for your project (not inside your wdi-remote repo)? | Did you complete the user stories | wireframes | README.md with specified information | source control with Github (commits) |
-    **6** | Technical Requirements | Did you deliver a project that met all the technical requirements? (technical requirement score will be given a grade 1-3)| Given what the class has covered so far, did you build something that was reasonably complex? (complexity will be given a grade 1-3)  |
+    **6** | Technical Requirements | Did you deliver a project that met all the technical requirements? (discussed in your MVP (a score between 1-3 will be given))| Given what the class has covered so far, did you build something that was reasonably complex? (complexity will be given a grade 1-3)  |
     **2** | Creativity | Did you add a personal spin or creative element into your project submission? | Did you deliver something of value to the end user (not just a login button and an index page)? |
     **2** | Code Quality | Did you follow code style guidance and best practices covered in class, such as spacing, modularity, and semantic naming? | Did you comment your code as your instructors have in class? |
     **1** | Deployment | Did you deploy your application to a public url using GitHub Pages? |
@@ -113,7 +113,7 @@ If you have ideas on how you can help a fellow-student with work that they are s
 _Your instructor will contact you to setup a meeting time_
 
 **Tuesday, June 7**<br>
-15 minute meeting to get your project approved.
+15 minute meeting to get your project approved. You will come with your [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) and an initial wireframe.
 
 **Wedesday, June 8**<br>
 15 minute progress check-in
