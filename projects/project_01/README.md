@@ -79,7 +79,7 @@ Most importantly a **technical demonstration** of your app which:
 * __Total__: Your instructors will give you a total score on your project between:
 ​
     
-    Score | Category | Expectations | Expectations | Expectations | Expectations | Expectations |
+    Score | Category | Expectation | Expectation | Expectation | Expectation | Expectation |
     :-----: | ------------ | ---------------- | --- | --- | --- | --- |
     **6** | Project Workflow | Do you have a Github respository for your project (not inside your wdi-remote repo)? | Did you complete the user stories and are they in  your Github issues (2 points) | wireframes | README.md with specified information | source control with Github (commits) |
     **6** | Technical Requirements | Did you deliver a project that met all the technical requirements? (discussed in your MVP (a score between 1-3 will be given))| Given what the class has covered so far, did you build something that was reasonably complex? (complexity will be given a grade 1-3)  |
