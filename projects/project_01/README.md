@@ -15,20 +15,16 @@ If you have ideas on how you can help a fellow-student with work that they are s
 ## Meetings with instructors
 _Your instructor will contact you to setup a meeting time_
 
-**Tuesday, June 7**
-
+**Tuesday, June 7**<br>
 15 minute meeting to get your project approved.
 
-**Wedesday, June 8**
-
+**Wedesday, June 8**<br>
 15 minute progress check-in
 
-**Thursday, June 9**
-
+**Thursday, June 9**<br>
 Whole class instruction on how to deploy your project to the world wide web.
 
-**Friday, June 10**
-
+**Friday, June 10**<br>
 15 minute check in to see where you are before you go into the weekend. Help you decide what to finish and what should be a stretch goal.
 
 ## Where to go for help during project week
