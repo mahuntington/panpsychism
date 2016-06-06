@@ -50,3 +50,20 @@ The error(s) returned, copy and pasted/typed out/screenshot, not paraphrased.
 
 4. **QUESTION**
   - After going through all this what is your questions specifically, more specifically than how can I make this work?
+
+## Deliverables
+
+By the time the project is over, we will expect the following from you:
+
+* A **working game, built by you**, hosted somewhere on the internet
+* A **link to your hosted working app** 
+* A **git repository hosted on Github**  and frequent commits dating back to the very beginning of the project
+* **A ``readme.md`` file** with explanations of the technologies used, the approach taken, a link to your live site, installation instructions, unsolved problems, etc.
+
+Most importantly a **technical demonstration** of your app which:
+
+* Is 5 minutes in length
+* Shows off all features of the app
+* Explains the technical details
+* Explains the technical challenges
+* Explains which improvements you might make
