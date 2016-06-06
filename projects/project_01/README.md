@@ -37,8 +37,6 @@ Whole class instruction on how to deploy your project to the world wide web.
 
 *PUSH OFTEN! Your code on GitHub should be up to date. Submiting an issue and linking us to old, out-of-date code will hinder the process.*
 
-### CONTEXT
-
 1. **WHAT YOU ARE TRYING TO SOLVE:**
   - Write a detailed explanation of the feature or user story you're working on.
 
