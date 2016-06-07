@@ -51,7 +51,7 @@ You will be expected to use the following technologies to implement this project
 
 ### Timeframe
 
-The timeframe for this project is approximately 2 continuous days of class time and two weekend days.
+The timeframe for this project is approximately 3 continuous days of class time and 2 weekend days.
 
 ## Expectations
 

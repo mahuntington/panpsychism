@@ -1,4 +1,4 @@
-# ![]() Project #1: The Game
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #1: The Game
 
 ## Overview of `connect four`
 
@@ -52,7 +52,7 @@ You will be expected to use the following technologies to implement this project
 
 ### Timeframe
 
-The timeframe for this project is approximately 2 continuous days of class time and two weekend days.
+The timeframe for this project is approximately 3 continuous days of class time and 2 weekend days.
 
 ## Expectations
 
