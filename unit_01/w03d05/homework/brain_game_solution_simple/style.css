@@ -6,7 +6,7 @@ body {
 	width: 800px;
 	height: 440px;
 	border: 1px solid black;
-	margin: 0 auto;
+	margin-left: 120px;
 	border-radius: 15px;
 	background-color: ivory;
 }

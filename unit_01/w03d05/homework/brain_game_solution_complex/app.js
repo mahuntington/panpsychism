@@ -6,12 +6,15 @@ $(function() {
 	var $startShuffle = $('#start-shuffle');
 	var $message = $('#message');
 
+
+	// declare globally available variables
 	var gamesPlayed = 0;
 	var wins = 0;
 
 	var randomBrain;
 	var state;
 
+	// resets the board
 	var reset = function() {
 		state = "start";
 		$startShuffle.text("START");
@@ -31,6 +34,8 @@ $(function() {
 	// run the reset function on window onload
 	reset();
 
+	// determines which function to run when the start button is clicked,
+	// depending on the state of the game
 	$startShuffle.click(function() {	
 		if (state === "start") {
 			giveIdea();
@@ -42,6 +47,7 @@ $(function() {
 		}
 	});
 
+	// selects a random brain and gives it an idea
 	var giveIdea = function() {
 		randomBrain = Math.floor(Math.random() * 5);
 		$('#' + randomBrain).html('<img src="brainlight.png"/>');
@@ -51,7 +57,7 @@ $(function() {
 		state = "shuffle";
 	}
 	
-	// run recursively according to the counter, to repeat animations
+	// runs recursively according to the counter, to repeat animations
 	var counter = 0;
 	var shuffleBrains = function() {
 
@@ -64,6 +70,7 @@ $(function() {
 			$('#' + index + ' img').css({ animationName: 'brainsize' });
 		});
 
+		// invokes this function recursively
 		var brainLoop = setTimeout(shuffleBrains, 501);
 
 		counter++;
@@ -78,6 +85,7 @@ $(function() {
 		}			
 	}
 
+	// checks for a winner
 	var checkBrain = function() {
 		if ($(this).is('#' + randomBrain)) {
 			$('#message').text("THIS IS THE BRAIN!!!");
