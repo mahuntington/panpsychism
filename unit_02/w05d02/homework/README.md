@@ -54,7 +54,18 @@ Prerequisites: Javascript <br>
 "Commit 2: Magic 8 Ball express application created."
 <hr>
 
-# Example express application
+# Reminder on how to set up an express application
+- Create a Javascript file (`.js`) for each express application (ex: `tip_calculator.js`).
+- Inside your homework folder, install express `npm install --save express`
+- Check your files. Hint: `ls`. If you have a `node_modules` folder with `express` somewhere inside, then you've successfully added express to your folder.
+- Inside your Javascript file, 
+- 
+
+```
+app.get('/greeting/:name', function(req, res) {
+  res.send({params: req.params, queries: req.query})
+});
+```
 
 <hr>
 ## Views
