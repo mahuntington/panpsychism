@@ -6,8 +6,8 @@ Make a Pokemon app that displays data inside server-side rendered views.
 
 ## App
 
-- When a user goes to the '/pokemon' route they will see an `index` of pokemon: an image of each pokemon rendered to the page.
-- When a user clicks on a pokemon image, they will be taken to that pokemon's `show` page, and will see the pokemon's name, image, types, and stats (hp, attack, and defense only).
+- When a user goes to the '/pokemon' route they will see an `index` of pokemon: the names of each pokemon rendered to the page.
+- When a user clicks on a pokemon image, they will be taken to that pokemon's `show` page, and will see the pokemon's name and image.
 
 ### Structure
 
