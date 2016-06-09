@@ -2,13 +2,13 @@
 
 
 ## Learning Objectives
-* Pracitce setting up express applications. 
+* Practice setting up express applications. 
 * Practice creating custom routes.
-* Practice using parameters from a a request.
+* Practice using parameters from a request.
 
 
 
-####Tonight you will be using your new found skills to create `three seperate` suite suite express apps.
+####Tonight you will be using your new found skills to create three separate Express apps.
 __________________________________________________________
 __________________________________________________________
 
@@ -26,22 +26,11 @@ __________________________________________________________
 - The params of the route should be a question. (ex. `'/magic/Will%20I%20Be%20A%20Millionaire'`)
 - Remember that we can't use spaces in the url, so we use `%20` to express a space in the url.
 - So if the user hits that route and asks a question of "Will I be a Millionaire" he should get his question asked and a random 8ball quote on the  screen.
-- Use this array of 8ball quotes..... `["It is certain", "It is decidedly so", "Without a doubt", "Yes definitely","You may rely on it", "As I see it yes", "Most likely", "Outlook good","Yes", "Signs point to yes", "Reply hazy try again", "Ask again later","Better not tell you now", "Cannot predict now", "Concentrate and ask again","Don't count on it", "My reply is no", "My sources say no","Outlook not so good", "Very doubtful"]`
+- Use this array of 8ball quotes..... 
 
-
-
-
-<br>
-#Calculator APP
-- Create a express application.
-- Create a route for each math operation. 
-- Math operations are `addition`, `subtraction`, `multiplication`, `division`
-- Each route should consist of an operation and 2 parameters which should be numbers (ex. `'/addition/2/4'`).
-- When hitting the route, it should display the value of the 2 numbers and operation (ex. `'/addition/2/4'` should give us `6` on the page).
-
-###Bonus
-- Create your own custom math operations
-- Try making it so that there is only one route for all these operations
+```
+["It is certain", "It is decidedly so", "Without a doubt", "Yes definitely","You may rely on it", "As I see it yes", "Most likely", "Outlook good","Yes", "Signs point to yes", "Reply hazy try again", "Ask again later","Better not tell you now", "Cannot predict now", "Concentrate and ask again","Don't count on it", "My reply is no", "My sources say no","Outlook not so good", "Very doubtful"]
+```
 
 <br>
 #Fibonacci App
@@ -57,13 +46,5 @@ __________________________________________________________
 
 ###Bonus 2:
 - Use recursion to write the function that sums the fibonacci numbers.
-
-
-
-
-
-
-
-
 
 
