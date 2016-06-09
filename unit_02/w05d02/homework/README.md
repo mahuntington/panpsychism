@@ -1,5 +1,19 @@
-Skywalker
-Thom Page & Kristyn Bryan
+![ga](http://mobbook.generalassemb.ly/ga_cog.png)
+
+# WDI-PANTHALASSA
+
+---
+Title: Homework w05d02 <br>
+Type: Homework<br>
+Duration: "4:00"<br>
+Creator:<br>
+    Original creators: WDI-Skywalker<br>
+    Adapted by: Thom Page & Kristyn Bryan<br>
+    Course: WDIr Panthalassa<br>
+Competencies: Express, Routes, Views, Node<br>
+Prerequisites: Express, Routes, Views, Node <br>
+
+---
 
 #EXPRESS YOURSELF!!
 
