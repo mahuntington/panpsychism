@@ -10,8 +10,8 @@ Creator:<br>
     Original creators: WDI-Skywalker<br>
     Adapted by: Thom Page & Kristyn Bryan<br>
     Course: WDIr Panthalassa<br>
-Competencies: Express, Routes, Views, Node<br>
-Prerequisites: Express, Routes, Views, Node <br>
+Competencies: Javascript, Express, Routes, Views, Node<br>
+Prerequisites: Javascript <br>
 
 ---
 
