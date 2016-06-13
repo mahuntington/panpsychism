@@ -58,9 +58,11 @@ Prerequisites: Javascript <br>
 - Create a Javascript file (`.js`) for each express application (ex: `tip_calculator.js`).
 - Inside your homework folder, install express `npm install --save express`
 - Check your files. Hint: `ls`. If you have a `node_modules` folder with `express` somewhere inside, then you've successfully added express to your folder.
-- Inside your Javascript file, 
-- 
+- Inside your Javascript file, require `express` (look back to the markdown from today if you need more help on how to do this)
+- Install express on our server.
+- Tell the server where to listen for requests (the port).
 
+As a reminder, to get and send information, refer to this example:
 ```
 app.get('/greeting/:name', function(req, res) {
   res.send({params: req.params, queries: req.query})
