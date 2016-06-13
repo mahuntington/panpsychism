@@ -33,4 +33,5 @@ We have given you the starter file to use with a basic layout for the html so th
 1. What information am I going to need to store.
 2. What events will I need and how will I have them interact with the web page.
 3. What kind of funtions will I need in order to change the data?
+
 Hint: When you get to the "reset" portion of your stopwatch, try Javascript's `setInterval()` method.
