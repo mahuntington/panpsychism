@@ -30,7 +30,7 @@ Tonight you will be using your new found skills to create three separate Express
 #Greetings APP
 - Create an express application (see the bottom of this homework for a reminder).
 - Your app should have a route of `'/greeting/:name'` and it should expect *1 param* which takes in a person's name.
-- When hitting the route, the page should display a message such as "Hello, <name>", or "What's up, <name>, or "<name>! It's so great to see you!" (ex. hitting `'/greeting/Jimmy-boy'` should display `Wow! Hello there, Jimmy-boy` on the page).
+- When hitting the route, the page should display a message such as "Hello, <name>", or "What's up, <name>", or "<name>! It's so great to see you!" (ex. hitting `'/greeting/Jimmy-boy'` should display `Wow! Hello there, Jimmy-boy` on the page).
 
 **Commit 1** <br>
 <hr>
