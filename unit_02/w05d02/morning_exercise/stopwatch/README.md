@@ -20,7 +20,7 @@ STOP! WATCH TIME!
 
 ![stopwatch](http://www.featurepics.com/FI/Thumb300/20110915/Digital-Stopwatch-1998985.jpg)
 
-Lets write a browser stop watch app. Here are the user stories.
+Lets write a browser stopwatch app. Here are the user stories.
 
 1. The user should be able to see the current amount of time that has gone by at any given point.
 2. The user should be able to start the stopwatch.
