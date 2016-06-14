@@ -21,16 +21,16 @@ The views folder is empty, and it's up to you to make the appropriate folders an
 - in `server.js` set up your server according to the prompts
   - `npm install --save ejs`
 
-**Commit 1** <br>
+**Commit 4** <br>
 <hr>
-"Commit 1: Installed express and ejs."
+"Commit 4: Installed express and ejs."
 <hr>
   
 Your `server.js` will have two routes, one for displaying an index of all the pokemon, and one for showing a single pokemon according to the user's input.
 
-**Commit 2** <br>
+**Commit 5** <br>
 <hr>
-"Commit 2: Created two routes. One for the index of all pokeman and one for a single pokeman."
+"Commit 5: Created two routes. One for the index of all pokeman and one for a single pokeman."
 <hr>
 
 - Make the views. Make sure you installed ejs.
@@ -45,25 +45,25 @@ This view will show the data of a single pokemon. Using ejs, this view should di
 	- The pokemon's name
 	- The image of the pokemon
 
-**Commit 3** <br>
+**Commit 6** <br>
 <hr>
-"Commit 3: Created the show view."
+"Commit 6: Created the show view."
 <hr>
 
 Next, make your `index.ejs` view.
 
 This view will show only the names of each pokemon. All 151 images. (You'll need to use a loop in the ejs).
 
-**Commit 4** <br>
+**Commit 7** <br>
 <hr>
-"Commit 4: Created the index view."
+"Commit 7: Created the index view."
 <hr>
 
 ## BONUS
 When the user clicks on a pokemon's name, they will be taken to that pokemon's show page. You can use an `<a href="">` tag to accomplish this.
  
- **Commit 5** <br>
+ **Commit 8** <br>
 <hr>
-"Commit 5: BONUS: Created a way for users to click on a pokeman's name and redirect to their show page."
+"Commit 8: BONUS: Created a way for users to click on a pokeman's name and redirect to their show page."
 <hr>
     
