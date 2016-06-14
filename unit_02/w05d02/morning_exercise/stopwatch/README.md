@@ -20,6 +20,10 @@ STOP! WATCH TIME!
 
 ![stopwatch](http://www.featurepics.com/FI/Thumb300/20110915/Digital-Stopwatch-1998985.jpg)
 
+## Stopwatch time = partner time!
+
+We will put you in pairs to work on this exercise. One of you should be the driver while the other is the navigator.
+
 Lets write a browser stopwatch app. Here are the user stories.
 
 1. The user should be able to see the current amount of time that has gone by at any given point.
@@ -35,3 +39,5 @@ We have given you the starter file to use with a basic layout for the html so th
 3. What kind of funtions will I need in order to change the data?
 
 Hint: When you get to the "reset" portion of your stopwatch, try Javascript's `setInterval()` method.
+
+When time is up, remember to share your code with your partner.
