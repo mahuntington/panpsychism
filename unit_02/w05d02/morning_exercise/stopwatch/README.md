@@ -28,7 +28,7 @@ Lets write a browser stopwatch app. Here are the user stories.
 4. The user should be able to reset the stopwatch.
 5. Bonus: The user should be able to [make and reset splits](http://news.runtowin.com/2007/05/08/what-is-the-difference-between-split-times-and-lap-times.html) that appear somewhere on the page.
 
-We have given you the starter file to use with a basic layout for the html so that you can focus on the Javascript.  Before you start to code, organize your thoughts by asking yourself these questions:
+We have given you the starter file to use with a basic layout for the html so that you can focus on the Javascript.  Before you start to code, organize your thoughts by asking these questions:
 
 1. What information am I going to need to store.
 2. What events will I need and how will I have them interact with the web page.
