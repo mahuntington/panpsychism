@@ -15,7 +15,7 @@ Prerequisites: Javascript <br>
 
 ---
 
-#EXPRESS YOURSELF!!
+#Express Yourself
 
 
 ## Learning Objectives
