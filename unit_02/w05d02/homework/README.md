@@ -83,20 +83,7 @@ app.get('/greeting/:name', function(req, res) {
 ```
 
 <hr>
-# Look at the View
-
-<br>
-##Peek-a-boo
-- Create a new folder called `views`
-- Create a file called `peek_a_boo.html.ejs`. 
-- Create a file called `server.js`. Inside this file, write code that will render to the screen "Tee hee!" if a user goes to the address `/i_see_you`.
-- If someone types in an address that is NOT `/i_see_you`, a message should be rendered to the screen saying "Where are you?"
-- Write the code in both of your new files that will render data from your `server.js` file in the body of your `peek_a_boo.html.ejs`
-
-**Commit 4** <br>
-<hr>
-"Commit 4: Rendered a view with Peek-a-boo."
-<hr>
-
+# Views Homework
+Go to the folder called `Pokeman_Starter` for the next part of your homework
 
 
