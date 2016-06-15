@@ -43,6 +43,14 @@ The app will also be able to store new vampires. You click on a 'new vampire' li
 
 - Run `npm install` to install all the dependencies that are already in `package.json`.
 
+- `require` the Vampires data stored in the `models` folder:
+
+```
+var vampires = require('./models/vampires.js');
+```
+
+
+
 ### Controllers
 - Make your `index` and `show` routes for the vampires in the vampires model.
 
