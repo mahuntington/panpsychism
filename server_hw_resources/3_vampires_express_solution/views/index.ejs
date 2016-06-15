@@ -1,0 +1,15 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>VAMPIRES</h1>
+	<p><a href="/vampires/new">Add a vampire</a></p>
+	<% vampires.forEach(function(vampire, index) { %>
+
+		<a href="/vampires/<%= index %>"><img src="<%= vampire.img %>"/></a>
+
+	<%	}); %>
+
+</body>
+</html>
