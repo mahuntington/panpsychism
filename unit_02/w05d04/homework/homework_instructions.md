@@ -39,7 +39,7 @@ The app will also be able to store new vampires. You click on a 'new vampire' li
 
 ### DIRECTIONS
 
-- Make a new Express app called `vampires`.
+- Use the `vampires_express` starter code.
 
 - Run `npm install` to install all the dependencies that are already in `package.json`.
 
@@ -169,6 +169,28 @@ The commit message should read: <br>
 "Commit 7: new view".
 <hr>
 
+
+### BONUS - STYLING
+Add styling to your page
+
+Express can access static assets like css files, images, and front-end javascript so that you can make your pages look and behave nicely.
+
+First, tell express to look in the 'public' folder for static assets:
+```
+app.use(express.static('public'));
+```
+
+Next, create a `public` folder in the root of the project. Express will interpret the public folder as the root your static assets.
+
+In your public folder make a style.css and add some stuff in the file.
+
+Link your style.css in one of your views in the normal way with the `link` tag in the head of the html. 
+
+<hr>
+** Commit your work.** <br>
+The commit message should read: <br> 
+"Commit 8: added static assets".
+<hr>
 
 
 ### NOTES ON FORMS
