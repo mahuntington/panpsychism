@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+
+	<form action='/products/<%= data.id %>' method="POST">
+		<input type="hidden" name="_method" value="PUT">
+		<input type="text" name="name" value="<%= data.name %>">
+		<input type="text" name="description" value="<%= data.description %>">
+		<input type="text" name="qty" value="<%= data.qty %>">
+		<input type="text" name="img" value="<%= data.img %>">
+		<button>SUBMIT</button>
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<html ng-app="angularTechniques">
+<head>
+	<title>Advanced Angular</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+
+<body>
+
+	<div ng-controller="RyanController as ctrl">
+
+		<button ng-click="ctrl.getInfo()">Get Ryan</button>
+		<div ng-controller="InfoController as info">
+			<h3 ng-if="info.information">Data displayed in child controller:</h3>
+				<img ng-src="{{ info.information.img}}"/>
+				<div>
+					{{ info.information.id }}
+					{{ info.information.name }}
+					{{ info.information.age }}
+					{{ info.information.gender }}
+					<button ng-if="info.information" ng-click="info.sendMessage()">Send message</button>
+				</div>
+
+				<formsender ng-if="info.information"></formsender>
+
+		</div>
+		<div ng-if="ctrl.message">
+			<h4>Data from child controller:</h4> "{{ ctrl.message.message }}"
+		</div>
+
+	</div>
+
+</br>
+</br>
+</br>
+
+	<div ng-controller="HypatiaController as ctrl">
+
+		<button ng-click="ctrl.getInfo()">Get Hypatia</button>
+		<div ng-controller="InfoController as info">
+			<h3 ng-if="info.information">Data displayed in child controller:</h3>
+			<img ng-src="{{ info.information.img}}"/>
+			{{ info.information.id }}
+			{{ info.information.name }}
+			{{ info.information.age }}
+			{{ info.information.gender }}
+			<button ng-if="info.information" ng-click="info.sendMessage()">Send message</button>
+			<formsender ng-if="info.information"></formsender>
+		</div>
+		<div ng-if="ctrl.message">
+			<h4>Data from child controller:</h4> "{{ ctrl.message.message }}"
+		</div>
+	</div>
+
+
+</body>
+
+</html>

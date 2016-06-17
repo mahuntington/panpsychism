@@ -1,0 +1,50 @@
+<html ng-app="cipher">
+<head>
+	<title></title>
+		<script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js'></script>
+	<script src="md5.min.js"></script>
+	<script type="text/javascript" src="caesarcipher.js"></script>
+	<script type="text/javascript" src="app2.js"></script>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body ng-controller="MainController as ctrl">
+
+
+	{{ ctrl.message }}
+
+	<div>
+		<h1> ENCRYPT! <h1>
+		<div class="left" ng-controller="LeftController as left">
+			<textarea cols="50" rows="30" type="text" ng-keyup="left.transferMessage()" ng-model="left.input"></textarea>
+		</div>
+
+
+		<div class="right" ng-controller="RightController as right">
+			<p>Original: {{ right.original }}</p>
+			<p>Cipher: {{ right.hashed }}</p>
+		</div>
+	</div>
+	
+
+	<div>
+		<h1> UNENCRYPT . . .  <h1>
+		<div class="left" ng-controller="LeftUnController as leftun">
+			<p>{{ leftun.message }}</p>
+			<textarea cols="50" rows="30" type="text" ng-keyup="leftun.transferMessage()" ng-model="leftun.input"></textarea>
+		</div>
+
+
+		<div class="right" ng-controller="RightUnController as rightun">
+
+			<p>Cipher: {{ rightun.original }}</p>
+
+			<p>Original: {{ rightun.hashed }}</p>
+
+		</div>
+	</div>
+
+
+
+
+</body>
+</html>

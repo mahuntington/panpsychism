@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="AuthApp">
+<head>
+	<title> Single-page auth test</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body ng-controller="MainController as ctrl">
+
+	{{ ctrl.message }}
+
+
+	<div>
+		<h3>SIGNUP</h3>
+		<form ng-submit="ctrl.signup()">
+			<input ng-model="ctrl.signupdata.username" placeholder="username">
+			<input ng-model="ctrl.signupdata.email" placeholder="email">
+			<input ng-model="ctrl.signupdata.password" placeholder="password">
+			<button type="submit">SUBMIT</button>
+		</form>
+	</div>
+
+	<div>
+		<h3>LOGIN</h3>
+		<form ng-submit="ctrl.login()">
+			<input ng-model="ctrl.logindata.email" placeholder="email">
+			<input ng-model="ctrl.logindata.password" placeholder="password">
+			<button type="submit">SUBMIT</button>
+		</form>
+	</div>
+
+	<div>
+		<p>{{ ctrl.user.username }}</p>
+		<p>{{ ctrl.user.password }}</p>
+		<p>{{ ctrl.user.email }}</p>
+		<p>{{ ctrl.user.id }}</p>
+	</div>
+
+	<a href="#" ng-click="ctrl.logout()">log me out</a>
+
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+<h1><%= data.username %>'s cart %></h1>
+
+<ul>
+	<% for (var i=0; i < data.shopping_cart.length; i++) { %>
+		
+			<li><%= data.shopping_cart[i].name %></li>
+
+	<% } %>
+</ul>

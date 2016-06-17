@@ -1,0 +1,45 @@
+<html ng-app="cipher">
+<head>
+	<title></title>
+	  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js'></script>
+	<script type="text/javascript" src="caesarcipher.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body ng-controller="MainController as ctrl">
+
+	<div id="container">
+
+		<h1> CAESAR CIPHER </h1>
+		<div>
+			<h2>ENCODE</h2>
+			<div class="box">
+				Original
+				<textarea rows="10" cols="45" ng-keyup="ctrl.encrypt()" ng-model="ctrl.original" ></textarea>
+			</div>
+
+			<div class="box">
+				Encrypted </br></br>
+				{{ ctrl.encrypted }}
+			</div>
+		</div>
+
+		<div>
+			<h2>DECODE</h2>
+			<div class="box">
+				Encrypted
+				<textarea rows="10" cols="45" ng-keyup="ctrl.decrypt()" ng-model="ctrl.input" ></textarea>
+			</div>
+
+			<div class="box">
+				Original </br><br/>
+				{{ ctrl.decrypted }}
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

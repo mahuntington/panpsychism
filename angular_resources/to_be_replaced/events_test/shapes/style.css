@@ -1,0 +1,47 @@
+div {
+	border: 1px solid red;
+	margin: 50 auto;
+}
+
+.lvl1 {
+	height: 800px; width: 800px;
+}
+
+
+.lvl2 {
+	height: 700px; width: 700px;
+}
+
+
+.lvl3 {
+	height: 600px; width: 600px;
+}
+
+
+.lvl4 {
+	height: 500px; width: 500px;
+}
+
+
+.lvl5 {
+	height: 400px; width: 400px;
+}
+
+
+.lvl6 {
+	height: 300px; width: 300px;
+}
+
+
+.lvl7 {
+	height: 200px; width: 200px;
+}
+
+
+.lvl8 {
+	height: 100px; width: 100px;
+}
+
+
+
+

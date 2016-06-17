@@ -1,0 +1,35 @@
+<html ng-app="events">
+<head>
+	<title></title>
+	<script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js'></script>
+	<script type="text/javascript" src="app.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">	
+</head>
+
+<body ng-controller="MainCtrl as ctrl">
+
+	<div class="lvl1" ng-controller="Level1 as lvl1" ng-style="{ background: lvl1.color}">	{{ lvl1.color }}
+		<div class="lvl2" ng-controller="Level2 as lvl2" ng-style="{ background: lvl2.color }" ng-click="lvl2.selectcolor()">
+			{{ lvl2.color }}
+			<div class="lvl3">
+				<div class="lvl4">
+					<div class="lvl5">
+						<div class="lvl6">
+							<div class="lvl7">
+								<div class="lvl8">
+							
+								</div> <!-- lvl8 -->
+							</div> <!-- lvl7 -->
+						</div> <!-- lvl6 -->
+					</div> <!-- lvl5 -->
+				</div> <!-- lvl4 -->
+			</div> <!-- lvl3 -->
+		</div> <!-- lvl2 -->
+	
+	</div>
+	</div> <!-- lvl1 -->
+
+
+</body>
+
+</html>

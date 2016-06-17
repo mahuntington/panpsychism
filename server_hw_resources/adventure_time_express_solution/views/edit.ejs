@@ -1,0 +1,7 @@
+<form action="/characters/<%=data.id%>" method="POST">
+	<input type="text" name="name" value="<%=data.name%>"/>
+	<input type="text" name="img" value="<%=data.img%>"/>
+	<input type="text" name="about" value="<%=data.about%>"/>
+	<input type="hidden" name="_method" value="PUT"/>
+	<button>submit</button>
+</form>

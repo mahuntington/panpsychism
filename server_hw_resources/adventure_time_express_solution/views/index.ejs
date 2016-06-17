@@ -1,0 +1,13 @@
+<h1 style="font-family: monospace; display: inline-block">ADVENTURE TIME CHARACTERS</h1>
+
+<a href="/characters/new" style="display: inline-block">Add new character</a>
+
+</br>
+
+<% for (var i=0; i < data.length; i++) { %>
+
+	<a href="characters/<%=data[i].id%>">
+		<img src="<%= data[i].img%>"/>
+	</a>
+
+<% } %>
