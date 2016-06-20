@@ -105,16 +105,16 @@ If you have ideas on how you can help a fellow-student with work that they are s
 _Your instructor will contact you to setup a meeting time_
 
 **Friday, June 24**<br>
-15 minute meeting to get your project approved. You will come with your [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) and an initial wireframe.
+Work on your [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) and an initial wireframe in the morning. You will have a 15 minute meeting to get your project approved.
 
-**Wedesday, June 8**<br>
-15 minute progress check-in
+**Saturday & Sunday, June 25-26**<br>
+Work on your project. Come prepared with any questions for Monday morning.
 
-**Thursday, June 9**<br>
-Whole class instruction on how to deploy your project to the world wide web.
+**Monday, June 27**<br>
+15 minute check in to see where you are with your work over the weekend. Help you to decide what to finish and what features should be stretch goals.
 
-**Friday, June 10**<br>
-15 minute check in to see where you are before you go into the weekend. Help you to decide what to finish and what features should be stretch goals.
+**Tuesday, June 28**<br>
+Submit your issue by 10 am EDT and present your project.
 
 ## Where to go for help during project week
 1. Seek out help online
