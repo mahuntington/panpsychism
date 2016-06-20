@@ -52,7 +52,7 @@ You will be expected to use the following technologies to implement this project
 
 ### Timeframe
 
-Project kickoff is Friday, October 9th, and last day for development is Thursday, October 15th.  We will be demoing our deployed applications on Friday, October 16th.
+Project kickoff is Friday, June 24th, and last day for development is Monday, June 27th.  We will be demoing our deployed applications on Tuesday, June 28th.
 
 ## Expectations
 
@@ -73,13 +73,10 @@ As a student you should be doing the following things:
 Please remember to try the following things when you encounter a problem:
 ​
 1. If the problem involves a JavaScript error, please try to google the error message.
-2. Ask someone sitting near you if they've encountered a similar problem.
-3. Ask the slack help channel if anyone has encountered a similar problem.
+2. Ask someone on Slack if they've encountered a similar problem.
+3. Ask Derek
 4. BONUS: Write up your question on stackoverflow and try to elicit community support
-5. Finally, create an issue, tagging the instructors with the following information
-	- Explaination of problem
-	- Steps taken to solve the problem
-	- Guess as to why the problem is happening
+5. Finally, create an issue (see what is needed in Project 2 README.md)
 	
 ### Us
 
@@ -98,7 +95,7 @@ Did you add a personal spin or creative element into your project submission? Di
 Did you follow code style guidance and best practices covered in class, such as spacing, modularity, and semantic naming? Did you comment your code as your instructors have in class?
 
 - **Problem Solving**  
-Are you able to defend why you implemented your solution in a certain way? Can you demonstrate that you thought through alternative implementations? (Note that this part of your feedback evaluation will take place during your one-on-one code review with your instructors, after you've completed the project.)
+Are you able to defend why you implemented your solution in a certain way? Can you demonstrate that you thought through alternative implementations? 
 
 ## Deliverables
 
