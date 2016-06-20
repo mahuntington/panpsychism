@@ -1,4 +1,4 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #2: Building Your First Full-stack Application
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #2: Building Your First Full-Stack Application
 
 ## Overview of `Wiki.app`
 
@@ -73,14 +73,11 @@ As a student you should be doing the following things:
 Please remember to try the following things when you encounter a problem:
 ​
 1. If the problem involves a JavaScript error, please try to google the error message.
-2. Ask someone sitting near you if they've encountered a similar problem.
-3. Ask the slack help channel if anyone has encountered a similar problem.
+2. Ask someone on Slack if they've encountered a similar problem.
+3. Ask Derek
 4. BONUS: Write up your question on stackoverflow and try to elicit community support
-5. Finally, create an issue, tagging the instructors with the following information
-	- Explaination of problem
-	- Steps taken to solve the problem
-	- Guess as to why the problem is happening
-
+5. Finally, create an issue (see what is needed in Project 2 README.md)
+	
 ### Us
 
 Since your instructors will be assessing your work, they will look for the following things:
