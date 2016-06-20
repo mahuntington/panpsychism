@@ -1,11 +1,9 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #2
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #2: Building Your First Full-stack Application
 ​
 ## Overview
-​
-Let's start out with something fun - **a game!**
-​
-Everyone will get a chance to **be creative**, and work through some really **tough programming challenges** – since you've already gotten your feet wet with Tic Tac Toe, it's up to you to come up with a fun and interesting game to build.
-​
+
+You will have the option of chosing between creating a wiki or a forum (details for these are in seperate markdown files in this folder). 
+You will be creating a full stack application using everything that you've learned in Unit 2.
 **You will be working individually for this project**, but we'll be guiding you along the process and helping as you go. Show us what you've got!
 
 
@@ -13,35 +11,29 @@ Everyone will get a chance to **be creative**, and work through some really **to
 ​
 Your app must:
 ​
-* **Render a game in the browser**
-* **Switch turns** between two players
-* **Design logic for winning** & **visually display which player won**
+* **Meet the specific requirements specified in the individual project markdown**
 * **Include separate HTML / CSS / JavaScript files**
+* Use Node.js, Mongoose, and Express.
 * Stick with **KISS (Keep It Simple Stupid)** and **DRY (Don't Repeat Yourself)** principles
-* Use **Javascript or jQuery** for **DOM manipulation**
-* **Deploy your game online**, where the rest of the world can access it
+* **Deploy your application online**, where the rest of the world can access it
 * Use **semantic markup** for HTML and CSS (adhere to best practices)
 ​
 
-## Potential Project Ideas
+## Project Markdowns
 ​
-##### Connect Four 
+##### Wiki
 (seperate markdown file with directions)<br>
-[Connect Four](https://en.wikipedia.org/wiki/Connect_Four) is a two-player game which is probably a thing in your universe, but feel free to read up on it if you'd like to.
+Henrietta is a business magnate and wants to create an internally facing wiki for her organization. She wants her employees to be able to write articles in order to inform colleagues about their insights.
 
-##### Blackjack 
+##### Forum
 (seperate markdown file with directions)<br>
-Make a one player game where people down on their luck can lose all their money by guessing which card the computer will deal next!
-​
-##### Self-scoring Trivia
-Test your wits & knowledge with whatever-the-heck you know about (so you can actually win). Guess answers, have the computer tell you how right you are!
 
 ### Suggested Ways to Get Started
 ​
-* **Wireframe** Make a drawing of what your app will look like in all of the stages of the game (what does it look like as soon as you log on to the site? What does it look like once a player enters their name? What does it look like while the player is playing? What does it look like when the player wins / loses?).
+* **Wireframe** Make a drawing of what your app will look like on each page of your application (what does it look like as soon as you log on to the site? What does it look like once a user logs in, etc.).
 * **Break the project down into different components** (data, presentation, views, style, DOM manipulation) and brainstorm each component individually. 
 * **Use your Development Tools** (console.log, inspector, alert statements, etc) to debug and solve problems
-* Work through the lessons in class for help and inspiration! Think about adding relevant code to your game each day - you are given 5 days so that you can work on it in small chunks, COMMIT OFTEN. We will be looking at your commit dates and comments are part of your scoring.
+* Work through the lessons in class for help and inspiration! Think about adding relevant code to your application each day - you are given 4 days so that you can work on it in small chunks, COMMIT OFTEN. We will be looking at your commit dates and comments are part of your scoring.
 * **Commit early, commit often.** Don’t be afraid to break something because you can always go back in time to a previous version.
 * **Consult documentation resources** (MDN, jQuery, etc.) at home to better understand what you’ll be getting into.
 * **Don’t be afraid to write code that you know you will have to remove later.** Create temporary elements (buttons, links, etc) that trigger events if real data is not available. For example, if you’re trying to figure out how to change some text when the game is over but you haven’t solved the win/lose game logic, you can create a button to simulate that until then.
@@ -51,7 +43,7 @@ Test your wits & knowledge with whatever-the-heck you know about (so you can act
 
 By the time the project is over, we will expect the following from you:
 
-* A **working game, built by you**, hosted somewhere on the internet
+* A **working application, built by you**, hosted somewhere on the internet
 * A **link to your hosted working app** 
 * A **git repository hosted on Github**  NOT inside your wdi-remote repository. Frequent commits dating back to the very beginning of the project
 * **A ``readme.md`` file** with explanations of the technologies used, the approach taken, a link to your live site, installation instructions, unsolved problems, etc.
@@ -112,7 +104,7 @@ If you have ideas on how you can help a fellow-student with work that they are s
 ## Meetings with instructors
 _Your instructor will contact you to setup a meeting time_
 
-**Tuesday, June 7**<br>
+**Friday, June 24**<br>
 15 minute meeting to get your project approved. You will come with your [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) and an initial wireframe.
 
 **Wedesday, June 8**<br>
