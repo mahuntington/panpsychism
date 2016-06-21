@@ -11,7 +11,7 @@ app.get('/json/instructors', function(req, res) {
 		{ name: 'Thom', exists: false },
 		{ name: 'Matt', exists: false },
 		{ name: 'Colin', exists: false },
-		{ name: 'Colin', exists: false }
+		{ name: 'Kristyn', exists: false }
 	];
 	res.send(json);
 });
