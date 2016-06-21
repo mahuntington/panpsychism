@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+
+<div id="show-container">
+	<a href="/products">Back to products</a>
+
+	<h1><%= data.name %></h1>
+
+	<div id="show-product">
+
+		<img id="show-img" src="<%= data.img %>"/>
+
+		<p><%= data.description %></p>
+		<p>PRICE: $<%= data.price %></p>
+		
+		<% if (data.qty > 0) { %>
+			<p id="in-stock"><%= data.qty %> remaining</p>
+		
+			<form action="/products/buy/<%= data.id %>" method="POST">
+				<input type="hidden" name="_method" value="PUT">
+				<button id="buy-button">BUY</button>
+			</form>
+
+		<% } else { %>
+			<p id="out-of-stock">OUT OF STOCK<p>
+		<% } %>
+
+		<a href="/products/<%= data.id %>/edit"><p>Edit this product</p></a>
+		<br/><br/>
+
+	</div>
+
+	<form action="/products/<%= data.id %>" method="POST">
+		<input type="hidden" name="_method" value="DELETE">
+		<input id="delete-button" type="submit" value="DELETE">
+	</form>
+
+</div>
+
+</body>
+</html>

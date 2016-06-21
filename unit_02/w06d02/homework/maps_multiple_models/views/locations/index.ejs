@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>Locations App</title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="/js/locationsIndex.js"></script>
+</head>
+<body>
+
+	<div id="container">
+		<div id="header">
+			<% include ../title_partial.ejs %>
+		</div>
+
+		<main>
+			<div id="map-canvas"></div>
+
+			<div id="control-panel">
+				<a href="/users"><p>Locations by user</p></a>
+			</div> <!-- end control-panel -->
+		</main>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+
+	<a href="/products/new">Add a new product</a>
+
+	<h1>SHOP</h1>
+
+	<% for (var i=0; i < data.length; i++) { %>
+
+		<div id="product">
+			<h2><%= data[i].name %></h2>
+			<a href="/products/<%= data[i].id %>">
+				<img src="<%= data[i].img %>"/>
+			</a>
+			<p>Price: $<%= data[i].price %></p>
+		</div>
+
+	<% } %>
+
+</body>
+</html>

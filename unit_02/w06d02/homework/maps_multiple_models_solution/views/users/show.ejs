@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="/js/show.js"></script>
+</head>
+<body>
+
+	<p id="user_id" style="display: none"><%= user.id %></p>
+
+	<div id="container">
+		<div id="header">
+			<h1 id="title">THESE ARE LOCATIONS</h1>
+		</div>
+		<main>
+			<div id="map-canvas"></div>
+			<div id="control-panel">
+					<a href="/locations"><p>All locations</p><a>
+					<a href="/users"><p>Back to all users</p></a>
+					<p id="users-title"><%= user.username %>'s locations</p>
+					<p>add a new location</p>
+					<form action="/users/<%= user.id %>/newlocation" method="POST">
+						<input type="text" name="name" placeholder="name">
+						<input type="text" name="lat" placeholder="latitude">
+						<input type="text" name="lng" placeholder="longitude">
+						<input type="submit">				
+					</form>
+					<div id="locations-container">
+						<% for (var i=0; i < user.locations.length; i++) { %>
+							<div class="location">
+								<p><%= user.locations[i].name %></p>
+							</div>
+						<% } %>
+					</div>
+					<form action="/users/<%= user.id %>" method="POST">
+						<input type="hidden" name="_method" value="DELETE">
+						<button id="delete-button">Delete User</button>
+					</form>
+			</div>
+		</main>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>Locations App</title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="/js/usersIndex.js"></script>
+</head>
+<body>
+
+	<div id="container">
+		<div id="header">
+			<% include ../title_partial.ejs %>
+		</div>
+
+		<main>
+			<div id="map-canvas"></div>
+
+			<div id="control-panel">
+
+				<a href="/locations"><p>All Locations</p></a>
+
+				<div id="dataset-select-container">
+					<p id="users-title">Users</p>
+					<select id="dataset-select">
+						<option value="no id"/>-------</option>
+						<!-- options for users -->
+					</select>					
+				</div>
+
+				<p>Add a new user</p>
+				<form action="/users" method="POST">
+					<input type="text" name="username" placeholder="username">
+					<input type="submit">
+				</form>
+
+			</div> <!-- end control-panel -->
+		</main>
+	</div>
+
+</body>
+</html>
