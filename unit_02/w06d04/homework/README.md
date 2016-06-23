@@ -3,8 +3,8 @@
 # WDI-PANTHALASSA
 
 ---
-Title: Morning Exercise - Caesar Cipher w06d04 <br>
-Type: Morning Exercise<br>
+Title: Sessions & Authentication w06d04 <br>
+Type: Homework<br>
 Duration: "3:00"<br>
 Creator:<br>
     Original creators: WDI-Archer & WDI-Bowie<br>
