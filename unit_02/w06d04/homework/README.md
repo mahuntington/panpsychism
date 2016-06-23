@@ -18,9 +18,10 @@ Prerequisites: Javascript<br>
 
 ## Handling Sessions in Node
 
-You're going to create a small application to continue using the new knowledge that you just obtained today. Create a new express server and npm install and require everything you need (install express, express-sessions, body-parser, ejs, and mongoose,etc.). 
+You're going to create a small application to continue using the new knowledge that you just obtained today. 
+- Create a new express server and npm install and require everything you need (install express, express-sessions, body-parser, ejs, and mongoose,etc.). 
 
-Also remember to touch a [.gitignore](https://git-scm.com/docs/gitignore) file and ignore `node_modules`. 
+- Also remember to touch a [.gitignore](https://git-scm.com/docs/gitignore) file and ignore `node_modules`. 
 
 **Commit 1** <br>
 <hr>
@@ -30,39 +31,39 @@ Also remember to touch a [.gitignore](https://git-scm.com/docs/gitignore) file a
 
 Do the following with this server:
 
-Create 2 pages: a welcome page and a form page. 
+- Create 2 pages: a welcome page and a form page. 
 
-The form should ask the user for a name. When the user submits the form, save it in sessions and make the welcome page display: "Welcome, name". Refresh the welcome page, does the name persist?
+- The form should ask the user for a name. When the user submits the form, save it in sessions and make the welcome page display: "Welcome, name". Refresh the welcome page, does the name persist?
 
 **Commit 2** <br>
 <hr>
 "Commit 2: Created a form page and a welcome page."
 <hr>
 
-Lets now use a database with stored information to populate our session.
+- Lets now use a database with stored information to populate our session.
 
-Connect to mongo using mongoose.
+- Connect to mongo using mongoose.
 
 **Commit 3** <br>
 <hr>
 "Commit 3: Connected mongo using mongoose."
 <hr>
 
-Create a mongoose schema for a user. Be sure to register it into a model. The schema should have a name (string) and color (also string).
+- Create a mongoose schema for a user. Be sure to register it into a model. The schema should have a name (string) and color (also string).
 
 **Commit 4** <br>
 <hr>
 "Commit 4: Created a schema and model for user."
 <hr>
 
-Change the form route for setting the user's name. Instead of setting it in sessions, create a new user in your user collection. Add an input for the person's favorite color and store that along with the user's name.
+- Change the form route for setting the user's name. Instead of setting it in sessions, create a new user in your user collection. Add an input for the person's favorite color and store that along with the user's name.
 
 **Commit 5** <br>
 <hr>
 "Commit 5: New form element for color and saving that information with the user."
 <hr>
 
-Create a new page for a login form. This form should take only a user's name. 
+- Create a new page for a login form. This form should take only a user's name. 
 When a user submits the form, find their document in the database and set, in sessions, their name and color.
 
 **Commit 6** <br>
@@ -70,7 +71,7 @@ When a user submits the form, find their document in the database and set, in se
 "Commit 6: Created a new page for login. Create a session and display their information."
 <hr>
 
-When a user goes to the welcome page, if they do not have a name set in sessions, redirect them to the login. If they have a name, render the welcome page with the normal welcome message and change the background to their color.
+- When a user goes to the welcome page, if they do not have a name set in sessions, redirect them to the login. If they have a name, render the welcome page with the normal welcome message and change the background to their color.
 
 **Commit 7** <br>
 <hr>
