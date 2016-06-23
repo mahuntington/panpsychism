@@ -252,118 +252,16 @@ app.use(session({
 
 Add to pg.js
 ```
-var session = require('express-session')
-```
-
-```
-function loginUser(req, res, next) {
-  var email = req.body.email;
-  var password = req.body.password;
-
-  // find user by email entered at log in
-  pg.connect(connectionString, function(err, client, done) {
-    // Handle connection errors
-    if(err) {
-      done();
-      console.log(err);
-      res.status(500).json({ success: false, data: err});
-    }
-
-    var query = client.query("SELECT * FROM users WHERE email LIKE ($1);",
-      [email], function(err, result) {
-        done()
-        if(err) {
-          return console.error('error, running query', err);
-        }
-
-        if (result.rows.length == 0) {
-          res.status(204).json({success: false, data: 'no account matches that password'})
-        } else if (bcrypt.compareSync(password, result.rows[0].password_digest)) {
-          res.rows = result.rows[0]
-          next()
-        }
-    });
-  });
-}
-```
 
 
-```
-users.post('/login', db.loginUser, (req, res) => {
-    req.session.user = res.rows
-
-    // when you redirect you must force a save due to asynchronisity
-    // https://github.com/expressjs/session/issues/167 **
-    // "modern web browsers ignore the body of the response and so start loading
-    // the destination page well before we finished sending the response to the client."
-
-    req.session.save(function() {
-      res.redirect('/')
-    })
-})
-```
-
-3. So it appears to be working, how can we check?
-  - we can check the sessions table
-  - we can also render a dynamic welcome message on the home page based on who is logged in!
-
-  add the object req.session.user object to the view!
-
-  ```
-  app.get('/', function(req, res) {
-    res.render('home.html.ejs', { user: req.session.user})
-  })
-  ```
-
-  ```
-  <% if (user) {%>
-    <h3>Welcome <%= user.email %></h3>
-  <% } %>
-  ```
 
 ## Challenges: Part 4 logout
 
 **Goal:** Add a route to log a user out
 
-1. Add a delete route /logout to users.js
-2. Install method override
-3. Add a form/button on the home page that links to that delete route
-
-What is that delete route going to delete? The user? what?
-Answer: the session!
-
-```
-<div>
-  <form method="post" action="users/logout?_method=DELETE">
-    <button>logout</button>
-  </form>
-</div>
-```
-
-```
-users.delete('/logout', (req,res) => {
-  req.session.destroy(function(err) {
-    res.redirect('/')
-  })
-})
-```
+1. Add a delete route / logout to users.js
+2. Install `method-override`
+3. Add a form/button on the home page that links to that `delete` route
 
 
-## Challenges: Part 5 How do we restrict routes?
 
-**Goal:**
-
-1. create an image router an image view index.html.ejs that just
-
-We need to check and see if there is a session, if there is, great! next()
-if not throw an error.
-
-```
-images.use(function(req, res, next) {
-  console.log(req.session)
-  if (req.session.user) {
-    next()
-  } else {
-    res.status(301).json({succes: false, data: 'not logged in'})
-  }
-})```
