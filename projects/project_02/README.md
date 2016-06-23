@@ -33,7 +33,7 @@ Henrietta is a business magnate and wants to create an internally facing wiki fo
 * **Wireframe** Make a drawing of what your app will look like on each page of your application (what does it look like as soon as you log on to the site? What does it look like once a user logs in, etc.).
 * **Break the project down into different components** (data, presentation, views, style, DOM manipulation) and brainstorm each component individually. 
 * **Use your Development Tools** (console.log, inspector, alert statements, etc) to debug and solve problems
-* Work through the lessons in class for help and inspiration! Think about adding relevant code to your application each day - you are given 4 days so that you can work on it in small chunks, COMMIT OFTEN. We will be looking at your commit dates and comments are part of your scoring.
+* Work through the lessons in class for help and inspiration! Think about adding relevant code to your application each day - you are given 7 days so that you can work on it in small chunks, COMMIT OFTEN. We will be looking at your commit dates and comments are part of your scoring.
 * **Commit early, commit often.** Don’t be afraid to break something because you can always go back in time to a previous version.
 * **Consult documentation resources** (MDN, jQuery, etc.) at home to better understand what you’ll be getting into.
 * **Don’t be afraid to write code that you know you will have to remove later.** Create temporary elements (buttons, links, etc) that trigger events if real data is not available. For example, if you’re trying to figure out how to change some text when the game is over but you haven’t solved the win/lose game logic, you can create a button to simulate that until then.
@@ -111,9 +111,17 @@ Work on your [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) and an 
 Work on your project. Come prepared with any questions for Monday morning.
 
 **Monday, June 27**<br>
-15 minute check in to see where you are with your work over the weekend. Help you to decide what to finish and what features should be stretch goals.
+15 minute check in to see where you are with your work over the weekend. 
 
 **Tuesday, June 28**<br>
+
+**Wednesday, June 29**<br>
+Lesson on Heroku deployment
+
+**Thursday, June 30**<br>
+15 minute check in to see progress decide whether to move forward with or abandon stretch goals.
+
+**Friday, July 1st**<br>
 Submit your issue by 10 am EDT and present your project.
 
 ## Where to go for help during project week
