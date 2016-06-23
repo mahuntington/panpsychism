@@ -52,7 +52,7 @@ You will be expected to use the following technologies to implement this project
 
 ### Timeframe
 
-Project kickoff is Friday, June 24th, and last day for development is Monday, June 27th.  We will be demoing our deployed applications on Tuesday, June 28th.
+Project kickoff is Friday, June 24th, and last day for development is Thursday, June 30.  We will be demoing our deployed applications on Friday, July 1st.
 
 ## Expectations
 
