@@ -75,13 +75,12 @@ When a user goes to the welcome page, if they do not have a name set in sessions
 FROM MATT"S LESSON
 Install and reqire `bcrypt`
 
-
 Create a route for username and password
 Encrypt the password using bcrypt.
 Reminder on how to has a password string using bcrypt:
 `req.session.password = bcrypt.hashSync(req.params.password, bcrypt.genSaltSync(10));`
 
-
+Write the login function that will take the username and password and confirm that the password matches. 
 ////////////////////////////////////////////
 
 
@@ -90,16 +89,6 @@ Reminder on how to has a password string using bcrypt:
 <hr>
 
 ## # Authentication with Express & Bcrypt & PG
-- adapted from
-https://github.com/ajbraus/wdi-homework/blob/master/express-auth-bcrypt.md
-
-| Objectives |
-| :--- |
-| Implement a password **authentication** strategy with bcrypt |
-| Saved a logged-in user's data to the session |
-| Implement routes for a user to `signup`, `/login`, and `/logout` |
-| Apply session data in views|
-
 
 ## Authentication & Authorization
 
@@ -110,22 +99,9 @@ https://github.com/ajbraus/wdi-homework/blob/master/express-auth-bcrypt.md
 6. Add a home route to `server.js` which renders `home.html.ejs` which has an anchor tag, signup that links to `/users/new` with text of `Signup`.
 
 7. in the routes directory with a file users.js
-  ```
-  var express = require('express');
-  var users = express.Router();
-  var bodyParser = require('body-parser');
-  var db = require('./../db/pg');
-  ```
 
   Add the corresponding code in your server.js
 
-  ```
-  var userRoutes = require( path.join(__dirname, '/routes/users'));
-
-  [...]
-
-  app.use('/users', userRoutes)
-  ```
 
   - define a route in this file. A get route `/users/new`
 
@@ -138,25 +114,6 @@ https://github.com/ajbraus/wdi-homework/blob/master/express-auth-bcrypt.md
 
   The form will make a post request to `/users`
 
-  ```
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-  </head>
-  <body>
-    <form action="/users" method="post">
-      <label for="email">email</label>
-      <input type="text" name="email">
-      <label for="password">password</label>
-      <input type="text" name="password">
-
-      <input type="submit" value="Submit">
-    </form>
-  </body>
-  </html>
-  ```
 
 ## Challenges: Part 2
 
@@ -164,16 +121,6 @@ So we now have the beginning of our signup flow but nothing his happening yet. R
 
 **Goal:** Set up bcrypt to hash our password and save that hashed password to the db
 
-1. Install bcrypt and add it to pj.js
-
-  ```
-  $ npm install bcrypt --save
-
-  ```
-  - at the top of pj.js add
-  ```
-  var bcrypt = require('bcrypt');
-  ```
 
   What is salting?
 
