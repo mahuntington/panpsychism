@@ -72,7 +72,13 @@ When a user goes to the welcome page, if they do not have a name set in sessions
 "Commit 7: The user has a custom page or is redirected to the login if their name isn't set to the session. "
 <hr>
 
+FROM MATT"S LESSON
+Install and reqire `bcrypt`
 
+Hash a string using bcrypt.
+
+Reminder on how to has a password string using bcrypt:
+`req.session.password = bcrypt.hashSync(req.params.password, bcrypt.genSaltSync(10));`
 
 
 ////////////////////////////////////////////
