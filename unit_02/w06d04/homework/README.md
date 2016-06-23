@@ -16,22 +16,31 @@ Prerequisites: Javascript<br>
 ---
 # Homework
 
-Copy your files and folder from Tuesday night's homework (that you worked on last night as well) into tonight's homework folder. You will be using the application that you made to work on tonight's homework.
-
-Remember to run `bundle install` inside the folder that has been copied over so that node can reinstall all of the packages that you installed previously. Also remember to touch a .gitignore file and ignore node_modules. Do the following with this server:
-
 ## Handling Sessions in Node
 
-1. *Middleware* Install and require `express-session`: for setting sessions and cookies.
+You're going to create a two-page app. Create a new express server and npm install and require everything you need (install express, express-sessions, body-parser, ejs, and mongoose, etc.). Also remember to touch a .gitignore file and ignore node_modules. Do the following with this server:
 
-2. Create 2 new pages: a login page and a welcome page. The login page should have a form element that asks the user for a name. When the user submits the form, save it in sessions and make the welcome page display: "Welcome, `name`". Refresh the welcome page, does the name persist?
+Create 2 pages: a welcome page and a form page. 
 
-3. Now let's use the database to store the information to populate our session.
-  - Connect to mongo using mongoose
-  - Create a mongoose schema for a user. Be sure to register it into a model. The schema should have a name (string) and color (also string)
-  - Change the form route for setting the user's name. Instead of setting it in sessions, create a new user in your user collection. Add an input for the person's favorite color and store that along with the user's name.
-  - Now, when a user submits the login form, find their document in the database and set, in sessions, their name and color.
-  - When a user goes to the welcome page, if they do not have a name set in sessions, redirect them to the login. If they have a name, render the welcome page with the normal welcome message and change the background to their color.
+The form should ask the user for a name. When the user submits the form, save it in sessions and make the welcome page display: "Welcome, name". Refresh the welcome page, does the name persist?
+
+Lets now use a database with stored information to populate our session.
+
+Connect to mongo using mongoose.
+
+Create a mongoose schema for a user. Be sure to register it into a model. The schema should have a name (string) and color (also string).
+
+Change the form route for setting the user's name. Instead of setting it in sessions, create a new user in your user collection. Add an input for the person's favorite color and store that along with the user's name.
+
+Create a new page for a login form. This form should take only a user's name. 
+When a user submits the form, find their document in the database and set, in sessions, their name and color.
+
+When a user goes to the welcome page, if they do not have a name set in sessions, redirect them to the login. If they have a name, render the welcome page with the normal welcome message and change the background to their color.
+
+////////////////////////////////////////////
+
+
+
 
 <hr>
 
