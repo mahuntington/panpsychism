@@ -72,7 +72,7 @@ When a user goes to the welcome page, if they do not have a name set in sessions
 "Commit 7: The user has a custom page or is redirected to the login if their name isn't set to the session. "
 <hr>
 
-FROM MATT"S LESSON
+FROM MATT'S LESSON
 Install and reqire `bcrypt`
 
 Create a route for username and password
@@ -80,42 +80,26 @@ Encrypt the password using bcrypt.
 Reminder on how to has a password string using bcrypt:
 `req.session.password = bcrypt.hashSync(req.params.password, bcrypt.genSaltSync(10));`
 
-Write the login function that will take the username and password and confirm that the password matches. 
-////////////////////////////////////////////
-
-
-
-
+**Commit 8** <br>
+<hr>
+"Commit 8: Hashed the password using bcrypt. "
 <hr>
 
-## # Authentication with Express & Bcrypt & PG
+Write the code necessary to reder a form for logging in `/new`
+Write the login function that will take the username and password and confirm that the password matches. 
 
-## Authentication & Authorization
-
-1. *Middleware:* Install and require `bcrypt`: for handling incoming form data
-
-## Challenges: Part 1
-4. Update the users schema so that it has an email and a password_digest (both strings)
-6. Add a home route to `server.js` which renders `home.html.ejs` which has an anchor tag, signup that links to `/users/new` with text of `Signup`.
-
-7. in the routes directory with a file users.js
-
-  Add the corresponding code in your server.js
+**Commit 9** <br>
+<hr>
+"Commit 9: Compared the username and password with the encrypted password. Redirected accordingly. "
+<hr>
 
 
-  - define a route in this file. A get route `/users/new`
+Create a login controller and session (so that you can delete it)
 
-  ```
-  users.get('/new', (req,res) => {
-    res.render('users/new.html.ejs')
-  })
-  ```
-  - the new route will render a file from `views/users` called `new.html.ejs` which will have a form with two input fields
+Again, it's up to you how this is accomplished. 
 
-  The form will make a post request to `/users`
+They need to log in
 
-
-## Challenges: Part 2
 
 So we now have the beginning of our signup flow but nothing his happening yet. Remember when we installed bcrypt earlier? We're going to now use that to save our users data to the db and "sign them up" for our application.
 
@@ -126,124 +110,25 @@ So we now have the beginning of our signup flow but nothing his happening yet. R
 
 1. Create a function called createUser that takes req, res, and next as arguments. Inside of that function create a function saveUser that takes two arguments, email and hash. Build the saveUser function as a standard pg function, It will insert an email and a password_digest into users.
 
-```
-function createUser(req, res, next) {
-  createSecure(req.body.email, req.body.password, saveUser);
 
-  function saveUser(email, hash) {
-    // Get a Postgres client from the connection pool
-    pg.connect(connectionString, function(err, client, done) {
-      // Handle connection errors
-      if(err) {
-        done();
-        console.log(err);
-        return res.status(500).json({ success: false, data: err});
-      }
-
-      var query = client.query("INSERT INTO users (email, password_digest) VALUES ($1, $2);",
-        [email, hash], function(err, result) {
-          done()
-          if(err) {
-            return console.error('error, running query', err);
-          }
-          next()
-      });
-    });
-  }
-}
-```
 
 2. TOGETHER: build the createSecure function, explain how we call it as a callback.
 
   - add this line to the top
 
-  ```
-  var salt = bcrypt.genSaltSync(10);
-  ```
-
-  ```
-  function createSecure(email, password, callback) {
-    // hash password user enters at sign up
-    bcrypt.genSalt(function (err, salt) {
-      bcrypt.hash(password, salt, function (err, hash) {
-        // this callback saves the user to our database with the hashed password
-        callback(email, hash)
-      });
-    });
-  };
-  ```
   now call that function in the first line of create user, pass in the body, and a reference to saveUser as the callback
 
 3. so let's go line by line and see what happens. We can now save users to our database and the password that is saved is encrypted.
 
 4. make the corresponding post route in users.js that calls createUser and authenticates them it should redirect to the home page.
 
-```
-users.route('/')
-  .post(db.createUser, (req, res) => {
-    res.redirect('/');
-  })
-  ```
-
 ## Challenges: Part 3 Log in
 
 1. Create a log in anchor tag on our home page that links to `users/login` it should render `users/login.html.ejs` which has a form that makes a post request with email and password.
 
-```
-users.get('/login', (req,res) => {
-  res.render('users/login.html.ejs')
-})
-```
-
-```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-</head>
-<body>
-  <form action="/users/login" method="post">
-    <label for="email">email</label>
-    <input type="text" name="email">
-    <label for="password">password</label>
-    <input type="text" name="password">
-
-    <input type="submit" value="Submit">
-  </form>
-</body>
-</html>
-```
 
 2. Cool so this post request goes no where let's build this part out together.
 
-### What are sessions?
-
-npm install express-session --save
-npm install connect-pg-simple --save
-
-psql sessions_test < node_modules/connect-pg-simple/table.sql
-
-add the following to server.js
-
-```
-var session = require('express-session');
-var pgSession = require('connect-pg-simple')(session);
-
-app.use(session({
-  store: new pgSession({
-    pg : pg,
-    conString : connectionString,
-    tableName : 'session'
-  }),
-  secret: 'sooosecrett', // something we maybe want to save with dotenv *hint hint*
-  resave: false,
-  cookie: { maxAge: 30 * 24 * 60 * 60 * 1000 } // 30 days
-}))
-```
-
-Add to pg.js
-```
 
 
 
