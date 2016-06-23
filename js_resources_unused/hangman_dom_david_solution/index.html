@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>DOM Hangman</title>
+		<script src="js/letter.js"></script>
+		<script src="js/word.js"></script>
+		<script src="js/game.js"></script>
+		<script src="js/main.js"></script>
+		<link rel="stylesheet" href="style.css">		
+	</head>
+
+	<body>
+
+		<header>
+			<h1>POKEMON HANGMAN</h1>
+			<div id="startButton">Start</div>
+		</header>
+
+		<div id="gameArea">
+		
+			<div id="guessesLeft">
+				<h2>Guesses Left</h2>
+				<h1 id="guesses"></h1>
+			</div>
+
+			<div id="currentWord">
+				<h2>Current Word</h2>
+				<h1 id="gameWord"></h1>
+			</div>
+
+			<div id="guessedLetters">
+				<h2>Guessed Letters</h2>
+				<h1 id="letters"></h1>
+			</div>
+
+		</div>
+
+		<div id="screenMessage"></div>
+
+	</body>
+
+</html>
