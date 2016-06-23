@@ -1,6 +1,20 @@
-WDI-Archer & WDI-Bowie
+![ga](http://mobbook.generalassemb.ly/ga_cog.png)
 
-#Homework
+# WDI-PANTHALASSA
+
+---
+Title: Morning Exercise - Caesar Cipher w06d04 <br>
+Type: Morning Exercise<br>
+Duration: "3:00"<br>
+Creator:<br>
+    Original creators: WDI-Archer & WDI-Bowie<br>
+    Adapted by: Kristyn Bryan<br>
+    Course: WDIr Panthalassa<br>
+Competencies: Javascript <br>
+Prerequisites: Javascript<br>
+
+---
+# Homework
 
 Copy your files and folder from Tuesday night's homework (that you worked on last night as well) into tonight's homework folder. You will be using the application that you made to work on tonight's homework.
 
