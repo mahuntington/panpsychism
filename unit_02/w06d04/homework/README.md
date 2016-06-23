@@ -18,12 +18,17 @@ Prerequisites: Javascript<br>
 
 ## Handling Sessions in Node
 
-You're going to create a two-page app. Create a new express server and npm install and require everything you need (install express, express-sessions, body-parser, ejs, and mongoose, etc.). Also remember to touch a .gitignore file and ignore node_modules. Do the following with this server:
+You're going to create a small application to continue using the new knowledge that you just obtained today. Create a new express server and npm install and require everything you need (install express, express-sessions, body-parser, ejs, and mongoose,etc.). 
+
+Also remember to touch a [.gitignore](https://git-scm.com/docs/gitignore) file and ignore `node_modules`. 
 
 **Commit 1** <br>
 <hr>
 "Commit 1: Created a new app and included the npm packages that I need."
 <hr>
+
+
+Do the following with this server:
 
 Create 2 pages: a welcome page and a form page. 
 
@@ -72,73 +77,52 @@ When a user goes to the welcome page, if they do not have a name set in sessions
 "Commit 7: The user has a custom page or is redirected to the login if their name isn't set to the session. "
 <hr>
 
-FROM MATT'S LESSON
-Install and reqire `bcrypt`
-
-Create a route for username and password
-Encrypt the password using bcrypt.
-Reminder on how to has a password string using bcrypt:
+- Install and reqire `bcrypt`
+- Update your login page to accept both a username and password.
+- Encrypt the password using bcrypt.
+- Reminder on how to hash a password string using bcrypt:
 `req.session.password = bcrypt.hashSync(req.params.password, bcrypt.genSaltSync(10));`
 
 **Commit 8** <br>
 <hr>
-"Commit 8: Hashed the password using bcrypt. "
+"Commit 8: Added a request for a password and hashed the password using bcrypt. "
 <hr>
 
-Write the code necessary to reder a form for logging in `/new`
-Write the login function that will take the username and password and confirm that the password matches. 
+- Write the login function that will take the username and password and confirm that the password matches. 
 
 **Commit 9** <br>
 <hr>
-"Commit 9: Compared the username and password with the encrypted password. Redirected accordingly. "
+"Commit 9: Wrote code to identify matching passwords. "
+<hr>
+
+Write the code necessary so that the flow of your app is as followed: 
+- When a user goes to: '/', they are provided with TWO things:
+1) A form to login (if they are an existing user in your database). 
+2) You can either provide them with a form on `/` for them to sign up as a new user, or a link <a> tag, that takes them to '/new' that displays a form to sign up as a new user.
+- If they sign in successfully, take them to the welcome page that displays their personal information (`/welcome/:username`).
+- If they are a new user, after they successfully sign up, take them to the welcome page with their personal information(`/welcome/:username`).
+- If they don't sign in successfully, redirect them to the sign in page.
+
+**Commit 10** <br>
+<hr>
+"Commit 10: Created the routes appropriate for logged in users. Redirected accordingly. "
 <hr>
 
 
-Create a login controller and session (so that you can delete it)
+Bonus: Make sure that a user can't access another user's page.
 
-Again, it's up to you how this is accomplished. 
+**Commit 11** <br>
+<hr>
+"Commit 11: Only the user can access their personal page."
+<hr>
 
-They need to log in
+Bonus:  Add a route to log a user out
 
-
-So we now have the beginning of our signup flow but nothing his happening yet. Remember when we installed bcrypt earlier? We're going to now use that to save our users data to the db and "sign them up" for our application.
-
-**Goal:** Set up bcrypt to hash our password and save that hashed password to the db
-
-
-  What is salting?
-
-1. Create a function called createUser that takes req, res, and next as arguments. Inside of that function create a function saveUser that takes two arguments, email and hash. Build the saveUser function as a standard pg function, It will insert an email and a password_digest into users.
-
-
-
-2. TOGETHER: build the createSecure function, explain how we call it as a callback.
-
-  - add this line to the top
-
-  now call that function in the first line of create user, pass in the body, and a reference to saveUser as the callback
-
-3. so let's go line by line and see what happens. We can now save users to our database and the password that is saved is encrypted.
-
-4. make the corresponding post route in users.js that calls createUser and authenticates them it should redirect to the home page.
-
-## Challenges: Part 3 Log in
-
-1. Create a log in anchor tag on our home page that links to `users/login` it should render `users/login.html.ejs` which has a form that makes a post request with email and password.
-
-
-2. Cool so this post request goes no where let's build this part out together.
-
-
-
-
-## Challenges: Part 4 logout
-
-**Goal:** Add a route to log a user out
-
-1. Add a delete route / logout to users.js
+1. Add a delete route / logout.
 2. Install `method-override`
 3. Add a form/button on the home page that links to that `delete` route
 
-
-
+**Commit 12** <br>
+<hr>
+"Commit 12: The user can log out of their session."
+<hr>
