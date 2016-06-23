@@ -75,8 +75,9 @@ When a user goes to the welcome page, if they do not have a name set in sessions
 FROM MATT"S LESSON
 Install and reqire `bcrypt`
 
-Hash a string using bcrypt.
 
+Create a route for username and password
+Encrypt the password using bcrypt.
 Reminder on how to has a password string using bcrypt:
 `req.session.password = bcrypt.hashSync(req.params.password, bcrypt.genSaltSync(10));`
 
