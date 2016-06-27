@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="angularTechniques">
+<head>
+	<title>Advanced Angular</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+
+<body>
+
+	<div ng-controller="RyanController as ctrl">
+		<button ng-click="ctrl.getInfo()">Get Ryan</button>
+		<div ng-controller="InfoController as info">
+		</div>
+	</div>
+
+
+	<div ng-controller="HypatiaController as ctrl">
+		<button ng-click="ctrl.getInfo()">Get Hypatia</button>
+		<div ng-controller="InfoController as info">
+		</div>
+	</div>
+
+</body>
+
+</html>
