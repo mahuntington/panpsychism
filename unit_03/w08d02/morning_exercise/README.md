@@ -6,11 +6,30 @@ In this morning's exercise, I want to introduce you to some of the product manag
 
 ## Scrum
 
-#### History of Scrum (reference can be found [here](https://en.wikipedia.org/wiki/Scrum_(software_development))
+#### History of Scrum (reference can be found [here](https://en.wikipedia.org/wiki/Scrum_(software_development) )
 
 Scrum was first defined as "a flexible, holistic product development strategy where a development team works as a unit to reach a common goal" as opposed to a "traditional, sequential approach" in 1986 by Hirotaka Takeuchi and Ikujiro Nonaka in the New Product Development Game.[5] Takeuchi and Nonaka later argued in The Knowledge Creating Company[6] that it is a form of "organizational knowledge creation, [...] especially good at bringing about innovation continuously, incrementally and spirally".
 
 The authors described a new approach to commercial product development that would increase speed and flexibility, based on case studies from manufacturing firms in the automotive, photocopier and printer industries.[7] They called this the holistic or rugby approach, as the whole process is performed by one cross-functional team across multiple overlapping phases, where the team "tries to go the distance as a unit, passing the ball back and forth".[7] (In rugby football, a scrum refers to a tight-packed formation of players with their heads down who attempt to gain possession of the ball.[8])
+
+#### Daily Scrum
+
+This might look familiar - we do a version of this during your project week:
+Daily scrum[edit]
+
+A daily scrum in the computing room. This centralized location helps the team start on time.
+Each day during a sprint, the team holds a daily scrum (or stand-up) with specific guidelines:
+
+All members of the development team come prepared. The daily scrum...
+...starts precisely on time even if some development team members are missing
+...should happen at the same time and place every day
+...is limited (timeboxed) to fifteen minutes
+Anyone is welcome, though normally only scrum team roles contribute.
+During the daily scrum, each team-member answers three questions:
+What did I do yesterday that helped the development team meet the sprint goal?
+What will I do today to help the development team meet the sprint goal?
+Do I see any impediment that prevents me or the development team from meeting the sprint goal?
+Any impediment (stumbling block, risk or issue) identified in the daily scrum should be captured by the scrum master and displayed on the team's scrum board, with an agreed person designated to working toward a resolution (outside of the daily scrum). No detailed discussions should happen during the daily scrum.
 
 
 ## Using a tracker in Agile Development
