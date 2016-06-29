@@ -10,7 +10,7 @@ In this morning's exercise, I want to introduce you to some of the product manag
 
 ### Trello
 
-We're doing small applictions and don't need all the fancy stuff that comes with Jira, so we'll use *Trello* to mimic the flow that you will be using during production !
+We're doing small applictions and don't need all the fancy stuff that comes with Jira, so we'll use *Trello* to mimic the flow that most of you will be using during production!
 
 
 
