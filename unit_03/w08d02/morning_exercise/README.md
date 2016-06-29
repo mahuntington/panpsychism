@@ -2,22 +2,28 @@
 
 In this morning's exercise, I want to introduce you to some of the product management tools that you will be encountering on the job and also get you familiar with Trello. You will be using Trello to keep track of your 3rd project (and beyond!).
 
-## Agile Development
+## Agile Development 
+References can be found [here](https://www.atlassian.com/agile/delivery-vehicles)
+
+Agile development uses four clear delivery vehicles to bring structure to any agile project: user stories, sprints, epics, and versions. By working with these vehicles, software teams are able to organize their work such that they can respond to customer feedback and change from the original plan of the project without feeling like the walls have crumbled around them. The ability to change and adapt future plans based on current insights is a hallmark of agility.
+
+Today, we're going to go over how to use user stories and what it looks like to create a sprint. But first...scrum.
 
 ## Scrum
 
-#### History of Scrum (reference can be found [here](https://en.wikipedia.org/wiki/Scrum_(software_development) )
+#### History of Scrum 
+References can be found [here](https://en.wikipedia.org/wiki/Scrum_(software_development) )
 
 Scrum was first defined as "a flexible, holistic product development strategy where a development team works as a unit to reach a common goal" as opposed to a "traditional, sequential approach" in 1986 by Hirotaka Takeuchi and Ikujiro Nonaka in the New Product Development Game.[5] Takeuchi and Nonaka later argued in The Knowledge Creating Company[6] that it is a form of "organizational knowledge creation, [...] especially good at bringing about innovation continuously, incrementally and spirally".
 
-The authors described a new approach to commercial product development that would increase speed and flexibility, based on case studies from manufacturing firms in the automotive, photocopier and printer industries.[7] They called this the holistic or rugby approach, as the whole process is performed by one cross-functional team across multiple overlapping phases, where the team "tries to go the distance as a unit, passing the ball back and forth".[7] (In rugby football, a scrum refers to a tight-packed formation of players with their heads down who attempt to gain possession of the ball.[8])
+ They called this the holistic or rugby approach, as the whole process is performed by one cross-functional team across multiple overlapping phases, where the team "tries to go the distance as a unit, passing the ball back and forth".[7] (In rugby football, a scrum refers to a tight-packed formation of players with their heads down who attempt to gain possession of the ball.[8])
+
+As developers, you will work with your team (developers, product managers, project managers, designers, etc.) to get a product out. With the Scrum method, everyone works on the same team and focuses on what needs to be done to reach the final goal.
 
 #### Daily Scrum
 
 This might look familiar - we do a version of this during your project week:
-Daily scrum[edit]
 
-A daily scrum in the computing room. This centralized location helps the team start on time.
 Each day during a sprint, the team holds a daily scrum (or stand-up) with specific guidelines:
 
 All members of the development team come prepared. The daily scrum...
@@ -28,11 +34,10 @@ All members of the development team come prepared. The daily scrum...
   
 Anyone is welcome, though normally only scrum team roles contribute.
 During the daily scrum, each team-member answers three questions:
-What did I do yesterday that helped the development team meet the sprint goal?
-What will I do today to help the development team meet the sprint goal?
-Do I see any impediment that prevents me or the development team from meeting the sprint goal?
+- What did I do yesterday that helped the development team meet the sprint goal?
+- What will I do today to help the development team meet the sprint goal?
+- Do I see any impediment that prevents me or the development team from meeting the sprint goal?
 Any impediment (stumbling block, risk or issue) identified in the daily scrum should be captured by the scrum master and displayed on the team's scrum board, with an agreed person designated to working toward a resolution (outside of the daily scrum). No detailed discussions should happen during the daily scrum.
-
 
 ## Using a tracker in Scrum Development
 
@@ -50,6 +55,9 @@ We're doing small applictions and don't need all the fancy stuff that comes with
 
 Each column is referred to as a "list" and inside the list sit "cards". Each of these cards is meant to contain information to create one feature of your application. Only one person may take ownership of a card AND only one card should be claimed at a time. Depending how you decide to do this with your team, each card may also represent a branch in Github (this is how it works in Jira). 
 
+## Scrum poker
+References can be found [here](https://en.wikipedia.org/wiki/Planning_poker)
+
 ## Activity
 
 You will be paird up and will need to do the following to set up a Trello board that you can use for a pretend application:
@@ -64,3 +72,4 @@ You might break the issues up as follows: "Photo Upload - install Paperclip", "P
 
 5. Discuss which cards that you'd like to take and work on for your first stab at the project. It's advisable to select things that won't have you working inside the same file - this way you won't have merge conflicts (so perhaps somene can do some styling while the other person works on some logic). *Add yourself* to the card (`Members`) and move it over to the "In Progress" List.
 6. Have you run into any issues? Can you see how this might be advantageous to use when working with other people?
+7. If you have extra time, try giving [Scrum poker](https://www.mountaingoatsoftware.com/tools/planning-poker) a try on your cards and assign them a value. Because you're doing this remotely (and I've seen this done in multiple settings even in-person), you will count to three and then throw up your fingers to show your number estimation (kind of like rock, paper, scissors). If your numbers are totally off (one of you throws a 1 and the other throws a 5), you can each discuss why you assigned it that number.
