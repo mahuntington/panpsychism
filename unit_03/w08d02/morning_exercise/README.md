@@ -48,4 +48,13 @@ We're doing small applictions and don't need all the fancy stuff that comes with
 
 ![Trello Example](trello_example.png)
 
+## Activity
 
+You will be paird up and will need to do the following to set up a Trello board that you can use for a pretend application:
+
+1. Individually, create a Trello account: www.trello.com
+2. When making your Trello account, be sure to take note of your screenname OR update the screenname that they automatically assign to you to something that you will remember (and that is at least semi-professional).
+2. With your partner, decide who will initially create the Trello board.
+3. Create the cards for "To-Do", "In Progress", "In Review", and "Done".
+4. With the following user stories, create cards that split up the work into pieces that can be individually tackled. For example, if the user story is: The user should be able to upload a profile picture", you might break the cards up to "Photo Upload - install Paperclip", "Photo Upload - AWS API integration", or "Photo Upload - research how to do this"
+- 
