@@ -21,9 +21,11 @@ A daily scrum in the computing room. This centralized location helps the team st
 Each day during a sprint, the team holds a daily scrum (or stand-up) with specific guidelines:
 
 All members of the development team come prepared. The daily scrum...
-...starts precisely on time even if some development team members are missing
-...should happen at the same time and place every day
-...is limited (timeboxed) to fifteen minutes
+
+  ...starts precisely on time even if some development team members are missing<br>
+  ...should happen at the same time and place every day<br>
+  ...is limited (timeboxed) to fifteen minutes<br>
+  
 Anyone is welcome, though normally only scrum team roles contribute.
 During the daily scrum, each team-member answers three questions:
 What did I do yesterday that helped the development team meet the sprint goal?
