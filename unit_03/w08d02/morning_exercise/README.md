@@ -34,7 +34,9 @@ Do I see any impediment that prevents me or the development team from meeting th
 Any impediment (stumbling block, risk or issue) identified in the daily scrum should be captured by the scrum master and displayed on the team's scrum board, with an agreed person designated to working toward a resolution (outside of the daily scrum). No detailed discussions should happen during the daily scrum.
 
 
-## Using a tracker in Agile Development
+## Using a tracker in Scrum Development
+
+There are a few different tools that can be used to plan scrum development. We're just going to look at briefly at two of them, but here's a more comprehensive [list](https://en.wikipedia.org/wiki/Comparison_of_Scrum_software) of what might be used and the features that come with them.
 
 ### Jira
 
