@@ -58,8 +58,8 @@ You will be paird up and will need to do the following to set up a Trello board 
 2. When making your Trello account, be sure to take note of your screenname OR update the screenname that they automatically assign to you to something that you will remember (and that is at least semi-professional).
 2. With your partner, decide who will initially create the Trello board.
 3. Create the lists for "To-Do", "In Progress", "In Review", and "Done".
-4. With the following user stories, create cards under "To-Do" that split up the work into pieces that can be individually tackled. EXAMPLE: The user should be able to upload a profile picture.
-You might break the cards up as follows: "Photo Upload - install Paperclip", "Photo Upload - AWS API integration", or "Photo Upload - research how to do this"
+4. With the following user stories, create cards (issues) under "To-Do" that split up the work into pieces that can be individually tackled. You will literally be creating Github issues for these once you complete one before you merge it into your master repo. EXAMPLE: The user should be able to upload a profile picture.
+You might break the issues up as follows: "Photo Upload - install Paperclip", "Photo Upload - AWS API integration", or "Photo Upload - research how to do this"
  *USER STORIES*
 
 5. Discuss which cards that you'd like to take and work on for your first stab at the project. It's advisable to select things that won't have you working inside the same file - this way you won't have merge conflicts (so perhaps somene can do some styling while the other person works on some logic). *Add yourself* to the card (`Members`) and move it over to the "In Progress" List.
