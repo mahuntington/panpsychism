@@ -48,6 +48,8 @@ We're doing small applictions and don't need all the fancy stuff that comes with
 
 ![Trello Example](trello_example.png)
 
+Each column is referred to as a "list" and inside the list sit "cards". Each of these cards is meant to contain information to create one feature of your application. Only one person may take ownership of a card AND only one card should be claimed at a time. Depending how you decide to do this with your team, each card may also represent a branch in Github (this is how it works in Jira). 
+
 ## Activity
 
 You will be paird up and will need to do the following to set up a Trello board that you can use for a pretend application:
@@ -55,7 +57,10 @@ You will be paird up and will need to do the following to set up a Trello board 
 1. Individually, create a Trello account: www.trello.com
 2. When making your Trello account, be sure to take note of your screenname OR update the screenname that they automatically assign to you to something that you will remember (and that is at least semi-professional).
 2. With your partner, decide who will initially create the Trello board.
-3. Create the cards for "To-Do", "In Progress", "In Review", and "Done".
-4. With the following user stories, create cards that split up the work into pieces that can be individually tackled. EXAMPLE: The user should be able to upload a profile picture.
+3. Create the lists for "To-Do", "In Progress", "In Review", and "Done".
+4. With the following user stories, create cards under "To-Do" that split up the work into pieces that can be individually tackled. EXAMPLE: The user should be able to upload a profile picture.
 You might break the cards up as follows: "Photo Upload - install Paperclip", "Photo Upload - AWS API integration", or "Photo Upload - research how to do this"
+ *USER STORIES*
 
+5. Discuss which cards that you'd like to take and work on for your first stab at the project. It's advisable to select things that won't have you working inside the same file - this way you won't have merge conflicts (so perhaps somene can do some styling while the other person works on some logic). *Add yourself* to the card (`Members`) and move it over to the "In Progress" List.
+6. Have you run into any issues? Can you see how this might be advantageous to use when working with other people?
