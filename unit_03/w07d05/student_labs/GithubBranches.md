@@ -17,6 +17,7 @@ http://rogerdudler.github.io/git-guide/
 ### Do this
 
 Then, follow this tutorial to put your fingers to the task:
+
 1. Go to: https://www.codeschool.com/courses/git-real
 2. Sign up for a Code School account.
 3. Complete this tutorial.
