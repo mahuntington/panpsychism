@@ -1,3 +1,18 @@
+![ga](http://mobbook.generalassemb.ly/ga_cog.png)
+
+# WDI-PANTHALASSA
+
+---
+Title: Github Branches<br>
+Type: Student Lab<br>
+Duration: "2:00"<br>
+Creator:<br>
+    Original creator: Kristyn Bryan<br>
+    Course: WDIr Panthalassa<br>
+Competencies: Github<br>
+Prerequisites: Github<br>
+
+---
 # Student Lab
 
 ## Introduction to Github Branches  
