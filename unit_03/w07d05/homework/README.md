@@ -1,3 +1,18 @@
+![ga](http://mobbook.generalassemb.ly/ga_cog.png)
+
+# WDI-PANTHALASSA
+
+---
+Title: Angular Tutorial<br>
+Type: Homework <br>
+Duration: "9:00"<br>
+Creator:<br>
+    Original creator: Kristyn Bryan<br>
+    Course: WDIr Panthalassa<br>
+Competencies: Angular<br>
+Prerequisites: Javascript, HTML<br>
+
+---
 # Homework
 
 ## Congratulations on finishing Project 2! Now let's move on to Angular...
