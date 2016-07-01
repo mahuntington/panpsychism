@@ -1,3 +1,18 @@
+![ga](http://mobbook.generalassemb.ly/ga_cog.png)
+
+# WDI-PANTHALASSA
+
+---
+Title: Ruby Tutorial <br>
+Type: Homework<br>
+Duration: "9:00"<br>
+Creator:<br>
+    Original creator: Kristyn Bryan<br>
+    Course: WDIr Panthalassa<br>
+Competencies: Ruby<br>
+Prerequisites: None<br>
+
+---
 # Homework
 
 ## Congratulations on finishing Project 2! Now let's move on to Ruby...
