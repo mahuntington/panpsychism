@@ -93,14 +93,22 @@ var caesarShift = function(str, amount) {
 
 };
 ```
+**Commit 2** <br>
+<hr>
+"Commit 2: Connected the cipher to decode messages."
+<hr>
+
+**Commit 3** <br>
+<hr>
+"Commit 3: Connected the cipher to encode messages."
+<hr>
+
+
 
 ## Part 2
 
 ##SONG LYRICS SHUFFLER
 
-### INTRO TO ANGULARJS BASICS
-
-#### App
 
 You will make a static page that displays songs with the song title, author, year, and lyrics. For no really good reason other than to practise `ng-click` and execute controller functions, you will be able to shuffle the order of the lyrics by clicking a shuffle button, as well as hide/show the song by clicking on the title.
 
@@ -122,9 +130,13 @@ Sample screenshot:
 - `style.css` if you want to add some style
 
 Server and database will be introduced tomorrow
+Overall, you will need data and functions in your controller.
 
+**Commit 4** <br>
+<hr>
+"Commit 4: Set up my initial files."
+<hr>
 
-#### Angular stuff you will probably want:
 
 #####Display songs
 - A link to Angular 1.5 from https://angularjs.org/
@@ -135,12 +147,20 @@ Server and database will be introduced tomorrow
 - `ng-if` or alternatively, `ng-hide` and/or `ng-show`
 - curlies `{{ }}`
 
+**Commit 5** <br>
+<hr>
+"Commit 5: Setup and now displaying the songs."
+<hr>
+
 #####Add a song
 - a form with an `ng-submit`
 - inputs that rout to `ng-model`s which could be inside a formdata object in the controller maybe.
 
+**Commit 6** <br>
+<hr>
+"Commit 6: Setup and now able to add a song."
+<hr>
 
-Overall, you will need data and functions in your controller.
 
 #####Sample data
 
@@ -201,8 +221,7 @@ Pass in an array and the shuffle function will randomize the order of the elemen
 	  }
 ```
 
-
-
-
-
-	
+**Commit 7** <br>
+<hr>
+"Commit 7: Can shuffle the order of the songs."
+<hr>
