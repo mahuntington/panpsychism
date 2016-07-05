@@ -1,3 +1,20 @@
+![ga](http://mobbook.generalassemb.ly/ga_cog.png)
+
+# WDI-PANTHALASSA
+
+---
+Title: Homework w08d02 <br>
+Type: Morning Exercise<br>
+Duration: "0:45"<br>
+Creator:<br>
+    Original creators: Joe Jung for WDI-Meeseeks<br>
+    Adapted by: Kristyn Bryan<br>
+    Course: WDIr Panthalassa<br>
+Competencies: Github Branches<br>
+Prerequisites: Github <br>
+
+---
+
 # GIT BRANCHES AND MERGING
 
 ### Learning Objectives
