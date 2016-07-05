@@ -96,7 +96,7 @@ We'll run through a good scenario in a bit.
 Merging is when you integrate the work from various branches. Git does a pretty good job integrating changes as seamlessly as possible. Merge conflicts naturally occur during the course of group work, it's not always an indicator of bad code or someone doing something wrong.
 
 ##### Local Merging
-I strongly advise local merging. By that I mean, regardless of who did what on where, I like having branches on my local laptop, and merging them through my terminal.
+We strongly advise local merging. By that we mean, regardless of who did what on where (github, local machines), you should have an up-to-date master branch on your local machine and up-to-date branches.
 ​
 `git merge branchname`
 ​
@@ -106,33 +106,31 @@ I strongly advise local merging. By that I mean, regardless of who did what on w
 - Always keep up to date with commits.
 
 ## EXERCISE
-- Make master branch have all the files
+- Make master branch have all the files by doing the following:
 - git checkout test-branch1
 - verify the files and commit
 - check back into master
 - git merge test-branch1
-- repeat the process of checking into branches and verifying the files and commits, then check into master and merge them.
-​
-​
-You can also handle merges from the github remote account using pull requests but I dislike that process for various reasons...
-​
-1. Local merging allows you to merge using sublime instead of the github website, in other words it's my own comfort level with subl linter, and various search commands that let me run throughout a codebase structure much faster `command` + `shift` + `f` in particular.
-​
-2. Local merging involves me directly running other branches on MY local environment allowing me to QA work directly. Code that is tested across other people's environments is definitely considered better code. Do not assume it worked on mine, it must be fine. Finding bugs early means less future branch merges will be corrupted.
+- check your file - did it merge?
+- repeat the process of checking into branches and verifying the files and commits for the rest of your branches, then check into master and merge them.
+- Note: when you are doing this in a development environment, your code would only be merged onto the master after your branch passed inspection by another developer and they merged your code (or if you approved the code from another developer and merged their code).
+- You can also handle merges from the github remote account using pull requests. We will do this in the next exercise.
+
 
 ### Merge Conflicts
-Merge conflicts don't occur as frequently when using git individually as opposed to when multiple branches exist with various time streams of commits.
+Merge conflicts don't occur as frequently when using git on your own as opposed to when multiple branches exist with various time streams of commits.
 ​
-- mkdir and cd into `conflicts`
-- touch scripts.js
+- insde your `branch_test` file, mkdir and cd into `conflicts`
+- touch `scripts.js`
+- Add the following code:
 ```
 console.log(1);
 console.log(2);
 console.log(3);
 ```
 - git add, commit
-- git checkout -b add-moar-numbers
-- add console.log(4) abnd console.log(5)
+- git checkout -b adding-numbers
+- add console.log(4) and console.log(5) to your `scripts.js` file
 - git add, commit
 - git checkout master
 - git checkout -b adding-names 
@@ -146,11 +144,8 @@ console.log('c');
 ```
 - git add, commit
 - git checkout master
-	- Before proceeding, let's diagram where we are at.
-​
-​
-- git merge add-numbers
-- git merge add-letters
+- git merge adding-numbers
+- git merge adding-letters
 ​
 - MERGE CONFLICT
 	- Resolving them in sublime, open the entire repo in sublime
@@ -189,22 +184,17 @@ console.log('c');
 
 ### SUGGESTED TEAM WORKFLOW
 ​
-- Appoint a git overlord/mastermind/tactician/ninja/or other badass title
-- THE TEAM is responsible for VCS, it's not fair or right to dump git issues on the overlord and walk away.
+- Appoint a git master/leader/overlord/mastermind/tactician/or other cool title
+- THE TEAM is responsible for version control; it's not fair or right to dump git issues on the overlord and walk away.
 - The overlord is the point of contact to handle the team's various accounts.
-- The overlord should make the original repo on local
 - The overlord should make the remote repo on their github
 	- Add their teammates as collaborators on that github remote repo
 ​
 OVERVIEW
 - All team members will work on new branches off local
 - All team members will push their new branches to new branches on the remote repo
-- The overlord will begin a merge process where he/she recreates all the new branches on the remote onto their local
-	- Overlord merges all the new local branches into master branch one by one off their local
-	- Overlord push the new master branch to remote
 - All team members will constantly pull master whenever they start a new feature branch, go eat a meal, start a day, end of day, etc. The more frequent they pull from master, the easier merging will be.
 ​
-DIAGRAM DIAGRAM DIAGRAM
 
 ### Final thoughts
 - ALWAYS KNOW WHAT BRANCH YOU ARE ON
@@ -216,12 +206,12 @@ DIAGRAM DIAGRAM DIAGRAM
 - Pair programming: multiple devs working off 1 computer also minimized merge conflicts
 - DON'T DELETE BRANCHES. Better having redundant branches than losing work.
 - DON'T TIME TRAVEL. Each team member has a local git and a remote github. Each has multiple branches, both remote and local. Each branch has different commit time streams. When reverting time you are messing with the HEAD.
-- Don't avoid VCS, tackle it head on. Be sure to rep the process with everyone before starting! If a team member can't explain it or whiteboard it, don't assume it will work itself out. Submit a git issue or ask an instructor for help getting the process down.
+
 
 ### LAB
 Partner up.
 ​
-Partner A. Create a directory, git init. npm init an express app that just runs app.listen and console logs the port. Git add and commit.
+Partner A. Create a directory, git init. Create an index.html file that has an <h1> that welcomes you to the page. Git add and commit.
 ​
 Create a remote repo on github. Sync that remote to your local. Push and update the remote.
 ​
@@ -231,26 +221,21 @@ Partner B, clone the repo from the github remote so you also have it on your loc
 ​
 Partner A
 	- Check you are on master branch
-	- Create a new branch called get-routes-branch
-	- in that branch, npm install express.
-	- Add a get request to '/' that res.send('root');
+	- Create a new branch called style-main-page.
+	- in that branch, create a .css style sheet.
+	- add styling that changes the background color of the .html page. Link the pages.;
 	- make a commit
-	- add another get request to '/joe' that res.sends('Joe');
-	- make a commit
-	- git push origin get-routes-branch
+	- git push origin style-main-page.
 ​
 Partner B
 	- Check you are on master branch
-	- Create a new branch called big-nasty-thom
-	- in that branch, npm install express
-	- Add a get request to '/thom' that res.send('Thom');
+	- Create a new branch called footer-main-page
+	- in that branch, open up your index.html
+	- Add <footer> tags to the bottom of your page and add the names of two footer links.
 	- Make a commit
-	- Add a get request to '/matt' that res.send('Matt');
-	- ADD A COMMENT UNDER EACH REQUEST THAT INCLUDES YOUR FAVORITE FOOD
-	- Make a commit
-	- git push origin big-nasty-thom
+	- git push origin footer-main-page
 ​
-Check github. You should see 3 branches on the remote, master, big-nasty-thom, and get-routes-branch.
+Check github. You should see 3 branches on the remote, master, footer-main-page, and style-main-page.
 ​
 Partner A
 - Make sure you are on your local master `git checkout master`
