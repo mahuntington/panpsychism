@@ -41,7 +41,6 @@ The concept of branching is that you are creating a replica of your codebase, wh
 
 - Creating a new branch *replicates the branch you are currently on*.
 
-- Changes branches literally changes the OS file structure for that repo.
 
 ###### Commands
 - `git branch` will return a list of branches for that repo along with an asterisk next to the current branch
