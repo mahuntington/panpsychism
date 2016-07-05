@@ -129,39 +129,6 @@ Sample screenshot:
 - `app.js`
 - `style.css` if you want to add some style
 
-Server and database will be introduced tomorrow
-Overall, you will need data and functions in your controller.
-
-**Commit 4** <br>
-<hr>
-"Commit 4: Set up my initial files."
-<hr>
-
-
-#####Display songs
-- A link to Angular 1.5 from https://angularjs.org/
-- module / `ng-app`
-- controller / `ng-controller`
-- `ng-repeat` ( you might want to include a `track by $index` in the directive params, but if you don't need to, then don't)
-- `ng-click` (hint: you can pass in $index as a param)
-- `ng-if` or alternatively, `ng-hide` and/or `ng-show`
-- curlies `{{ }}`
-
-**Commit 5** <br>
-<hr>
-"Commit 5: Setup and now displaying the songs."
-<hr>
-
-#####Add a song
-- a form with an `ng-submit`
-- inputs that rout to `ng-model`s which could be inside a formdata object in the controller maybe.
-
-**Commit 6** <br>
-<hr>
-"Commit 6: Setup and now able to add a song."
-<hr>
-
-
 #####Sample data
 
 ```
@@ -204,6 +171,38 @@ this.songs = [
    }
 ];
 ```
+
+Server and database will be introduced tomorrow
+Overall, you will need data and functions in your controller.
+
+**Commit 4** <br>
+<hr>
+"Commit 4: Set up my initial files."
+<hr>
+
+
+#####Display songs
+- A link to Angular 1.5 from https://angularjs.org/
+- module / `ng-app`
+- controller / `ng-controller`
+- `ng-repeat` ( you might want to include a `track by $index` in the directive params, but if you don't need to, then don't)
+- `ng-click` (hint: you can pass in $index as a param)
+- `ng-if` or alternatively, `ng-hide` and/or `ng-show`
+- curlies `{{ }}`
+
+**Commit 5** <br>
+<hr>
+"Commit 5: Setup and now displaying the songs."
+<hr>
+
+#####Add a song
+- a form with an `ng-submit`
+- inputs that rout to `ng-model`s which could be inside a formdata object in the controller maybe.
+
+**Commit 6** <br>
+<hr>
+"Commit 6: Setup and now able to add a song."
+<hr>
 
 #####Shuffle function
 Pass in an array and the shuffle function will randomize the order of the elements
