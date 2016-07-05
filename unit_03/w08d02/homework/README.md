@@ -3,7 +3,7 @@
 # WDI-PANTHALASSA
 
 ---
-Title: Cyper & Shuffler <br>
+Title: Cipher & Shuffler <br>
 Type: Homework <br>
 Duration: "4:00"<br>
 Creator:<br>
@@ -42,7 +42,12 @@ Also make it so the user can decode an encoded message.
 
 https://en.wikipedia.org/wiki/Caesar_cipher
 
-You can put this Caesar Cipher code in a separate js file (before your main `app.js`), and then reference the `caesarShift` function in your angular controller.
+You can put this Caesar Cipher code (or the code that you wrote a few weeks ago for the morning exerice) in a separate js file (before your main `app.js`), and then reference the `caesarShift` function in your angular controller.
+
+**Commit 1** <br>
+<hr>
+"Commit 1: Made an app.js with my Caesar Cipher function."
+<hr>
 
 In the example in the above image, the `amount` is set to `12` for encoding, and `-12` for decoding.
 
