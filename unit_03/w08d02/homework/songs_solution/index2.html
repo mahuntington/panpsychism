@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app='myApp'>
+<head>
+	<title>Mangular1</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+	<script type="text/javascript" src="app2.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body ng-controller='myController as ctrl'>
+
+	<h1>SHUFFLER</h1>
+	<div class="full-song" ng-repeat="song in ctrl.songs track by $index">
+		<h2 class="song-title" ng-click="ctrl.toggle($index)">{{ song.title }} ({{ song.year }})</h2>
+		<div ng-hide="song.hidden">
+			<h3 class="song-author">{{ song.author }}</h3>			
+			<p ng-repeat="lyric in song.lyrics track by $index"> 
+				{{ lyric }} 
+			</p>
+			<button ng-click="ctrl.shuffler($index)">shuffle lyrics</button></br></br>
+		</div>
+	</div>
+
+	</br>
+
+	<h2>ADD A SONG</h2>
+	<form ng-submit="ctrl.addSong()">
+		<input class="field" type="text" ng-model="ctrl.data.author" placeholder="author"></br>
+		<input class="field" type="text" ng-model="ctrl.data.title" placeholder="title"></br>
+		<input class="field" type="text" ng-model="ctrl.data.year" placeholder="year"></br>
+		<input class="field" type="text" ng-model="ctrl.data.lyrics" placeholder="lyrics separated by comma"></br>
+		<button type="submit">SUBMIT</button>
+	</form>
+
+
+
+</body>
+</html>
