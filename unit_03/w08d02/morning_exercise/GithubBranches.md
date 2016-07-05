@@ -82,8 +82,8 @@ I strongly advise local merging. By that I mean, regardless of who did what on w
 - Once again, it's always important to remember what branch you are on.
 - Merging will incorporate the latest state of a branches commit to another.
 - Always keep up to date with commits.
-​
-EXERCISE
+
+## EXERCISE
 - Make master branch have all the files
 - git checkout test-branch1
 - verify the files and commit
@@ -164,9 +164,7 @@ console.log('c');
 	console.log('c');
 	```
 	- git add -A, commit -m "merge resolved"
-​
------
-​
+
 ### SUGGESTED TEAM WORKFLOW
 ​
 - Appoint a git overlord/mastermind/tactician/ninja/or other badass title
@@ -185,7 +183,7 @@ OVERVIEW
 - All team members will constantly pull master whenever they start a new feature branch, go eat a meal, start a day, end of day, etc. The more frequent they pull from master, the easier merging will be.
 ​
 DIAGRAM DIAGRAM DIAGRAM
-​
+
 ### Final thoughts
 - ALWAYS KNOW WHAT BRANCH YOU ARE ON
 - NEVER CREATE A NEW BRANCH OFF A FEATURE BRANCH. ONLY CREATE A NEW BRANCH OFF MASTER
@@ -197,8 +195,7 @@ DIAGRAM DIAGRAM DIAGRAM
 - DON'T DELETE BRANCHES. Better having redundant branches than losing work.
 - DON'T TIME TRAVEL. Each team member has a local git and a remote github. Each has multiple branches, both remote and local. Each branch has different commit time streams. When reverting time you are messing with the HEAD.
 - Don't avoid VCS, tackle it head on. Be sure to rep the process with everyone before starting! If a team member can't explain it or whiteboard it, don't assume it will work itself out. Submit a git issue or ask an instructor for help getting the process down.
-​
-​
+
 ### LAB
 Partner up.
 ​
