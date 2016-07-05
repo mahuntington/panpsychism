@@ -1,4 +1,3 @@
-```
 # GIT BRANCHES AND MERGING
 ​
 ===== LAPTOPS CLOSED =====
@@ -255,4 +254,3 @@ Partner A
 - repeat the process for get-routes-branch (keep in mind your local get- routes branch will be identical to the remote one so there's no real surprise);
 - resolve the conflict as you see fit as relevant.
 - Both partners diagram each process off whiteboard or table!
-```
