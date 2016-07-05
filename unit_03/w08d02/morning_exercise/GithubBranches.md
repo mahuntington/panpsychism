@@ -1,37 +1,31 @@
 # GIT BRANCHES AND MERGING
-​
-===== LAPTOPS CLOSED =====
-​
+
 ### Learning Objectives
 - create a branch
 - switch branch
 - merge a branch
 - resolve a merge conflict
 - describe a process flow for integrating group work via git and github
-​
-​
+
 ##### Why this is important
 Up to now, we've used git and github more so to help partition and track our projects and assignments. We've never really utilized nor dealt with the necessity of version control in collaborative development, which is a requirement for your next project!
-​
-​
+
 ##### How we will learn this
 - We'll be running commands locally on our git.
 - Diagram processes on git and github
 - Mimic merge conflicts!
-​
-​
+
 ### Branches
 The concept of branching is that you are creating a replica of your codebase, where you can diverge from the main line of development, to continue to fearlessly work without breaking the main line.
 ​
 - Every repo has a branch, you are always on a branch. From day 1, we've been using the Master branch which is the default branch created for every repository.
-​
+
 - Branches exist locally on our git, as well as remotely on GITHUB! This is a HUGE concept to remember!
-​
+
 - Creating a new branch replicates the branch you are currently on.
-​
+
 - Changes branches literally changes the OS file structure for that repo.
-​
-​
+
 ###### Commands
 - `git branch` will return a list of branches for that repo along with an asterisk next to the current branch
 ​
@@ -55,9 +49,8 @@ The concept of branching is that you are creating a replica of your codebase, wh
 - touch file4.txt
 - commit
 - check back to master
-​
-​
-Branch Conventions
+
+#### Branch Conventions
 - Branches should typically be named after features you are working on.
 	- Process flow depends from place to place but ultimately, the idea of creating a new branch emphasizes my favorite thing ever....Separation of concerns.
 		- If you're are building a nav bar: create a branch for just that feature.
@@ -65,7 +58,7 @@ Branch Conventions
 		- If you're working on debugging an error: create a branch for only debugging that error.
 	- DO NOT WORK ON MULTIPLE FEATURES UNDER 1 BRANCH. This makes merging, QA, and ultimately version control extremely difficult and is counterintuitive to collaborative development.
 		- Imagine 15 different branches, each branch specifically tracking work for 1 piece of functionality. Even if one branch causes a break, you can still integrate the remaining 14 features as they are each separate branch. Compare this to if someone wrote all 15 functionalities on 1 branch...if one broke, the entire branch is in essence is corrupted, and every single piece of QA every line by line change must be done before it could be merged.
-​
+
 ### Remote Branching
 So far we've just played with local git branches. But once we sync a github remote repo to our local repo, we realize that the remote github repo can have branches too.
 ​
@@ -76,11 +69,10 @@ Each teammember can have their local git with various branches, and their remote
 How these all play out is completely dependent upon the release management plan which can vary tremendously.
 ​
 We'll run through a good scenario in a bit.
-​
-​
+
 ### Merging
 Merging is when you integrate the work from various branches. Git does a pretty good job integrating changes as seamlessly as possible. Merge conflicts naturally occur during the course of group work, it's not always an indicator of bad code or someone doing something wrong.
-​
+
 ##### Local Merging
 I strongly advise local merging. By that I mean, regardless of who did what on where, I like having branches on my local laptop, and merging them through my terminal.
 ​
@@ -105,7 +97,7 @@ You can also handle merges from the github remote account using pull requests bu
 1. Local merging allows you to merge using sublime instead of the github website, in other words it's my own comfort level with subl linter, and various search commands that let me run throughout a codebase structure much faster `command` + `shift` + `f` in particular.
 ​
 2. Local merging involves me directly running other branches on MY local environment allowing me to QA work directly. Code that is tested across other people's environments is definitely considered better code. Do not assume it worked on mine, it must be fine. Finding bugs early means less future branch merges will be corrupted.
-​
+
 ### Merge Conflicts
 Merge conflicts don't occur as frequently when using git individually as opposed to when multiple branches exist with various time streams of commits.
 ​
