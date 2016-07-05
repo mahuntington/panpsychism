@@ -85,7 +85,12 @@ You will be paird up and will need to do the following to set up a Trello board 
 3. Create the lists for "To-Do", "In Progress", "In Review", and "Done".
 4. With the following user stories, create cards (issues) under "To-Do" that split up the work into pieces that can be individually tackled. You will literally be creating Github issues for these once you complete one before you merge it into your master repo. EXAMPLE: The user should be able to upload a profile picture.
 You might break the issues up as follows: "Photo Upload - install Paperclip", "Photo Upload - AWS API integration", or "Photo Upload - research how to do this"
- *USER STORIES*
+ 
+*USER STORIES*
+- The user should be able to see the game board when they log on to the site.
+- The user should be able to log on to the website or sign up for a new account when they arrive to the page. 
+- The user should be able to see the scores from their previous games.
+- The user should be able to view the website on their mobile device.
 
 5. Discuss which cards that you'd like to take and work on for your first stab at the project. It's advisable to select things that won't have you working inside the same file - this way you won't have merge conflicts (so perhaps somene can do some styling while the other person works on some logic). *Add yourself* to the card (`Members`) and move it over to the "In Progress" List.
 6. Have you run into any issues? Can you see how this might be advantageous to use when working with other people?
