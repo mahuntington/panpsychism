@@ -1,0 +1,79 @@
+<html ng-app="date">
+<head>
+	<title>Dating site</title>
+	<link href='https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-route.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<base href="/">
+</head>
+
+<body ng-controller="MainController as ctrl">
+
+	<div id="container">
+
+		<!-- COMPONENT ONE, Header -->
+		<div id="header">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Notifications-Thanks-Heart-Icon.png">
+			<span id="header-text" ng-click="ctrl.getUsers()">I LOVE TO DATE OTHERS</span>
+			<img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Notifications-Thanks-Heart-Icon.png">
+		</div>
+
+		<br/><br/>
+
+
+		<!-- COMPONENT TWO, Left Box -->
+		<div id="users-left">
+			<div ng-repeat="user in ctrl.usersOdd | limitTo:3">
+				<a ng-href="/edit_user/{{ user._id }}"><div class="left-pic" ng-mouseover="ctrl.displayImageL(user.img)">
+					<img ng-src="{{ user.img }}"/>
+				</div></a>
+				<div class="right-info">
+					<p class="username">{{ user.name }}</p>
+					<p>Age: {{ user.age }}</p>
+					<p ng-if="user.gender=='f'">Female</p>
+					<p ng-if="user.gender=='m'">Male</p>
+				</div>
+			</div>
+		</div>
+
+		
+ 		<!-- COMPONENT THREE, Match Box -->
+		<div id="match">
+			<img class="center-img" ng-src="{{ ctrl.limage }}">
+			<img class="center-img" ng-src="{{ ctrl.rimage }}">
+
+			<div ng-if="ctrl.left && ctrl.right">
+				<div id="match-button" ng-click="ctrl.match()">CLICK TO MATCH!</div>
+			</div>
+		</div>
+
+
+		<!-- COMPONENT FOUR, Right Box -->
+		<div id="users-right">
+			<div ng-repeat="user in ctrl.usersEven | limitTo:3">
+				<div class="left-pic" ng-mouseover="ctrl.displayImageR(user.img)">
+					<img ng-src="{{ user.img }}"/>
+				</div>
+				<div class="right-info">
+					<p class="username">{{ user.name }}</p>
+					<p>Age: {{ user.age }}</p>
+					<p ng-if="user.gender=='f'">Female</p>
+					<p ng-if="user.gender=='m'">Male</p>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- COMPONENT FIVE, Form Box -->
+		<div id="newform">
+			<div ng-view></div>
+		</div>
+
+	</div> 
+	<!-- end container -->
+
+</body>
+
+</html>
