@@ -1,3 +1,19 @@
+![ga](http://mobbook.generalassemb.ly/ga_cog.png)
+
+# WDI-PANTHALASSA
+
+---
+Title: Cyper & Shuffler <br>
+Type: Homework <br>
+Duration: "4:00"<br>
+Creator:<br>
+    Original creator: Thom Page<br>
+    Course: WDIr Panthalassa<br>
+Competencies: Basic Angular <br>
+Prerequisites: Angular, Javascript, HTML, CSS <br>
+
+---
+
 ## Part 1
 
 ## CAESAR CIPHER
