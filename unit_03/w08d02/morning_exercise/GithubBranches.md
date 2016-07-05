@@ -49,8 +49,8 @@ The concept of branching is that you are creating a replica of your codebase, wh
 ​
 - `git checkout branchname`: this is how you switch branches
 ​
-===== LAPTOPS OPEN ======
-• Exercise
+
+## Exercise
 - Create a directory
 - CD into it
 - touch file1.txt
