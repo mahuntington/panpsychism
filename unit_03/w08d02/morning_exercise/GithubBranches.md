@@ -240,13 +240,25 @@ Check github. You should see 3 branches on the remote, master, footer-main-page,
 Partner A
 - Make sure you are on your local master `git checkout master`
 - Make sure your local master is up to date with remote master `git pull origin master`
-- Replicate the missing branch(es) that are on done and on the remote that you do not have on your local.
-- git checkout -b big-nasty-thom
+
+Github:
+- Go to your Github repo
+- Click "New Pull Request"
+- "base" should be `master` and "compare" should be the branch that you want to merge (the one that you worked on).
+- Add a comment. Click "Comment". 
+- Partner A should take a look at Partner B's pull request, merge if okay, or comment back if it's not okay.
+- Partner B should take a look at Partner A's pull request, merge if okay, or comment back if it's not okay.
+ 
+OR
+
+Local: 
+- Replicate the missing branch(es) that are done and on the remote that you do not have on your local.
+- git checkout -b footer-main-page
 	- You are now in a new local branch with the same name, but it is a carbon copy of master
-	- git pull origin big-nasty-thom
-		- Now you are updating your local big-nasty-thom with the one from remote.
+	- git pull origin footer-main-page
+		- Now you are updating your local footer-main-page with the one from remote.
 - git checkout master. Make sure you go back to master.
-- from master, merge big-nasty-thom `git merge big-nasty-thom`
-- repeat the process for get-routes-branch (keep in mind your local get- routes branch will be identical to the remote one so there's no real surprise);
+- from master, merge footer-main-page `git merge footer-main-page`
+
+- repeat the process for style-main-page (keep in mind your local get- routes branch will be identical to the remote one so there's no real surprise);
 - resolve the conflict as you see fit as relevant.
-- Both partners diagram each process off whiteboard or table!
