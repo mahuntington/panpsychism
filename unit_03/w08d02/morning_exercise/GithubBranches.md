@@ -51,20 +51,26 @@ The concept of branching is that you are creating a replica of your codebase, wh
 ​
 
 ## Exercise
-- Create a directory
+- In your terminal, go inside your `unit_03/section/w08d02/morning_exercise` folder.
+- Create a directory called `branch_test`
 - CD into it
-- touch file1.txt
+- touch file1.md
 - git init
 - make your init commit
 - create and checkout into test-branch1
-- touch file2.txt
+- touch file2.md
 - commit
 - check back into master branch
-- create and checkout test-branch2
-- touch file3.txt
-- touch file4.txt
+- is file2.md there? Why or why not?
+
+- ALWAYS FROM MASTER, create and checkout test-branch2
+- touch file3.md
+- touch file4.md
 - commit
-- check back to master
+- Look at your files. Which ones are there?
+
+- checkout back to master
+- Which files are there?
 
 #### Branch Conventions
 - Branches should typically be named after features you are working on.
