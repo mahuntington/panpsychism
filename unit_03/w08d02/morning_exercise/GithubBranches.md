@@ -39,7 +39,7 @@ The concept of branching is that you are creating a replica of your codebase, wh
 
 - Branches exist locally on our git, as well as remotely on GITHUB! This is a HUGE concept to remember!
 
-- Creating a new branch replicates the branch you are currently on.
+- Creating a new branch *replicates the branch you are currently on*.
 
 - Changes branches literally changes the OS file structure for that repo.
 
