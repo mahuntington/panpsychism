@@ -211,7 +211,7 @@ OVERVIEW
 ### LAB
 Partner up.
 ​
-Partner A. Create a directory, git init. Create an index.html file that has an <h1> that welcomes you to the page. Git add and commit.
+Partner A. Create a directory, git init. Create an index.html file that has an `<h1>` that welcomes you to the page. Git add and commit.
 ​
 Create a remote repo on github. Sync that remote to your local. Push and update the remote.
 ​
@@ -231,7 +231,7 @@ Partner B
 	- Check you are on master branch
 	- Create a new branch called footer-main-page
 	- in that branch, open up your index.html
-	- Add <footer> tags to the bottom of your page and add the names of two footer links.
+	- Add `<footer>` tags to the bottom of your page and add the names of two footer links.
 	- Make a commit
 	- git push origin footer-main-page
 ​
