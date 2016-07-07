@@ -30,7 +30,7 @@ Choose a tool that you will want to use and look at each day. One that can help 
 
 ## Github issues
 
-(github_daily_tracker.png)
+https://guides.github.com/features/issues/
 
 ## Activity
 
