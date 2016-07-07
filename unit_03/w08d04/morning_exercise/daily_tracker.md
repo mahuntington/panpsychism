@@ -13,3 +13,13 @@ Competencies: Trello & Github <br>
 Prerequisites: none <br>
 
 ---
+
+USER STORIES
+
+Create a daily plan of action in Github issues
+Use labels
+Stretch: Use Milestones
+
+Create a daily plan of action in Trello
+Use labels
+Stretch: Add stickers
