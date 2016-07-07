@@ -58,3 +58,9 @@
 - In your terminal, checkout your `master` branch.
 - Pull down the most current data by doing `git pull origin master`
 - Take a look at your files. Everything should be there.
+
+#### Communicate
+- You need to link up that style sheet that you created to the index.html file. How will you do it? Discuss and decide who will do it, which branch you will be on, etc. 
+- Go through the pull request process. 
+- After the merge, pull the master data to your local file. 
+- Open the `index.html` to make sure that everyting is connected properly.
