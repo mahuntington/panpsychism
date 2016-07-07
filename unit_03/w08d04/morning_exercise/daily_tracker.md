@@ -63,13 +63,13 @@ Your Stretch Goals
 ### Make your tracker
 
 1. Trello
-- Create a new Trello board called `tracker-practice`
-- Create a daily plan of action in Trello (each column should be a separate date)
-- Use labels
-- Stretch: Add stickers
+    - Create a new Trello board called `tracker-practice`
+    - Create a daily plan of action in Trello (each column should be a separate date)
+    - Use labels
+    - Stretch: Add stickers
 
 2. Github
-- Create a new repo on Github called `tracker-practice`.
-- Create a daily plan of action in Github issues
-- Use labels
-- Stretch: Use Milestones
+    - Create a new repo on Github called `tracker-practice`.
+    - Create a daily plan of action in Github issues
+    - Use labels
+    - Stretch: Use Milestones
