@@ -1,3 +1,19 @@
+![ga](http://mobbook.generalassemb.ly/ga_cog.png)
+
+# WDI-PANTHALASSA
+
+---
+Title: Github Collaboration & Branching <br>
+Type: Morning Exercise <br>
+Duration: "0:45"<br>
+Creator:<br>
+    Original creator: Kristyn Bryan<br>
+    Course: WDIr Panthalassa<br>
+Competencies: Github<br>
+Prerequisites: none <br>
+
+---
+
 # Morning Exercise
 
 ## Github Collaboration
