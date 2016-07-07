@@ -26,7 +26,7 @@ Choose a tool that you will want to use and look at each day. One that can help 
 
 ## Trello
 
-(trello_daily_tracker.png)
+![](trello_daily_tracker.png)
 
 ## Github issues
 
