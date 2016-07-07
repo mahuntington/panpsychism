@@ -41,7 +41,9 @@
 - Create a pull request by going to into your Github account.
 - Click on "Compare & pull request"
 - Your `base` branch should be `master` and your `compare` branch should be the branch that you created.
-- Write a comment and tag your partner in the message. Click "Create pull request".
+- Write a comment. 
+- On the right side, click on "Assignee" and tag your partner. 
+- Click "Create pull request".
 - DO NOT click "merge".
 
 #### Team Member A
@@ -50,9 +52,9 @@
 #### Team Member B
 - Look at your team member's pull request. If it looks okay, click "merge".
 
-#### You have not merged your files into master!
+#### You have now merged your files into master!
 
 #### Both Team Members
 - In your terminal, checkout your `master` branch.
 - Pull down the most current data by doing `git pull origin master`
-- 
+- Take a look at your files. Everything should be there.
