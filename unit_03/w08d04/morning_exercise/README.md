@@ -2,7 +2,7 @@
 
 ## Github Collaboration
 
-Let's randomly assign the team member letter. The person who has the smaller number in their street address will be Team Member A (Ex: I live at 123 Maple Dr., and my partern lives at 5 Blueberry Ln. -- so my partner is Team Member A).
+Let's randomly assign the team member letter. The person who has the smaller number in their street address will be Team Member A (Ex: I live at 123 Maple Dr., and my partner lives at 5 Blueberry Ln. -- so my partner is Team Member A).
 
 #### Team Member A
 - You will be the Github master for this task.
