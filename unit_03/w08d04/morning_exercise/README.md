@@ -25,3 +25,34 @@
 
 ## Github Branches
 
+#### Team Member A
+- From the master branch, create a branch called `main-page`
+- From the branch `main-page`, create an index.html page. 
+- In this file, create a page that will display a welcome message when you open in.
+- Add, commit, and push your work **to your branch**
+
+#### Team Member B
+- From the master branch, create a branch called `main-page-styling`
+- From the branch `main-page-styling`, create a style.css file. 
+- In this file, add some general styling on the background, `<h1>` tags, and the font.
+- Add, commit, and push your work **to your branch**
+
+#### Both Team Members
+- Create a pull request by going to into your Github account.
+- Click on "Compare & pull request"
+- Your `base` branch should be `master` and your `compare` branch should be the branch that you created.
+- Write a comment and tag your partner in the message. Click "Create pull request".
+- DO NOT click "merge".
+
+#### Team Member A
+- Look at your team member's pull request. If it looks okay, click "merge".
+
+#### Team Member B
+- Look at your team member's pull request. If it looks okay, click "merge".
+
+#### You have not merged your files into master!
+
+#### Both Team Members
+- In your terminal, checkout your `master` branch.
+- Pull down the most current data by doing `git pull origin master`
+- 
