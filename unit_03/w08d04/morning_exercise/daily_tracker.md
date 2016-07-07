@@ -13,7 +13,9 @@ Competencies: Trello & Github <br>
 Prerequisites: none <br>
 
 ---
+# Dialy Tracker for Project Work
 
+Beginning with Project 3, you will be asked to create a daily tracker for your work.
 USER STORIES
 
 Create a daily plan of action in Github issues
