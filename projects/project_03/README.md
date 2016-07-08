@@ -15,13 +15,17 @@ Your app must:
 * Be deployed online where the rest of the world can access it.
 ​
 
-### Requirements before you get started (Please put these in your `README.md` file:
+## Requirements before you get started 
+### Please put these in your `README.md` file:
 ​
 * **User Stories** - 
 * **Wireframes**  - One for each page / view of your application. 
-* **MVP** - 
+* **MVP** - A minimum viable product which has just those core features sufficient to deploy the product, and no more.
 * **Stretch Goals** 
-* **Github Repo** - This should be outside of your wdi-remote class repo. One person should create this and then make their partner a "Contributor"
+* **Github Repo** and use of **branches** - This should be outside of your wdi-remote class repo. One person should create this and then make their partner a "Contributor". 
+
+## Once your project is approved
+* Creat a **daily tracker** with a day-by-day breakdown of what features will be worked on to meet the MVP and any stretch goals that you would like to tackle
 
 ### Suggestions on how to get started
 * **Break the project down into different components** (data, presentation, views, style, DOM manipulation) and brainstorm each component individually. 
@@ -29,7 +33,7 @@ Your app must:
 * Work through the lessons in class for help and inspiration! Think about adding relevant code each day; COMMIT OFTEN. We will be looking at your commit dates and comments are part of your scoring.
 * **Commit early, commit often.** Don’t be afraid to break something because you can always go back in time to a previous version.
 * **Consult documentation resources** (MDN, jQuery, etc.) at home to better understand what you’ll be getting into.
-* **Don’t be afraid to write code that you know you will have to remove later.** Create temporary elements (buttons, links, etc) that trigger events if real data is not available. For example, if you’re trying to figure out how to change some text when the game is over but you haven’t solved the win/lose game logic, you can create a button to simulate that until then.
+* **Don’t be afraid to write code that you know you will have to remove later.** 
 ​
 
 ## Deliverables
@@ -39,7 +43,7 @@ By the time the project is over, we will expect the following from you:
 * A **working app, built by you**, hosted somewhere on the internet
 * A **link to your hosted working app** 
 * A **git repository hosted on Github**  NOT inside your wdi-remote repository. Frequent commits dating back to the very beginning of the project
-* **A ``readme.md`` file** with explanations of the technologies used, the approach taken, a link to your live site, installation instructions, unsolved problems, etc.
+* **A ``readme.md`` file** with explanations of the technologies used, the approach taken, a link to your live site, a link to your daily tracker, your user stories, mvp, stretch goals, installation instructions, unsolved problems, etc.
 
 Most importantly a **technical demonstration** of your app which:
 
