@@ -18,7 +18,7 @@ Your app must:
 ## Requirements before you get started 
 **Please put these in your `README.md` file:**
 ​
-* **User Stories** - 
+* **User Stories** 
 * **Wireframes**  - One for each page / view of your application. 
 * **MVP** - A minimum viable product which has just those core features sufficient to deploy the product, and no more.
 * **Stretch Goals** 
