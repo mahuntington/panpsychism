@@ -10,7 +10,7 @@ Use your imagination! You get to create whatever you want for this app. Everyone
 ​
 Your app must:
 ​
-* Use a **Angular** as a front-end framework.
+* Use **Angular** as a front-end framework.
 * Reference a third-party API.
 * Be deployed online where the rest of the world can access it.
 ​
