@@ -1,0 +1,23 @@
+# Project 3 - Group Projects
+Project presentation date: Friday the 11th March
+
+![alt text](http://assets.rollingstone.com/assets/2013/article/behind-the-crazy-anchorman-newscaster-brawl-20131218/18377/_original/1035x690-anchorman-1800-1387407909.jpg "That Escalated Quickly")
+
+## PROJECT REQUIREMENTS:
+
+1. Angular
+1. At least two models
+1. Proper VCS (git)
+1. Heroku deployment
+1. Truly responsive on all devices
+
+## At least one of the following:
+
+- External API
+- Passport
+	- Standard Authentication
+	- Autentication through AJAX
+- Additional models
+- Angular routing
+
+
