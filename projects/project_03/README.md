@@ -25,7 +25,7 @@ Your app must:
 * **Github Repo** and use of **branches** - This should be outside of your wdi-remote class repo. One person should create this and then make their partner a "Contributor". 
 
 ## Once your project is approved
-* Creat a **daily tracker** with a day-by-day breakdown of what features will be worked on to meet the MVP and any stretch goals that you would like to tackle
+* Creat a **daily tracker** with a day-by-day breakdown of what features will be worked on to meet the MVP and any stretch goals that you would like to tackle. Include a link to his in your `README.md` station. Consider using Github Issues or Trello for this. 
 
 ### Suggestions on how to get started
 * **Break the project down into different components** (data, presentation, views, style, DOM manipulation) and brainstorm each component individually. 
