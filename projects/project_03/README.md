@@ -2,7 +2,7 @@
 ​
 ## Overview
 ​
-For your 3rd project, you will be collaborating to make an application using Angular.
+For your 3rd project, you will be collaborating to make an application using the MEAN stack.
 ​
 Use your imagination! You get to create whatever you want for this app. Everyone will get a chance to **be creative**, and work through some really **tough programming challenges**, but you'll have a partner to help you carry the load.
 
