@@ -55,15 +55,17 @@ Most importantly a **technical demonstration** of your app which:
 
 ## Project Feedback + Evaluation
 ​
-* __Project Workflow__: Do you have a Github respository for your project (not inside your wdi-remote repo)? Did you complete the user stories, wireframes, and the README.md file as specified above? Did you use source control (Github commits) as expected for the phase of the program you’re in (detailed above)?
+* __Project Workflow__: Do you have a Github respository for your project (not inside your wdi-remote repo) and make good use of branching? Did you complete the user stories, wireframes, and the README.md file as specified above? Did you use the daily tracker and split the work load appropriately?
 ​
 * __Technical Requirements__: Did you deliver a project that met all the technical requirements? Given what the class has covered so far, did you build something that was reasonably complex?
 ​
 * __Creativity__: Did you add a personal spin or creative element into your project submission? Did you deliver something of value to the end user (not just a login button and an index page)?
 ​
-* __Code Quality__: Did you follow code style guidance and best practices covered in class, such as spacing, modularity, and semantic naming? Did you comment your code as your instructors have in class?
+* __Code Quality__: Did you follow code style guidance and best practices covered in class, such as spacing, modularity, and semantic naming? Did you **comment your code** as your instructors have in class?
 ​
-* __Deployment__: Did you deploy your application to a public url using GitHub Pages?
+* __Deployment__: Did you deploy your application to a public url?
+​
+* __Collaboration__: Did you contribute to the project as much as you should have (did you pull your weight)?
 ​
 * __Total__: Your instructors will give you a total score on your project between:
 ​
