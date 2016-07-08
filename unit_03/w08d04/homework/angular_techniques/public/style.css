@@ -1,0 +1,28 @@
+.main {
+	display: inline-block;
+	width: 400px; height: 600px;
+	margin: 10px;
+	color: white;
+	text-align: center;
+	overflow: hidden;
+}
+
+.info {
+	width: 350px; height: 340px;
+	background-color: ivory;
+	margin: 0 auto;
+	color: black;
+}
+
+button {
+	height: 40px; width: 80px;
+	cursor: pointer;
+}
+
+#ryan {
+	background-color: #00eea7;
+}
+
+#hypatia {
+	background-color: #EE0047;
+}

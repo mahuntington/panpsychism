@@ -1,0 +1,13 @@
+<div ng-controller="InfoController as info" class="info">
+	<h5>Info Controller</h5>
+	<img ng-src="{{ info.information.img}}"/>
+	<div>
+		{{ info.information.id }}
+		{{ info.information.name }}
+		{{ info.information.age }}
+		{{ info.information.gender }}
+		<p><button ng-if="info.information" ng-click="info.sendMessage()">Send message</button></p>
+	</div>
+
+	<formsender ng-if="info.information"></formsender>
+</div>

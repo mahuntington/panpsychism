@@ -66,7 +66,8 @@ Number of records and search/filter box
 
 #### Set up and seed db
 * `npm install` your dependencies. 
-* You have a seed route within a seed controller. Seed your database with all the World Bank records by going to `/seed` in your browser **once**.
+* If you run `nodemon` and go to localhost, you should get a 'cannot GET /' in the browser. This is because there is not yet a public folder or anything attributed to the root. You can check out a JSON service routes by going to `/wbinfo/count`. This route gives a count of all records in the database, and should currently read 0 because the database has not been seeded. 
+* You have a seed route within a seed controller. Seed your database with all the World Bank records by going to `/seed` in your browser **once**. The app will redirect to the `wbinfo` JSON index for verification purposes.
 
 <hr>
 ** Commit your work.** <br>

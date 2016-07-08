@@ -1,0 +1,21 @@
+<div class="transition-properties">
+	<img class="center-img position0" ng-class="{ 'position1': ctrl.matched, 'position0': !ctrl.matched }" ng-src="{{ ctrl.limage }}">
+	<img class="center-img position0" ng-class="{ 'position2': ctrl.matched, 'position0': !ctrl.matched }" ng-src="{{ ctrl.rimage }}">
+
+
+	<div ng-if="ctrl.left && ctrl.right && !ctrl.matched">
+		<div id="match-button" ng-click="ctrl.match()">CLICK TO MATCH!</div>
+	</div>
+
+	<div ng-if="ctrl.matched">
+		<div ng-if="ctrl.status">
+			<img class="succeeded" ng-src="http://www.clipartbest.com/cliparts/KTj/e6M/KTje6M47c.png"/>
+			<img class="succeeded" ng-src="http://www.clipartbest.com/cliparts/KTj/e6M/KTje6M47c.png"/>
+			<img class="succeeded" ng-src="http://www.clipartbest.com/cliparts/KTj/e6M/KTje6M47c.png"/>
+		</div>
+		<div ng-if="!ctrl.status">
+			<div id="failed"> FAILED </div>
+		</div>
+	</div>
+
+<div>

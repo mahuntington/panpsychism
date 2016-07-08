@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="angularTechniques">
+<head>
+	<title>Advanced Angular</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+
+<body>
+
+	<div ng-controller="RyanController as ctrl" class="main" id="ryan">
+		<h2>Ryan Controller</h2>
+		<button ng-click="ctrl.getInfo()">Get Ryan</button>
+		<div ng-controller="InfoController as info" class="info">
+			<h5>Info Controller</h5>
+		</div>
+		<h4>Data from info controller:</h4>
+	</div>
+
+
+	<div ng-controller="HypatiaController as ctrl" class="main" id="hypatia">
+		<h2>Hypatia Controller</h2>
+		<button ng-click="ctrl.getInfo()">Get Hypatia</button>
+		<div ng-controller="InfoController as info" class="info">
+			<h5>Info Controller</h5>
+		</div>
+		<h4>Data from info controller:</h4>
+	</div>
+
+</body>
+
+</html>
