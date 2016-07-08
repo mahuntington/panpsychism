@@ -72,17 +72,15 @@ Most importantly a **technical demonstration** of your app which:
     
     Score | Category | Expectation | Expectation | Expectation | Expectation | Expectation |
     :-----: | ------------ | ---------------- | --- | --- | --- | --- |
-    **6** | Project Workflow | Do you have a Github respository for your project (not inside your wdi-remote repo)? | Did you complete the user stories and are they in  your Github issues (2 points) | wireframes | README.md with specified information | source control with Github (commits) |
-    **6** | Technical Requirements | Did you deliver a project that met all the technical requirements? (discussed in your MVP (a score between 1-3 will be given))| Given what the class has covered so far, did you build something that was reasonably complex? (complexity will be given a grade 1-3)  |
-    **2** | Creativity | Did you add a personal spin or creative element into your project submission? | Did you deliver something of value to the end user (not just a login button and an index page)? |
-    **2** | Code Quality | Did you follow code style guidance and best practices covered in class, such as spacing, modularity, and semantic naming? | Did you comment your code as your instructors have in class? |
-    **2** | Deployment | Did you deploy your application to a public url using GitHub Pages? |
-    **2** | Technical demonstration | Is 5 minutes in length & shows off all the features of your app. | Expalins technical details, technical challenges, and any improvements you might make. |
-    _Maximum possible points_ | **20** |
+    **7** | Project Workflow | Do you have a Github respository for your project (not inside your wdi-remote repo) and make good use of branching? (0-2) | Did you complete the user stories, wireframes, and the README.md file as specified above? (0-3) | Did you use the daily tracker and split the work load appropriately? (0-2) |
+    **6** | Technical Requirements | Did you deliver a project that met all the technical requirements? (discussed in your MVP (a score between 0-3 will be given))| Given what the class has covered so far, did you build something that was reasonably complex? (complexity will be given a grade 0-3)  |
+    **4** | Creativity | Did you add a personal spin or creative element into your project submission? (0-2)| Did you deliver something of value to the end user (not just a login button and an index page)? (0-2) |
+    **2** | Code Quality | Did you follow code style guidance and best practices covered in class, such as spacing, modularity, and semantic naming? (1) | Did you comment your code as your instructors have in class? (1)|
+    **1** | Deployment | Did you deploy your application to a public url? (1)|
+    **3** | Collaboration | Did you contribute to the project as much as you should have (did you pull your weight)? (0-3) |
+    **2** | Technical demonstration | Is 5 minutes in length & shows off all the features of your app. (1)| Expalins technical details, technical challenges, and any improvements you might make. (1)|
+    _Maximum possible points_ | **25** |
 ​
-
-
-
 
 ---
 # Project Week
