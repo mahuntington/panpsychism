@@ -16,7 +16,7 @@ Your app must:
 ​
 
 ## Requirements before you get started 
-### Please put these in your `README.md` file:
+**Please put these in your `README.md` file:**
 ​
 * **User Stories** - 
 * **Wireframes**  - One for each page / view of your application. 
