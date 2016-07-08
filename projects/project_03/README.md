@@ -69,7 +69,7 @@ Most importantly a **technical demonstration** of your app which:
 ​
 * __Total__: Your instructors will give you a total score on your project between:
 ​
-    
+   
     Score | Category | Expectation | Expectation | Expectation | Expectation | Expectation |
     :-----: | ------------ | ---------------- | --- | --- | --- | --- |
     **7** | Project Workflow | Do you have a Github respository for your project (not inside your wdi-remote repo) and make good use of branching? (0-2) | Did you complete the user stories, wireframes, and the README.md file as specified above? (0-3) | Did you use the daily tracker and split the work load appropriately? (0-2) |
@@ -86,7 +86,7 @@ Most importantly a **technical demonstration** of your app which:
 # Project Week
 
 ## Attendance
-You are required to be present by 10:00 am EDT each day during the project.
+You are required to be present by 10:00 am EDT and again at 2:30 pm EDT each day during the project.
 
 ## Standups
 We will have student-run stand-ups each morning at 10:15 am EDT where you will answer the following questions:
