@@ -47,7 +47,8 @@ By the time the project is over, we will expect the following from you:
 
 Most importantly a **technical demonstration** of your app which:
 
-* Is 5 minutes in length
+* Is 5-10 minutes in length
+* **BOTH** partners should speak during the presentation
 * Shows off all features of the app
 * Explains the technical details
 * Explains the technical challenges
@@ -78,7 +79,7 @@ Most importantly a **technical demonstration** of your app which:
     **2** | Code Quality | Did you follow code style guidance and best practices covered in class, such as spacing, modularity, and semantic naming? (1) | Did you comment your code as your instructors have in class? (1)|
     **1** | Deployment | Did you deploy your application to a public url? (1)|
     **3** | Collaboration | Did you contribute to the project as much as you should have (did you pull your weight)? (0-3) |
-    **2** | Technical demonstration | Is 5 minutes in length & shows off all the features of your app. (1)| Expalins technical details, technical challenges, and any improvements you might make. (1)|
+    **2** | Technical demonstration | Is 5-10 minutes in length & shows off all the features of your app. (1)| Expalins technical details, technical challenges, and any improvements you might make. (1)|
     _Maximum possible points_ | **30** |
 ​
 
@@ -101,17 +102,31 @@ If you have ideas on how you can help a fellow-student with work that they are s
 ## Meetings with instructors
 _Your instructor will contact you to setup a meeting time_
 
-**Tuesday, June 7**<br>
-15 minute meeting to get your project approved. You will come with your [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) and an initial wireframe.
+**Monday, July 11**<br>
+- Projects and groups are announced. 
+- Meet to discuss your ideas with your teammate and choose one (remember - you can always use these other ideas in our 4th project).
+- Create a new Github repo outside of your wdi-remote repository.
+- Create your user stories and add them to your `README.md`
+- Write your MVPs & stretch goals and add them to your `README.md`
+- Make your wireframes and add them to your `README.md`
+- You will have a 15 minute meeting with an instructor in the afternoon to get your project approved. 
+- Create your daily tracker.
 
-**Wedesday, June 8**<br>
-15 minute progress check-in
+**Tuesday, July 12**<br>
+15-30 minute progress check-in and look at your daily tracker. Students should be developing thier app.
 
-**Thursday, June 9**<br>
-Whole class instruction on how to deploy your project to the world wide web.
+**Wedesday, July 13**<br>
+15-30 minute progress check-in and look at your daily tracker. Students should be developing thier app.
 
-**Friday, June 10**<br>
-15 minute check in to see where you are before you go into the weekend. Help you to decide what to finish and what features should be stretch goals.
+**Thursday, July 14**<br>
+15-30 minute progress check-in and look at your daily tracker. Students should be developing thier app.
+
+**Friday, July 15**<br>
+15-30 minute progress check-in and look at your daily tracker before you go into the weekend. Help to decide what to finish and what stretch goals should be attempted.
+
+**Monday, July 18**<br>
+- Submit a Github issue by 10 am EDT with a live link to your project and a link to your Github repo.
+- Technical demonstration of your app (both partners are expected to speak)
 
 ## Where to go for help during project week
 1. Seek out help online
