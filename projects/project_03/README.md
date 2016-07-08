@@ -76,7 +76,7 @@ Most importantly a **technical demonstration** of your app which:
    
     Score | Category | Expectation | Expectation | Expectation | Expectation | 
     :-----: | ------------ | ---------------- | --- | --- | --- | 
-    **7** | Project Workflow | Do you have a Github respository for your project (not inside your wdi-remote repo) and make good use of branching? (0-2) | Did you complete the user stories, wireframes, and the README.md file as specified above? (0-3) | Did you use the daily tracker and split the work load appropriately? (0-2) |
+    **7** | Project Workflow | Do you have a Github respository for your project (not inside your wdi-remote repo) and make good use of branching (one branch per feature)? (0-2) | Did you complete the user stories, wireframes, and the README.md file as specified above? (0-3) | Did you use the daily tracker and split the work load appropriately? (0-2) |
     **10** | Technical Requirements | Did you use Angular as a front-end framework? (0-2) | Did you use a third-party API? (0-2) | Did you deliver a project that met all the technical requirements? (discussed in your MVP (a score between 0-3 will be given))| Given what the class has covered so far, did you build something that was reasonably complex? (complexity will be given a grade 0-3)  |
     **5** | Creativity | Did you add a personal spin or creative element into your project submission? (0-2)| Did you deliver something of value to the end user (not just a login button and an index page)? (0-3) |
     **2** | Code Quality | Did you follow code style guidance and best practices covered in class, such as spacing, modularity, and semantic naming? (1) | Did you comment your code as your instructors have in class? (1)|
