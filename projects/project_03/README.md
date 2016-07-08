@@ -1,4 +1,4 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #3: Group Project
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #3: MEAN Stack - Group Project
 ​
 ## Overview
 ​
@@ -10,7 +10,10 @@ Use your imagination! You get to create whatever you want for this app. Everyone
 ​
 Your app must:
 ​
-* Use **Angular** as a front-end framework.
+* M - Use mongoose with Mongodb
+* E - Use Express
+* A - Use **Angular** as a front-end framework
+* N - Use Node
 * Reference a third-party API.
 * Be deployed online where the rest of the world can access it.
 ​
@@ -42,7 +45,7 @@ By the time the project is over, we will expect the following from you:
 
 * A **working app, built by you**, hosted somewhere on the internet
 * A **link to your hosted working app** 
-* A **git repository hosted on Github**  NOT inside your wdi-remote repository. Frequent commits dating back to the very beginning of the project
+* A **git repository hosted on Github**  NOT inside your wdi-remote repository. Frequent commits dating back to the very beginning of the project. **One branch for each feature**.
 * **A ``readme.md`` file** with explanations of the technologies used, the approach taken, a link to your live site, a link to your daily tracker, your user stories, mvp, stretch goals, installation instructions, unsolved problems, etc.
 
 Most importantly a **technical demonstration** of your app which:
@@ -56,9 +59,9 @@ Most importantly a **technical demonstration** of your app which:
 
 ## Project Feedback + Evaluation
 ​
-* __Project Workflow__: Do you have a Github respository for your project (not inside your wdi-remote repo) and make good use of branching? Did you complete the user stories, wireframes, and the README.md file as specified above? Did you use the daily tracker and split the work load appropriately?
+* __Project Workflow__: Do you have a Github respository for your project (not inside your wdi-remote repo) and make good use of branching (one branch for each feature all merged to your `master` branch)? Did you complete the user stories, wireframes, and the README.md file as specified above? Did you use the daily tracker and split the work load appropriately?
 ​
-* __Technical Requirements__: Did you deliver a project that met all the technical requirements? Given what the class has covered so far, did you build something that was reasonably complex?
+* __Technical Requirements__: Did you deliver a project that met all the technical requirements? Given what the class has covered so far, did you build something that was reasonably complex? Did you use Angular as a front-end framework? Did you use a third-party API?
 ​
 * __Creativity__: Did you add a personal spin or creative element into your project submission? Did you deliver something of value to the end user (not just a login button and an index page)?
 ​
