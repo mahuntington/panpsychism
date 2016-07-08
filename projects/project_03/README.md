@@ -152,3 +152,5 @@ The error(s) returned, copy and pasted/typed out/screenshot, not paraphrased.
 4. **QUESTION**
   - After going through all this what is your questions specifically, more specifically than how can I make this work?
 
+5. **TAG YOUR INSTRUCTORS**
+   - In the comment section, tag your instructors so that they are alerted to your Github Issue as soon as you submit it.
