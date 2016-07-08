@@ -115,17 +115,8 @@ _Your instructor will contact you to setup a meeting time_
 - You will have a 15 minute meeting with an instructor in the afternoon to get your project approved. 
 - Create your daily tracker.
 
-**Tuesday, July 12**<br>
-15-30 minute progress check-in and look at your daily tracker. Students should be developing thier app.
-
-**Wedesday, July 13**<br>
-15-30 minute progress check-in and look at your daily tracker. Students should be developing thier app.
-
-**Thursday, July 14**<br>
-15-30 minute progress check-in and look at your daily tracker. Students should be developing thier app.
-
-**Friday, July 15**<br>
-15-30 minute progress check-in and look at your daily tracker before you go into the weekend. Help to decide what to finish and what stretch goals should be attempted.
+**Tuesday, July 12** - **Friday, July 15**<br>
+15-30 minute progress check-ins and look at your daily tracker. Students should be developing thier app.
 
 **Monday, July 18**<br>
 - Submit a Github issue by 10 am EDT with a live link to your project and a link to your Github repo.
