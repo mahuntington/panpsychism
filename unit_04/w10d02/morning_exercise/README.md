@@ -1,4 +1,22 @@
-#Let's Look at the Differences
+![ga](http://mobbook.generalassemb.ly/ga_cog.png)
+
+# WDI-PANTHALASSA
+
+---
+Title: Let's Look at the Differences w010d02 <br>
+Type: Morning Exercise <br>
+Duration: "0:45"<br>
+Creator:<br>
+    Original creators: WDI-Archer & WDI-Funke<br>
+    Adapted by: Kristyn Bryan<br>
+    Course: WDIr Panthalassa<br>
+Competencies: Ruby<br>
+Prerequisites: Javascript & Ruby <br>
+
+---
+# Morning Exercise
+
+##Let's Look at the Differences
 
 ![cat owls](https://outofdoubt.files.wordpress.com/2015/01/not-like-the-others-owls.jpg)
 
