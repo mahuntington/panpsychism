@@ -83,7 +83,7 @@ var fizzbuzzer = function(x){
   } else if ( x%5 == 0 ) {
     return 'buzz'
   } else {
-    return 'archer'
+    return 'Panthalassa'
   }
 }
 ```
