@@ -76,7 +76,7 @@ var multiplyArray = function (ary) {
 ### Fizz Buzzer
 ```javascript
 var fizzbuzzer = function(x){
-  if( x%(3*5) == 0 ) {
+  if((x%5 === 0) || (x%3 === 0 )) {
     return 'fizzbuzz'
   } else if( x%3 == 0 ) {
     return 'fizz'
