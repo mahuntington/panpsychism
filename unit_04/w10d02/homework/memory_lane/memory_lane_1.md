@@ -3,7 +3,7 @@
 # WDI-PANTHALASSA
 
 ---
-Title: Memeory Lane - Part 1<br>
+Title: Memory Lane - Part 1<br>
 Type: Homework<br>
 Duration: One evening<br>
 Creator: Thom Page <br>
@@ -71,8 +71,20 @@ The commit message should read: <br>
 "Commit 4: Bubble Sort".
 <hr>
 
+### 5. WORD FREQUENCY
 
-### 5. BONUS: RECURSIVE FACTORIAL
+Below are the Javascript instructions. Write your answer in Ruby: 
+
+https://github.com/ga-students/wdi-remote/tree/master/unit_01/w02d04/morning_exercise
+
+<hr>
+** Commit your work.** <br>
+The commit message should read: <br> 
+"Commit 5: Word Frequency".
+<hr>
+
+
+### 6. BONUS: RECURSIVE FACTORIAL
 Below are the Javascript instructions. Write your answer in Ruby:
 
 https://github.com/ga-students/wdi-remote/blob/master/unit_01/w03d03/morning_exercise/recursive_factorial.md
@@ -80,5 +92,5 @@ https://github.com/ga-students/wdi-remote/blob/master/unit_01/w03d03/morning_exe
 <hr>
 ** Commit your work.** <br>
 The commit message should read: <br> 
-"Commit 5: Recursive factorial".
+"Commit 6: Recursive factorial".
 <hr>
